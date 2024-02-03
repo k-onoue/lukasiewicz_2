@@ -5,58 +5,21 @@ import numpy as np
 from .operators import negation
 from .misc import process_neg, is_symbol
 
+class FOLProcessor:
 
+    def __init__(self, problem_info: dict) -> None:
 
-# from .setup_problem import Setup
-class Setup_:
-    """
-    型ヒント用（circular import の回避のため）
-    """
-    # def __init__(self):
-    #     pass
-    
-    # FOLConverter の簡易動作確認用
-    def __init__(self):
-        self.len_j = 3
-        self.len_u = 6
-        
+        self.len_j = problem_info['len_j']
+        self.len_u = problem_info['len_u']
 
-class FOLConverter:
+        self.KB_origin = problem_info['KB_origin']
 
-    def __init__(self, obj: Setup_, file_path: str) -> None:
-        self.obj = obj
+        self.KB        = None
+        self.M         = None
+        self.q         = None
 
-        self.file_path = file_path
-        self.KB_origin = self._construct_KB()
-        self.KB = None
-
-        self.KB_info = None
-
-        self.M = None
-        self.q = None
-
-        self.predicates_dict_tmp = None
-        
-    def _construct_KB(self) -> List[List[str]]:
-        """
-        KB の .txt もしくは .tsv ファイルを読み込む
-        """    
-        KB_origin = []
-        
-        if "tsv" in self.file_path:
-            KB_info = pd.read_table(self.file_path)
-            rules = KB_info['formula']
-
-            for line in rules:
-                formula = line.split()
-                KB_origin.append(formula)
-        else:
-            with open(self.file_path, 'r') as file:
-                for line in file:
-                    formula = line.split()
-                    KB_origin.append(formula)
-
-        return KB_origin
+        self.predicates_tmp = list(problem_info['L'].keys())
+        self.predicates_dict = None
 
     def _identify_predicates(self, KB: List[List[str]]) -> Dict[str, sp.Symbol]:
         """
@@ -71,9 +34,11 @@ class FOLConverter:
                 # if item not in ['¬', '∧', '∨', '⊗', '⊕', '→'] and item not in predicates:
                 if not is_symbol(item) and item not in predicates:
                     predicates.append(item)
+
+        if set(predicates) != set(self.predicates_tmp):
+            raise ValueError("ルールセットが必要十分な述語の種類を含んでいません。")
         
         predicates_dict = {predicate: sp.Symbol(predicate) for predicate in predicates}
-
         return predicates_dict
 
     # def _check_implication(self, formula: List[Union[str, sp.Symbol]]):
@@ -188,9 +153,8 @@ class FOLConverter:
             new_formula = self._eliminate_implication(new_formula)
             self.KB.append(new_formula)
             
-    
     def calculate_M_and_q(self) -> None:
-        self.predicates_dict_tmp = self._identify_predicates(self.KB)
+        self.predicates_dict = self._identify_predicates(self.KB)
 
         # sympy で predicate を構成した KB
         # （formula を式変形した後の predicate の係数を取り出すため）
@@ -199,8 +163,8 @@ class FOLConverter:
 
             tmp_formula = []
             for item in formula:
-                if item in self.predicates_dict_tmp.keys():
-                    tmp_formula.append(self.predicates_dict_tmp[item])
+                if item in self.predicates_dict.keys():
+                    tmp_formula.append(self.predicates_dict[item])
                 else:
                     tmp_formula.append(item)
 
@@ -226,14 +190,14 @@ class FOLConverter:
         
             KB_tmp.append(phi_h)
 
-        predicates = list(self.predicates_dict_tmp.values())
+        predicates = list(self.predicates_dict.values())
 
         self.M = []
         self.q = []
 
         for phi_h in KB_tmp:
 
-            base_M_h = np.zeros((len(phi_h), self.obj.len_j))
+            base_M_h = np.zeros((len(phi_h), self.len_j))
             base_q_h = np.zeros((len(phi_h), 1))
             for i, formula in enumerate(phi_h):
                 for j, predicate in enumerate(predicates):
@@ -247,9 +211,9 @@ class FOLConverter:
                 base_q_h[i] = val.coeff(sp.Symbol('1'))
 
             tmp_M_h = []
-            for i in range(self.obj.len_j):
+            for i in range(self.len_j):
                 column = base_M_h[:, i]
-                zeros = np.zeros((len(phi_h), self.obj.len_u - 1))
+                zeros = np.zeros((len(phi_h), self.len_u - 1))
                 concatenated_column = np.concatenate((column[:, np.newaxis], zeros), axis=1)
                 tmp_M_h.append(concatenated_column)
 
@@ -257,7 +221,7 @@ class FOLConverter:
             
             shifted_M_h = tmp_M_h[0]
 
-            for i in range(self.obj.len_u - 1):
+            for i in range(self.len_u - 1):
                 shifted_M_h = np.roll(shifted_M_h, 1, axis=1)
                 tmp_M_h.append(shifted_M_h)
             
@@ -265,19 +229,10 @@ class FOLConverter:
             self.M.append(M_h)
 
             
-            tmp_q_h = [base_q_h for _ in range(self.obj.len_u)]
+            tmp_q_h = [base_q_h for _ in range(self.len_u)]
             q_h = np.concatenate(tmp_q_h, axis=0)
             self.q.append(q_h)
 
-    def main(self) -> Tuple[Union[None, pd.DataFrame], List[List[str]], List[List[str]], List[np.ndarray], List[np.ndarray], Dict[str, sp.Symbol]]:
-        """
-        KB,
-        KB_tmp,
-        predicates_dict
-
-        をそれぞれ計算する
-        """
+    def __call__(self) -> Tuple[Union[None, pd.DataFrame], List[List[str]], List[List[str]], List[np.ndarray], List[np.ndarray], Dict[str, sp.Symbol]]:
         self.convert_KB_origin()
         self.calculate_M_and_q()
-
-        return self.KB_info, self.KB_origin, self.KB, self.M, self.q, self.predicates_dict_tmp

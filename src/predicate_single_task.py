@@ -5,63 +5,44 @@ import sklearn.metrics
 from sklearn.metrics import accuracy_score, f1_score
 import optuna
 
-def pr_auc_score():
-    pass
-
-
-# from .setup_problem import Setup
-class Setup_:
-    """
-    型ヒント用（circular import の回避のため）
-    """
-    # def __init__(self):
-    #     pass
-    
-    # FOLConverter の簡易動作確認用
-    def __init__(self):
-        self.len_j = 3
-        self.len_u = 6
-
+from .misc import linear_kernel
 
 class Predicate_dual:
     def __init__(
             self, 
-            obj: Setup_, 
-            name: str, 
-            kernel_function: object = None,
+            problem_info: dict,
             metrics: sklearn.metrics = None,
             opt_iter_num: int = 100, 
             opt_range_size: float = 5
         ) -> None:
     
-        self.c1 = obj.c1
-        self.c2 = obj.c2
+        self.p_name = problem_info['target_predicate']
+        self.j      = problem_info['target_p_idx']
 
-        self.L = obj.L[name]
-        self.U = obj.U[name]
-        self.S = obj.S[name]
+        self.c1 = problem_info['c1']
+        self.c2 = problem_info['c2']
 
-        self.len_l = obj.len_l
-        self.len_u = obj.len_u
-        self.len_s = obj.len_s
-        self.len_h = obj.len_h 
-        self.len_i = obj.len_i
+        self.L = problem_info['L'][self.p_name].values
+        self.U = problem_info['U'][self.p_name]
+        self.S = problem_info['S'][self.p_name]
 
-        self.p_idx = list(obj.predicates_dict.keys()).index(name)
+        self.len_l = problem_info['len_l']
+        self.len_u = problem_info['len_u']
+        self.len_s = problem_info['len_s']
+        self.len_h = problem_info['len_h'] 
+        self.len_i = problem_info['len_i']
 
-        self.lambda_jl  = obj.lambda_jl[self.p_idx, :].value
-        self.lambda_hi  = obj.lambda_hi.value
-        self.eta_js     = obj.eta_js[self.p_idx, :].value
-        self.eta_hat_js = obj.eta_hat_js[self.p_idx, :].value
+        self.lambda_jl  = problem_info['lambda_jl'][self.j, :].value
+        self.lambda_hi  = problem_info['lambda_hi'].value
+        self.eta_js     = problem_info['eta_js'][self.j, :].value
+        self.eta_hat_js = problem_info['eta_hat_js'][self.j, :].value
 
-        start_col = self.p_idx * self.len_u
+        M = problem_info['M']
+        start_col = self.j * self.len_u
         end_col = start_col + self.len_u
-        self.M_j = [M_h[:, start_col:end_col] for M_h in obj.M]
+        self.M_j = [M_h[:, start_col:end_col] for M_h in M]
 
-        if kernel_function == None:
-            self.k = self.linear_kernel
-        else:
-            self.k = kernel_function
+        self.k = problem_info['kernel_function']
 
         if metrics == None:
             self.metrics = accuracy_score
@@ -69,24 +50,11 @@ class Predicate_dual:
             self.metrics = metrics
 
         self.n_trials = opt_iter_num
-
         self.range_size = opt_range_size
-        
-
-        ##########################################################
-        ##########################################################
-        ##########################################################
-
-        # self.b = self._b()
         self.b = self.optimize_b()
 
         self.w_linear_kernel = self._w_linear_kernel() 
-
         self.coeff = np.append(self.w_linear_kernel, self.b)
-
-
-    def linear_kernel(self, x1: np.ndarray, x2: np.ndarray) -> float:
-        return np.dot(x1, x2)
     
     def compute_kernel_matrix(self, X1, X2) -> np.ndarray:
         """
@@ -130,8 +98,7 @@ class Predicate_dual:
         values += (eta - eta_hat) @ K
         
         return values
-    
-    
+     
     def _w_linear_kernel(self) -> np.ndarray:
         """
         This should be rewritten using matrix calculations.
@@ -162,7 +129,7 @@ class Predicate_dual:
 
         return w_linear_kernel
     
-    def _calculate_initial_b(self) -> float:
+    def calculate_initial_b(self) -> float:
         x = self.L[:, :-1]
         y = self.L[:, -1]
 
@@ -170,7 +137,7 @@ class Predicate_dual:
 
         return initial_b
     
-    def _calculate_score_at_b(
+    def calculate_score_at_b(
             self, 
             b: float,
             X: np.ndarray,
@@ -187,7 +154,7 @@ class Predicate_dual:
         return score
     
     def optimize_b(self):
-        initial_b = self._calculate_initial_b()
+        initial_b = self.calculate_initial_b()
 
         X_train = self.L[:, :-1]
         y_train = self.L[:, -1]
@@ -204,7 +171,7 @@ class Predicate_dual:
 
         def objective(trial):
             b = trial.suggest_float('b', min_bound, max_bound)
-            return self._calculate_score_at_b(b, X_train, y_train)  
+            return self.calculate_score_at_b(b, X_train, y_train)  
         
         study = optuna.create_study(direction='maximize')
         study.optimize(objective, n_trials=self.n_trials)
@@ -212,7 +179,6 @@ class Predicate_dual:
 
         optimal_b = study.best_params['b']
         return optimal_b
-
 
     def __call__(self, x_pred: np.ndarray) -> float:
         

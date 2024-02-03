@@ -1,68 +1,40 @@
+
 from typing import List, Tuple
 import cvxpy as cp
 import numpy as np
 from .misc import timer
-# from .misc import get_near_nsd_matrix
-# from .misc import get_near_psd_matrix
-
-
-# from .setup_problem import Setup
-class Setup_:
-    """
-    型ヒント用（circular import の回避のため）
-    """
-    # def __init__(self):
-    #     pass
-    
-    # FOLConverter の簡易動作確認用
-    def __init__(self):
-        self.len_j = 3
-        self.len_u = 6
-
+from src.misc import linear_kernel
 
 
 class ObjectiveFunction:
     def __init__(
             self, 
-            obj: Setup_, 
-            target_predicate_name: str,
-            kernel_function: object = None
+            problem_info: dict, 
+            kernel_function: object = linear_kernel
         ) -> None:
-        
-        predicate_names = list(obj.predicates_dict.keys())
-        self.target_p_name = target_predicate_name
-        self.target_p_idx = predicate_names.index(self.target_p_name)
 
-        self.L = obj.L
-        self.U = obj.U
-        self.S = obj.S
+        self.p_name = problem_info['target_predicate']
+        self.j      = problem_info['target_p_idx']
 
-        # self.len_j = obj.len_j
-        self.len_l = obj.len_l
-        self.len_u = obj.len_u
-        self.len_s = obj.len_s
-        self.len_h = obj.len_h 
-        self.len_i = obj.len_i
+        self.L = problem_info['L'][self.p_name].values
+        self.U = problem_info['U'][self.p_name]
+        self.S = problem_info['S'][self.p_name]
 
-        self.lambda_jl  = obj.lambda_jl[self.target_p_idx]
-        self.lambda_hi  = obj.lambda_hi
-        self.eta_js     = obj.eta_js[self.target_p_idx]
-        self.eta_hat_js = obj.eta_hat_js[self.target_p_idx]
+        self.len_l = problem_info['len_l']
+        self.len_u = problem_info['len_u']
+        self.len_s = problem_info['len_s']
+        self.len_h = problem_info['len_h'] 
+        self.len_i = problem_info['len_i']
 
-        self.M = obj.M 
-        self.q = obj.q
+        self.lambda_jl  = problem_info['lambda_jl'][self.j]
+        self.lambda_hi  = problem_info['lambda_hi']
+        self.eta_js     = problem_info['eta_js'][self.j]
+        self.eta_hat_js = problem_info['eta_hat_js'][self.j]
 
-        if kernel_function == None:
-            self.k = self.linear_kernel
-        else:
-            self.k = kernel_function
+        self.M = problem_info['M'] 
+        self.q = problem_info['q']
 
-    def linear_kernel(
-            self, 
-            x1: np.ndarray, 
-            x2: np.ndarray
-            ) -> np.ndarray:
-        return np.dot(x1, x2)
+        self.k = problem_info['kernel_function']
     
     def compute_kernel_matrix(self, X1, X2):
         """
@@ -80,8 +52,7 @@ class ObjectiveFunction:
 
         K_matrix = kernel_function(X1, X2.T)
         return K_matrix
-    
-    
+     
     def _mapping_variables(self) -> Tuple[dict, List[cp.Variable]]:
         mapping_x_i = {}
         x = []
@@ -105,9 +76,11 @@ class ObjectiveFunction:
         return mapping_x_i, x
     
     @timer
-    def _construct_P_j(self,
-                       mapping_x_i: dict,
-                       x: List[cp.Variable]) -> Tuple[cp.Variable, np.ndarray]: 
+    def _construct_P_j(
+        self,
+        mapping_x_i: dict,
+        x: List[cp.Variable]
+    ) -> Tuple[cp.Variable, np.ndarray]: 
 
         P = np.zeros((len(x), len(x)))
 
@@ -119,11 +92,7 @@ class ObjectiveFunction:
         ############################################
         ############################################
 
-        L = self.L[self.target_p_name]
-        U = self.U[self.target_p_name]
-        S = self.S[self.target_p_name]
-
-        start_col = self.target_p_idx * self.len_u
+        start_col = self.j * self.len_u
         end_col = start_col + self.len_u
 
         M = [M_h[:, start_col:end_col] for M_h in self.M]
@@ -134,12 +103,12 @@ class ObjectiveFunction:
                 row = mapping_x_i['lambda_jl'][(0, l)]
                 col = mapping_x_i['lambda_jl'][(0, l_)]
 
-                x_l  = L[l, :-1]
-                x_l_ = L[l_, :-1]
+                x_l  = self.L[l, :-1]
+                x_l_ = self.L[l_, :-1]
                 k    = self.k(x_l, x_l_)
 
-                y_l  = L[l, -1]
-                y_l_ = L[l_, -1]
+                y_l  = self.L[l, -1]
+                y_l_ = self.L[l_, -1]
 
                 P[row, col] += 4 * y_l * y_l_ * k
 
@@ -152,7 +121,7 @@ class ObjectiveFunction:
 
 
         # P_{22} using matrix multiplication
-        K = self.compute_kernel_matrix(U, U)
+        K = self.compute_kernel_matrix(self.U, self.U)
         M_vstacked = np.vstack(M)
 
         P_22 = M_vstacked @ K @ M_vstacked.T
@@ -175,8 +144,8 @@ class ObjectiveFunction:
                 row = mapping_x_i['delta_eta_js'][(0, s)]
                 col = mapping_x_i['delta_eta_js'][(0, s_)]
 
-                x_s  = S[s]
-                x_s_ = S[s_]
+                x_s  = self.S[s]
+                x_s_ = self.S[s_]
                 k  = self.k(x_s, x_s_)
 
                 P[row, col] += k
@@ -188,9 +157,9 @@ class ObjectiveFunction:
         ############################################
 
         # P_{12}
-        K = self.compute_kernel_matrix(L[:, :-1], U)
+        K = self.compute_kernel_matrix(self.L[:, :-1], self.U)
         M_vstacked = np.vstack(M)
-        y_L = L[:, -1].reshape(-1, 1)
+        y_L = self.L[:, -1].reshape(-1, 1)
 
         P_12 = (-4) * y_L * K @ M_vstacked.T
 
@@ -214,10 +183,10 @@ class ObjectiveFunction:
                 row = mapping_x_i['lambda_jl'][(0, l)]
                 col = mapping_x_i['delta_eta_js'][(0, s)]
 
-                y_l = L[l, -1]
+                y_l = self.L[l, -1]
 
-                x_l = L[l, :-1]
-                x_s = S[s]
+                x_l = self.L[l, :-1]
+                x_s = self.S[s]
                 k = self.k(x_l, x_s)
 
                 P[row, col] += 4 * y_l * k
@@ -230,7 +199,7 @@ class ObjectiveFunction:
         ############################################
 
         # P_{23}
-        K = self.compute_kernel_matrix(U, S)
+        K = self.compute_kernel_matrix(self.U, self.S)
         M_vstacked = np.vstack(M)
         P_23 = M_vstacked @ K
         
@@ -276,3 +245,4 @@ class ObjectiveFunction:
         objective_function = cp.Maximize(objective_function)
 
         return objective_function
+
