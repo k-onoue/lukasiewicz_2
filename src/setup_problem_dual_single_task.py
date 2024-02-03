@@ -82,9 +82,6 @@ class Setup:
         self.M = None 
         self.q = None
 
-        # evaluation of p for all possible groundings
-        self.p_bar = None
-
         # obj func
         self.obj = obj
         # self.objective_function = None

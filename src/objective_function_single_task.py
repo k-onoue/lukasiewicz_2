@@ -3,7 +3,7 @@ import cvxpy as cp
 import numpy as np
 from .misc import timer
 # from .misc import get_near_nsd_matrix
-from .misc import get_near_psd_matrix
+# from .misc import get_near_psd_matrix
 
 
 # from .setup_problem import Setup
@@ -22,10 +22,12 @@ class Setup_:
 
 
 class ObjectiveFunction:
-    def __init__(self, 
-                 obj: Setup_, 
-                 target_predicate_name: str,
-                 kernel_function: object = None) -> None:
+    def __init__(
+            self, 
+            obj: Setup_, 
+            target_predicate_name: str,
+            kernel_function: object = None
+        ) -> None:
         
         predicate_names = list(obj.predicates_dict.keys())
         self.target_p_name = target_predicate_name
@@ -55,7 +57,11 @@ class ObjectiveFunction:
         else:
             self.k = kernel_function
 
-    def linear_kernel(self, x1: np.ndarray, x2: np.ndarray) -> float:
+    def linear_kernel(
+            self, 
+            x1: np.ndarray, 
+            x2: np.ndarray
+            ) -> np.ndarray:
         return np.dot(x1, x2)
     
     def compute_kernel_matrix(self, X1, X2):

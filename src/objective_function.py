@@ -3,7 +3,7 @@ import cvxpy as cp
 import numpy as np
 from .misc import timer
 # from .misc import get_near_nsd_matrix
-from .misc import get_near_psd_matrix
+# from .misc import get_near_psd_matrix
 
 
 # from .setup_problem import Setup
