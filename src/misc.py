@@ -32,7 +32,67 @@ def timer(func):
 
 
 def linear_kernel(x1: np.ndarray, x2: np.ndarray) -> float:
-    return np.dot(x1, x2)
+    return np.dot(x1, x2.T)
+
+
+def rbf_kernel(x1: np.ndarray, x2: np.ndarray, gamma: float = 0.1) -> np.ndarray:
+    """
+    RBFカーネルを計算する関数
+    
+    Parameters:
+    x1 : np.ndarray, shape (n, m)
+        特徴量行列1
+    x2 : np.ndarray, shape (l, m)
+        特徴量行列2
+    gamma : float
+        RBFカーネルのパラメータ
+    
+    Returns:
+    np.ndarray, shape (n, l)
+        RBFカーネル行列
+    """
+
+    if x1.ndim == 1 and x2.ndim == 1:
+        distance_squared = np.square(np.linalg.norm(x1 - x2))
+        return np.exp(-gamma * distance_squared)
+
+    else:
+
+        print()
+        print(f'x1.shape: {x1.shape}')
+        print(f'x2.shape: {x2.shape}')
+        print()
+
+        if x1.ndim == 1:
+            x1 = x1.reshape(1, -1)
+        if x2.ndim == 1:
+            x2 = x2.reshape(1, -1)
+
+        n, m = x1.shape
+        l, _ = x2.shape
+        
+        # Calculate squared norms
+        norms_x1 = np.sum(x1**2, axis=1, keepdims=True)
+        norms_x2 = np.sum(x2**2, axis=1, keepdims=True)
+        
+        # Compute the dot product between x1 and x2
+        dot_product = np.dot(x1, x2.T)
+        
+        # Compute the squared Euclidean distance
+
+        print()
+        print(f'norms_x1.shape: {norms_x1.shape}')
+        print(f'dot_product.shape: {dot_product.shape}')
+        print(f'norms_x2.shape: {norms_x2.shape}')
+        print()
+
+        distance_squared = norms_x1 - 2 * dot_product + norms_x2.T
+        
+        # Compute the RBF kernel matrix
+        rbf_matrix = np.exp(-gamma * distance_squared)
+
+        return rbf_matrix
+    
     
 
 def log_loss(y_true: np.ndarray, y_pred: np.ndarray) -> cp.Expression:

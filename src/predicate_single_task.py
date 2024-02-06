@@ -1,17 +1,13 @@
 import numpy as np
-from sklearn.metrics import precision_score, recall_score
-from sklearn.metrics import auc
-import sklearn.metrics
 from sklearn.metrics import accuracy_score, f1_score
 import optuna
 
-from .misc import linear_kernel
 
 class Predicate_dual:
     def __init__(
             self, 
             problem_info: dict,
-            metrics: sklearn.metrics = None,
+            metrics: str = None,
             opt_iter_num: int = 100, 
             opt_range_size: float = 5
         ) -> None:
@@ -44,10 +40,17 @@ class Predicate_dual:
 
         self.k = problem_info['kernel_function']
 
+        self.metrics_dict = {
+            'accuracy': accuracy_score,
+            'f1'      : f1_score
+        }
+
         if metrics == None:
-            self.metrics = accuracy_score
+            self.metrics = "f1"
         else:
-            self.metrics = metrics
+            if metrics not in self.metrics_dict.keys():
+                ValueError("invalid metrics to optimize b")
+            else: self.metrics = metrics
 
         self.n_trials = opt_iter_num
         self.range_size = opt_range_size
@@ -62,15 +65,15 @@ class Predicate_dual:
 
         Parameters:
         - X1: First input matrix (n x m)
-        - X2: Second input matrix (n x m)
+        - X2: Second input matrix (l x m)
         - kernel_function: Kernel function to use (default is dot product)
 
         Returns:
-        - Kernel matrix (n x n)
+        - Kernel matrix (n x l)
         """
         kernel_function = self.k
 
-        K_matrix = kernel_function(X1, X2.T)
+        K_matrix = kernel_function(X1, X2)
         return K_matrix
     
     def w_dot_phi(self, x_pred: np.ndarray) -> float:
@@ -145,11 +148,11 @@ class Predicate_dual:
         ) -> float:
 
         y_pred = self.w_dot_phi(X)
-
         y_pred = np.array(y_pred) + b
         y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
 
-        score = self.metrics(y, y_pred_interpreted)
+        metrics = self.metrics_dict[self.metrics]
+        score = metrics(y, y_pred_interpreted)
 
         return score
     

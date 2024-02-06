@@ -42,15 +42,15 @@ class ObjectiveFunction:
 
         Parameters:
         - X1: First input matrix (n x m)
-        - X2: Second input matrix (n x m)
+        - X2: Second input matrix (l x m)
         - kernel_function: Kernel function to use (default is dot product)
 
         Returns:
-        - Kernel matrix (n x n)
+        - Kernel matrix (n x l)
         """
         kernel_function = self.k
 
-        K_matrix = kernel_function(X1, X2.T)
+        K_matrix = kernel_function(X1, X2)
         return K_matrix
      
     def _mapping_variables(self) -> Tuple[dict, List[cp.Variable]]:
@@ -98,19 +98,18 @@ class ObjectiveFunction:
         M = [M_h[:, start_col:end_col] for M_h in self.M]
 
         # P_{11}
-        for l in range(self.len_l):
-            for l_ in range(self.len_l):
-                row = mapping_x_i['lambda_jl'][(0, l)]
-                col = mapping_x_i['lambda_jl'][(0, l_)]
+        x_L = self.L[:, :-1]
+        K   = self.compute_kernel_matrix(x_L, x_L)
+        
+        y_L = self.L[:, -1].reshape(-1, 1)
+        Y   = y_L @ y_L.T 
 
-                x_l  = self.L[l, :-1]
-                x_l_ = self.L[l_, :-1]
-                k    = self.k(x_l, x_l_)
+        P_11 = 4 * Y * K
 
-                y_l  = self.L[l, -1]
-                y_l_ = self.L[l_, -1]
+        start = mapping_x_i['lambda_jl'][(0, 0)]
+        end   = mapping_x_i['lambda_jl'][(0, self.len_l - 1)] + 1
 
-                P[row, col] += 4 * y_l * y_l_ * k
+        P[start:end, start:end] = P_11
 
 
         ############################################
@@ -139,16 +138,14 @@ class ObjectiveFunction:
         ############################################
 
         # P_{33}
-        for s in range(self.len_s):
-            for s_ in range(self.len_s):
-                row = mapping_x_i['delta_eta_js'][(0, s)]
-                col = mapping_x_i['delta_eta_js'][(0, s_)]
+        K = self.compute_kernel_matrix(self.S, self.S)
+        
+        P_33 = K
 
-                x_s  = self.S[s]
-                x_s_ = self.S[s_]
-                k  = self.k(x_s, x_s_)
+        start = mapping_x_i['delta_eta_js'][(0, 0)]
+        end   = mapping_x_i['delta_eta_js'][(0, self.len_s - 1)] + 1
 
-                P[row, col] += k
+        P[start:end, start:end] = P_33
 
         ############################################
         ############################################
@@ -178,18 +175,19 @@ class ObjectiveFunction:
         ############################################
 
         # P_{13}
-        for l in range(self.len_l):
-            for s in range(self.len_s):
-                row = mapping_x_i['lambda_jl'][(0, l)]
-                col = mapping_x_i['delta_eta_js'][(0, s)]
 
-                y_l = self.L[l, -1]
+        x_L = self.L[:, :-1]
+        K = self.compute_kernel_matrix(x_L, self.S)
 
-                x_l = self.L[l, :-1]
-                x_s = self.S[s]
-                k = self.k(x_l, x_s)
+        y_L = self.L[:, -1].reshape(-1, 1)
+        P_13 = 4 * y_L * K
 
-                P[row, col] += 4 * y_l * k
+        r_start = mapping_x_i['lambda_jl'][(0, 0)]
+        r_end   = mapping_x_i['lambda_jl'][(0, self.len_l - 1)] + 1
+        c_start = mapping_x_i['delta_eta_js'][(0, 0)]
+        c_end   = mapping_x_i['delta_eta_js'][(0, self.len_s - 1)] + 1
+
+        P[r_start:r_end, c_start:c_end] = P_13
         
 
         ############################################
@@ -230,7 +228,7 @@ class ObjectiveFunction:
         # 計算安定性のため
         P += np.diag(np.ones(P.shape[0])) * 1e-6
 
-        objective_function = (-1/2) * cp.quad_form(x, P)
+        objective_function = (-1/2) * cp.quad_form(x, cp.psd_wrap(P))
 
         for l in range(self.len_l):
             objective_function += self.lambda_jl[l]
