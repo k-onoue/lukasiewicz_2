@@ -2,29 +2,23 @@ import json
 import os
 from functools import partial
 
+import cvxpy as cp
 import pandas as pd
 import numpy as np 
 from sklearn.model_selection import KFold
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import confusion_matrix
-import cvxpy as cp
-
-from src.misc import is_symbol
-# from src.misc import linear_kernel
-# from src.misc import rbf_kernel
-
+from sklearn.svm import SVC
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.metrics.pairwise import rbf_kernel
 
+from src.misc import is_symbol
 from src.setup_problem_dual_single_task import Setup
 from src.objective_function_single_task import ObjectiveFunction
 from src.predicate_single_task import Predicate_dual
-
 from src.evaluation import evaluate_model
+
+from sklearn.ensemble import RandomForestClassifier
+from src.rulefit import RuleFitClassifier
 
 
 
@@ -35,10 +29,12 @@ file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
 
 
 df_origin_1 = pd.read_csv(file_path_1, index_col=0).reset_index(drop=True)
-X_origin_1 = df_origin_1.drop(["Outcome"], axis=1)
-y_origin_1 = df_origin_1["Outcome"]
+X_origin_1  = df_origin_1.drop(["Outcome"], axis=1)
+y_origin_1  = df_origin_1["Outcome"]
 
 df_origin_2 = pd.read_csv(file_path_2, index_col=0).reset_index(drop=True)
+X_origin_2  = df_origin_2.drop(["Outcome"], axis=1)
+y_origin_2  = df_origin_2["Outcome"]
 print(df_origin_1.head())
 print(df_origin_2.head())
 
@@ -70,6 +66,9 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     print()
     print()
     print(f"fold: {i+1} of {settings['n_splits']}")
+
+    settings['result'][f'fold_{i}'] = {}
+
 
     idx_split[i] = train_idx.tolist(), test_idx.tolist()
 
@@ -145,8 +144,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
         'rule': rule_violation_check
     }
 
-    # モデルの学習（提案モデル）----------------------------------------
-    input_luka = {
+    # モデルの学習 1（提案モデル）----------------------------------------
+    input_luka_1 = {
         'L': L,
         'U': U,
         'S': S,
@@ -160,16 +159,15 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
         'c2': settings['c2'],
         'KB_origin': KB_origin,
         'target_predicate': 'Outcome',
-        # 'kernel_function': linear_kernel,
-        'kernel_function': partial(rbf_kernel, gamma=0.1),
+        'kernel_function': linear_kernel,
     }
 
-    problem_instance = Setup(input_luka, ObjectiveFunction)
+    problem_instance = Setup(input_luka_1, ObjectiveFunction)
     objective_function, constraints = problem_instance.main()
     problem = cp.Problem(objective_function, constraints)
     result = problem.solve(verbose=True)
 
-    # テスト --------------------------------------------------------
+    # テスト 1 --------------------------------------------------------
     X_test = input_for_test['data'].drop(['target'], axis=1)
     y_test = input_for_test['data']['target']
 
@@ -179,45 +177,48 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     y_pred = p_trained(X_test)
     y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
 
-    # # 予測精度
-    # result = {}
-    # accuracy  = accuracy_score(y_test, y_pred_interpreted)
-    # precision = precision_score(y_test, y_pred_interpreted)
-    # recall    = recall_score(y_test, y_pred_interpreted)
-    # f1        = f1_score(y_test, y_pred_interpreted)
-    # auc       = roc_auc_score(y_test.replace(-1, 0), y_pred)
+    result = evaluate_model(
+        y_test,
+        y_pred,
+        y_pred_interpreted,
+        input_for_test,
+        test_idx
+    )
 
-    # result['accuracy']  = float(accuracy)
-    # result['precision'] = float(precision)
-    # result['recall']    = float(recall)
-    # result['f1']        = float(f1)
-    # result['auc']       = float(auc)
+    settings['result'][f'fold_{i}']['linear svm (L)'] = result
 
-    # print()
-    # print()
-    # print(f'accuracy: {accuracy}')
-    # print(f'precision: {precision}')
-    # print(f'recall: {recall}')
-    # print(f'f1: {f1}')
-    # print(f'auc: {auc}')
-    # print()
-    # print(confusion_matrix(y_test, y_pred_interpreted))
+    # モデルの学習 2（提案モデル）----------------------------------------
+    input_luka_1 = {
+        'L': L,
+        'U': U,
+        'S': S,
+        'len_j': len_j,
+        'len_l': len_l,
+        'len_u': len_u,
+        'len_s': len_s,
+        'len_h': len_h,
+        'len_i': len_i,
+        'c1': settings['c1'],
+        'c2': settings['c2'],
+        'KB_origin': KB_origin,
+        'target_predicate': 'Outcome',
+        'kernel_function': partial(rbf_kernel, gamma=0.1),
+    }
 
-    # # ルール違反
-    # result_rule_violation = {}
-    # y_pred_interpreted = pd.DataFrame(y_pred_interpreted, index=test_idx)
+    problem_instance = Setup(input_luka_1, ObjectiveFunction)
+    objective_function, constraints = problem_instance.main()
+    problem = cp.Problem(objective_function, constraints)
+    result = problem.solve(verbose=True)
 
-    # for h, (idxs, ans) in input_for_test['rule'].items():
+    # テスト 2 --------------------------------------------------------
+    X_test = input_for_test['data'].drop(['target'], axis=1)
+    y_test = input_for_test['data']['target']
 
-    #     violation_num  = int((y_pred_interpreted.loc[idxs] != ans).sum().iloc[0])
-    #     violation_bool = 1 if violation_num >= 1 else 0
-    #     result_rule_violation[h] = violation_bool
-
-    # result['n_violation'] = sum(list(result_rule_violation.values()))
-    # result['n_rule'] = len(result_rule_violation)
-    # result['violation_rate'] = result['n_violation'] / result['n_rule']
-
-    # settings['result'][f'fold_{i}'] = result
+    problem_info = problem_instance.problem_info # input_luka
+    p_trained = Predicate_dual(problem_info, metrics="f1")
+    # p_trained = Predicate_dual(problem_info, metrics="accuracy")
+    y_pred = p_trained(X_test)
+    y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
 
     result = evaluate_model(
         y_test,
@@ -227,7 +228,148 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
         test_idx
     )
 
-    settings['result'][f'fold_{i}'] = result
+    settings['result'][f'fold_{i}']['non-linear svm (L)'] = result
+
+    # モデルの学習 3（linear svm）----------------------------------------
+    from sklearn.svm import SVC
+    from sklearn.calibration import CalibratedClassifierCV
+    X_train = X_origin_1.copy().iloc[train_idx]
+    y_train = y_origin_1.copy().iloc[train_idx]
+    X_test  = X_origin_1.copy().iloc[test_idx]
+    y_test  = y_origin_1.copy().iloc[test_idx]
+
+    linear_svm = SVC(kernel='linear')
+    model = CalibratedClassifierCV(linear_svm)
+    model.fit(X_train, y_train)
+
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        y_test,
+        y_pred,
+        y_pred_interpreted,
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['linear svm'] = result
+
+    # テスト 3 --------------------------------------------------------
+    from sklearn.svm import SVC
+    X_train = X_origin_1.copy().iloc[train_idx]
+    y_train = y_origin_1.copy().iloc[train_idx]
+    X_test  = X_origin_1.copy().iloc[test_idx]
+    y_test  = y_origin_1.copy().iloc[test_idx]
+
+    model = SVC(kernel='rbf', gamma=0.1, probability=True)
+    model.fit(X_train, y_train)
+
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        y_test,
+        y_pred,
+        y_pred_interpreted,
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['non-linear svm'] = result
+
+    # モデルの学習とテスト 4 (RuleFit Classifier (dicrete)）----------------------------------------
+    from sklearn.ensemble import RandomForestClassifier
+    from src.rulefit import RuleFitClassifier
+    X_train = X_origin_2.copy().iloc[train_idx].values
+    y_train = y_origin_2.copy().iloc[train_idx].values
+    X_test  = X_origin_2.copy().iloc[test_idx].values
+    y_test  = y_origin_2.copy().iloc[test_idx].values
+
+    feature_names = list(X_origin_2.columns)
+
+    model = RuleFitClassifier(
+        rfmode='classify',
+        tree_generator=RandomForestClassifier(random_state=42),
+        random_state=42,
+        exp_rand_tree_size=False
+    )
+
+    model.fit(X_train, y_train, feature_names=feature_names)
+
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['RuleFit Classifier (disc)'] = result
+
+    # tree generator
+    y_pred_interpreted = model.tree_generator.predict(X_test)
+    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['tree generator (disc)'] = result
+
+    # モデルの学習とテスト 5 (RuleFit Classifier (continuous)）----------------------------------------
+    from sklearn.ensemble import RandomForestClassifier
+    from src.rulefit import RuleFitClassifier
+    X_train = X_origin_1.copy().iloc[train_idx].values
+    y_train = y_origin_1.copy().iloc[train_idx].values
+    X_test  = X_origin_1.copy().iloc[test_idx].values
+    y_test  = y_origin_1.copy().iloc[test_idx].values
+
+    feature_names = list(X_origin_2.columns)
+
+    model = RuleFitClassifier(
+        rfmode='classify',
+        tree_generator=RandomForestClassifier(random_state=42),
+        random_state=42,
+        exp_rand_tree_size=False
+    )
+
+    model.fit(X_train, y_train, feature_names=feature_names)
+
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['RuleFit Classifier (conti)'] = result
+
+    # tree generator
+    y_pred_interpreted = model.tree_generator.predict(X_test)
+    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+
+    result = evaluate_model(
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        input_for_test,
+        test_idx
+    )
+
+    settings['result'][f'fold_{i}']['tree generator (conti)'] = result
+
 
 
 # 実験結果の保存 ------------------------------------------------

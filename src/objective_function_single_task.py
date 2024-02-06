@@ -3,7 +3,7 @@ from typing import List, Tuple
 import cvxpy as cp
 import numpy as np
 from .misc import timer
-from src.misc import linear_kernel
+from sklearn.metrics.pairwise import linear_kernel
 
 
 class ObjectiveFunction:
@@ -83,21 +83,13 @@ class ObjectiveFunction:
     ) -> Tuple[cp.Variable, np.ndarray]: 
 
         P = np.zeros((len(x), len(x)))
-
-        ############################################
-        ############################################
-        ############################################
         print(f'shape of P: {P.shape}')
-        ############################################
-        ############################################
-        ############################################
 
         start_col = self.j * self.len_u
         end_col = start_col + self.len_u
-
         M = [M_h[:, start_col:end_col] for M_h in self.M]
 
-        # P_{11}
+        # P_{11} --------------------------------------------------
         x_L = self.L[:, :-1]
         K   = self.compute_kernel_matrix(x_L, x_L)
         
@@ -110,16 +102,9 @@ class ObjectiveFunction:
         end   = mapping_x_i['lambda_jl'][(0, self.len_l - 1)] + 1
 
         P[start:end, start:end] = P_11
-
-
-        ############################################
-        ############################################
         print('finish l')
-        ############################################
-        ############################################
 
-
-        # P_{22} using matrix multiplication
+        # P_{22} --------------------------------------------------
         K = self.compute_kernel_matrix(self.U, self.U)
         M_vstacked = np.vstack(M)
 
@@ -129,15 +114,9 @@ class ObjectiveFunction:
         end   = mapping_x_i['lambda_hi'][(self.len_h - 1, self.len_i - 1)] + 1
 
         P[start:end, start:end] = P_22
-
-        
-        ############################################
-        ############################################
         print('finish h')
-        ############################################
-        ############################################
 
-        # P_{33}
+        # P_{33}--------------------------------------------------
         K = self.compute_kernel_matrix(self.S, self.S)
         
         P_33 = K
@@ -146,14 +125,9 @@ class ObjectiveFunction:
         end   = mapping_x_i['delta_eta_js'][(0, self.len_s - 1)] + 1
 
         P[start:end, start:end] = P_33
-
-        ############################################
-        ############################################
         print('finish s')
-        ############################################
-        ############################################
 
-        # P_{12}
+        # P_{12} --------------------------------------------------
         K = self.compute_kernel_matrix(self.L[:, :-1], self.U)
         M_vstacked = np.vstack(M)
         y_L = self.L[:, -1].reshape(-1, 1)
@@ -166,16 +140,9 @@ class ObjectiveFunction:
         c_end   = mapping_x_i['lambda_hi'][(self.len_h - 1, self.len_i - 1)] + 1
 
         P[r_start:r_end, c_start:c_end] = P_12
-
-        
-        ############################################
-        ############################################
         print('finish l h')
-        ############################################
-        ############################################
 
-        # P_{13}
-
+        # P_{13} --------------------------------------------------
         x_L = self.L[:, :-1]
         K = self.compute_kernel_matrix(x_L, self.S)
 
@@ -188,15 +155,9 @@ class ObjectiveFunction:
         c_end   = mapping_x_i['delta_eta_js'][(0, self.len_s - 1)] + 1
 
         P[r_start:r_end, c_start:c_end] = P_13
-        
-
-        ############################################
-        ############################################
         print('finish l s')
-        ############################################
-        ############################################
 
-        # P_{23}
+        # P_{23} --------------------------------------------------
         K = self.compute_kernel_matrix(self.U, self.S)
         M_vstacked = np.vstack(M)
         P_23 = M_vstacked @ K
@@ -207,12 +168,8 @@ class ObjectiveFunction:
         c_end   = mapping_x_i['delta_eta_js'][(0, self.len_s - 1)] + 1
 
         P[r_start:r_end, c_start:c_end] = (-2) * P_23
-
-        ############################################
-        ############################################
         print('finish h s')
-        ############################################
-        ############################################
+
 
         P = (P+P.T)/2
         return cp.vstack(x), P
