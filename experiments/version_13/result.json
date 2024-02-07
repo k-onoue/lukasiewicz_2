@@ -1,0 +1,125 @@
+{
+    "path": "./experiments/version_13",
+    "source_paths": [
+        "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv",
+        "data/pima_indian_diabetes/diabetes_discretized.csv"
+    ],
+    "experiment_name": "pima_indian_diabetes_cv_4",
+    "seed": 42,
+    "n_splits": 5,
+    "n_unsupervised": 15,
+    "c1": 10,
+    "c2": 10,
+    "result": {
+        "fold_0": {
+            "linear svm (L)": {
+                "accuracy": 0.3283582089552239,
+                "precision": 0.3283582089552239,
+                "recall": 1.0,
+                "f1": 0.4943820224719101,
+                "auc": 0.21237373737373738,
+                "n_violation": 19,
+                "n_rule": 34,
+                "violation_rate": 0.5588235294117647
+            },
+            "non-linear svm (L)": {
+                "accuracy": 0.6865671641791045,
+                "precision": 0.5185185185185185,
+                "recall": 0.6363636363636364,
+                "f1": 0.5714285714285714,
+                "auc": 0.7835858585858585,
+                "n_violation": 25,
+                "n_rule": 34,
+                "violation_rate": 0.7352941176470589
+            }
+        },
+        "fold_1": {
+            "linear svm (L)": {
+                "accuracy": 0.6567164179104478,
+                "precision": 0.5223880597014925,
+                "recall": 0.7142857142857143,
+                "f1": 0.6034482758620688,
+                "auc": 0.7423769507803121,
+                "n_violation": 30,
+                "n_rule": 37,
+                "violation_rate": 0.8108108108108109
+            },
+            "non-linear svm (L)": {
+                "accuracy": 0.6791044776119403,
+                "precision": 0.55,
+                "recall": 0.673469387755102,
+                "f1": 0.6055045871559633,
+                "auc": 0.7714285714285715,
+                "n_violation": 28,
+                "n_rule": 37,
+                "violation_rate": 0.7567567567567568
+            }
+        },
+        "fold_2": {
+            "linear svm (L)": {
+                "accuracy": 0.34328358208955223,
+                "precision": 0.34328358208955223,
+                "recall": 1.0,
+                "f1": 0.5111111111111112,
+                "auc": 0.47949604743083,
+                "n_violation": 23,
+                "n_rule": 40,
+                "violation_rate": 0.575
+            },
+            "non-linear svm (L)": {
+                "accuracy": 0.7014925373134329,
+                "precision": 0.5483870967741935,
+                "recall": 0.7391304347826086,
+                "f1": 0.6296296296296297,
+                "auc": 0.8127470355731226,
+                "n_violation": 29,
+                "n_rule": 40,
+                "violation_rate": 0.725
+            }
+        },
+        "fold_3": {
+            "linear svm (L)": {
+                "accuracy": 0.22388059701492538,
+                "precision": 0.2230769230769231,
+                "recall": 0.90625,
+                "f1": 0.35802469135802467,
+                "auc": 0.15471813725490197,
+                "n_violation": 30,
+                "n_rule": 38,
+                "violation_rate": 0.7894736842105263
+            },
+            "non-linear svm (L)": {
+                "accuracy": 0.7985074626865671,
+                "precision": 0.5471698113207547,
+                "recall": 0.90625,
+                "f1": 0.6823529411764705,
+                "auc": 0.8771446078431373,
+                "n_violation": 19,
+                "n_rule": 38,
+                "violation_rate": 0.5
+            }
+        },
+        "fold_4": {
+            "linear svm (L)": {
+                "accuracy": 0.35074626865671643,
+                "precision": 0.35074626865671643,
+                "recall": 1.0,
+                "f1": 0.5193370165745856,
+                "auc": 0.2115431645879188,
+                "n_violation": 16,
+                "n_rule": 29,
+                "violation_rate": 0.5517241379310345
+            },
+            "non-linear svm (L)": {
+                "accuracy": 0.7985074626865671,
+                "precision": 0.6923076923076923,
+                "recall": 0.7659574468085106,
+                "f1": 0.7272727272727273,
+                "auc": 0.8625580826607973,
+                "n_violation": 13,
+                "n_rule": 29,
+                "violation_rate": 0.4482758620689655
+            }
+        }
+    }
+}
