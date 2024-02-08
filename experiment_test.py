@@ -21,14 +21,13 @@ from src.evaluation import evaluate_model
 
 from sklearn.ensemble import RandomForestClassifier
 from src.rulefit import RuleFitClassifier
-from src.rulefit import ArrangeRules
 
 
 
 # 入力ファイル
 file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
 file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
-# file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
+file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
 
 
 df_origin_1 = pd.read_csv(file_path_1, index_col=0).reset_index(drop=True)
@@ -44,9 +43,8 @@ print(df_origin_2.head())
 
 # 実験設定
 settings = {
-    'path': './experiments/version_1',
-    # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    'source_paths': [file_path_1, file_path_2],
+    'path': './experiments/result_test.json',
+    'source_paths': [file_path_1, file_path_2, file_path_3],
     'experiment_name': 'pima_indian_diabetes_cv_1',
     'seed': 42,
     'n_splits': 5,
@@ -56,10 +54,6 @@ settings = {
     'result': {}
 }
 
-
-if not os.path.exists(settings['path']):
-    os.makedirs(settings['path'])
-    os.makedirs(os.path.join(settings['path'], "rules"))
 
 
 kf = KFold(n_splits=settings['n_splits'])
@@ -80,42 +74,41 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     idx_split[i] = train_idx.tolist(), test_idx.tolist()
 
+    # 訓練データ（提案モデル用）--------------------------------------------
+    L = {}
+    for col_name in df_origin_2.columns:
+        df_new = X_origin_1.copy().iloc[train_idx, :]
+        df_new['target'] = df_origin_2[col_name].replace(0, -1)
+        L[col_name] = df_new
 
-    # ルールの獲得 (RuleFit Classifier (continuous)）----------------------------------------
-    from sklearn.ensemble import RandomForestClassifier
-    from src.rulefit import RuleFitClassifier
-    from src.rulefit import ArrangeRules
-    X_train = X_origin_2.copy().iloc[train_idx].values
-    y_train = y_origin_2.copy().iloc[train_idx].values
-    X_test  = X_origin_2.copy().iloc[test_idx].values
-    y_test  = y_origin_2.copy().iloc[test_idx].values
+    np.random.seed(seed=settings['seed'])
+    arr_u = np.random.rand(settings['n_unsupervised'], X_origin_1.shape[1])
+    U = {key: arr_u for key in L.keys()}
 
-    feature_names = list(X_origin_2.columns)
+    S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
 
-    model = RuleFitClassifier(
-        rfmode='classify',
-        tree_generator=RandomForestClassifier(random_state=42),
-        random_state=42,
-        exp_rand_tree_size=False
-    )
+    # ルール
+    KB_origin =  []
 
-    model.fit(X_train, y_train, feature_names=feature_names)
+    with open(file_path_3, 'r') as file:
+        for line in file:
+            formula = line.split()
+            KB_origin.append(formula)
 
-    y_pred_interpreted = model.predict(X_test)
-    y_pred = model.predict_proba(X_test)[:, 1]
+    # パラメータ
+    len_j = len(L)
+    len_l = len(train_idx)
+    len_u = settings['n_unsupervised']
+    len_s = len_l + len_u
 
+    len_h = len(KB_origin)
+    len_i = len_u * 2
 
-    # ルールの整形 -------------------------------------------
-    rules_df = model.get_rules(exclude_zero_coef=True)
-    rule_processor = ArrangeRules(
-        rules_df,
-        feature_names=feature_names,
-        conclusion_name="Outcome"
-    )
-    KB_origin = rule_processor.construct_KB()
-    rule_processor.save_KB_as_txt(os.path.join(settings['path'], f'rules/rules_{i}.txt'))
-
-
+    # テストデータ -------------------------------------------------------
+    df_tmp = df_origin_1.copy().iloc[test_idx, :]
+    df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
+    df_tmp['target'] = df_tmp['target'].replace(0, -1)
+    
     # from src.misc import is_symbol
     rules_tmp = []
     for rule in KB_origin:
@@ -148,121 +141,82 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
         rule_violation_check[h] = (satisfying_idxs, outcome)
 
-    # テストデータ -------------------------------------------------------
-    df_tmp = df_origin_1.copy().iloc[test_idx, :]
-    df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
-    df_tmp['target'] = df_tmp['target'].replace(0, -1)
-
     input_for_test = {
         'data': df_tmp,
         'rule': rule_violation_check
     }
 
-    # モデルのテスト 4 (RuleFit Classifier (discrete)）
-    result = evaluate_model(
-        pd.DataFrame(y_test, index=test_idx),
-        pd.DataFrame(y_pred, index=test_idx),
-        pd.DataFrame(y_pred_interpreted, index=test_idx),
-        input_for_test,
-        test_idx
-    )
 
-    settings['result'][f'fold_{i}']['RuleFit Classifier (disc)'] = result
+    # モデルの学習とテスト 1（linear svm）----------------------------------------
+    from sklearn.svm import SVC
+    from sklearn.calibration import CalibratedClassifierCV
+    X_train = X_origin_1.copy().iloc[train_idx]
+    y_train = y_origin_1.copy().iloc[train_idx]
+    X_test  = X_origin_1.copy().iloc[test_idx]
+    y_test  = y_origin_1.copy().iloc[test_idx]
 
-    # tree generator
-    y_pred_interpreted = model.tree_generator.predict(X_test)
-    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
-
-    result = evaluate_model(
-        pd.DataFrame(y_test, index=test_idx),
-        pd.DataFrame(y_pred, index=test_idx),
-        pd.DataFrame(y_pred_interpreted, index=test_idx),
-        input_for_test,
-        test_idx
-    )
-
-    settings['result'][f'fold_{i}']['tree generator (disc)'] = result
-
-
-    # モデルの学習とテスト 9, 10 (RuleFit Classifier (continuous)）----------------------------------------
-    from sklearn.ensemble import RandomForestClassifier
-    from src.rulefit import RuleFitClassifier
-    X_train = X_origin_1.copy().iloc[train_idx].values
-    y_train = y_origin_1.copy().iloc[train_idx].values
-    X_test  = X_origin_1.copy().iloc[test_idx].values
-    y_test  = y_origin_1.copy().iloc[test_idx].values
-
-    feature_names = list(X_origin_2.columns)
-
-    model = RuleFitClassifier(
-        rfmode='classify',
-        tree_generator=RandomForestClassifier(random_state=42),
-        random_state=42,
-        exp_rand_tree_size=False
-    )
-
-    model.fit(X_train, y_train, feature_names=feature_names)
+    linear_svm = SVC(kernel='linear')
+    model = CalibratedClassifierCV(linear_svm)
+    model.fit(X_train, y_train)
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
 
     result = evaluate_model(
-        pd.DataFrame(y_test, index=test_idx),
-        pd.DataFrame(y_pred, index=test_idx),
-        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        y_test,
+        y_pred,
+        y_pred_interpreted,
         input_for_test,
         test_idx
     )
 
-    settings['result'][f'fold_{i}']['RuleFit Classifier (conti)'] = result
+    settings['result'][f'fold_{i}']['linear svm'] = result
 
-    # tree generator
-    y_pred_interpreted = model.tree_generator.predict(X_test)
-    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+    # モデルの学習とテスト 2 (non-linear svm) --------------------------------------------------------
+    from sklearn.svm import SVC
+    X_train = X_origin_1.copy().iloc[train_idx]
+    y_train = y_origin_1.copy().iloc[train_idx]
+    X_test  = X_origin_1.copy().iloc[test_idx]
+    y_test  = y_origin_1.copy().iloc[test_idx]
+
+    model = SVC(kernel='rbf', gamma=0.1, probability=True)
+    model.fit(X_train, y_train)
+
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
 
     result = evaluate_model(
-        pd.DataFrame(y_test, index=test_idx),
-        pd.DataFrame(y_pred, index=test_idx),
-        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        y_test,
+        y_pred,
+        y_pred_interpreted,
         input_for_test,
         test_idx
     )
 
-    settings['result'][f'fold_{i}']['tree generator (conti)'] = result
+    settings['result'][f'fold_{i}']['non-linear svm'] = result
 
+    # モデルの学習とテスト 3 (logistic regression) --------------------------------------------------------
+    from sklearn.linear_model import LogisticRegression
+    X_train = X_origin_1.copy().iloc[train_idx]
+    y_train = y_origin_1.copy().iloc[train_idx]
+    X_test  = X_origin_1.copy().iloc[test_idx]
+    y_test  = y_origin_1.copy().iloc[test_idx]
 
+    model = LogisticRegression()
+    model.fit(X_train, y_train)
 
-    # 訓練データ（提案モデル用）--------------------------------------------
-    L = {}
-    for col_name in df_origin_2.columns:
-        df_new = X_origin_1.copy().iloc[train_idx, :]
-        df_new['target'] = df_origin_2[col_name].replace(0, -1)
-        L[col_name] = df_new
+    y_pred_interpreted = model.predict(X_test)
+    y_pred = model.predict_proba(X_test)[:, 1]
 
-    np.random.seed(seed=settings['seed'])
-    arr_u = np.random.rand(settings['n_unsupervised'], X_origin_1.shape[1])
-    U = {key: arr_u for key in L.keys()}
+    result = evaluate_model(
+        y_test,
+        y_pred,
+        y_pred_interpreted,
+        input_for_test,
+        test_idx
+    )
 
-    S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
-
-    # # ルール
-    # KB_origin =  []
-
-    # with open(file_path_3, 'r') as file:
-    #     for line in file:
-    #         formula = line.split()
-    #         KB_origin.append(formula)
-    # ルール
-    KB_origin = KB_origin
-
-    # パラメータ
-    len_j = len(L)
-    len_l = len(train_idx)
-    len_u = settings['n_unsupervised']
-    len_s = len_l + len_u
-
-    len_h = len(KB_origin)
-    len_i = len_u * 2
+    settings['result'][f'fold_{i}']['logistic regression'] = result
 
 
     # モデルの学習 4（提案モデル）----------------------------------------
@@ -397,81 +351,101 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     settings['result'][f'fold_{i}']['logistic regression (L)'] = result
 
 
-    # モデルの学習とテスト 1（linear svm）----------------------------------------
-    from sklearn.svm import SVC
-    from sklearn.calibration import CalibratedClassifierCV
-    X_train = X_origin_1.copy().iloc[train_idx]
-    y_train = y_origin_1.copy().iloc[train_idx]
-    X_test  = X_origin_1.copy().iloc[test_idx]
-    y_test  = y_origin_1.copy().iloc[test_idx]
+    # モデルの学習とテスト 4 (RuleFit Classifier (dicrete)）----------------------------------------
+    from sklearn.ensemble import RandomForestClassifier
+    from src.rulefit import RuleFitClassifier
+    X_train = X_origin_2.copy().iloc[train_idx].values
+    y_train = y_origin_2.copy().iloc[train_idx].values
+    X_test  = X_origin_2.copy().iloc[test_idx].values
+    y_test  = y_origin_2.copy().iloc[test_idx].values
 
-    linear_svm = SVC(kernel='linear')
-    model = CalibratedClassifierCV(linear_svm)
-    model.fit(X_train, y_train)
+    feature_names = list(X_origin_2.columns)
+
+    model = RuleFitClassifier(
+        rfmode='classify',
+        tree_generator=RandomForestClassifier(random_state=42),
+        random_state=42,
+        exp_rand_tree_size=False
+    )
+
+    model.fit(X_train, y_train, feature_names=feature_names)
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
 
     result = evaluate_model(
-        y_test,
-        y_pred,
-        y_pred_interpreted,
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
         input_for_test,
         test_idx
     )
 
-    settings['result'][f'fold_{i}']['linear svm'] = result
+    settings['result'][f'fold_{i}']['RuleFit Classifier (disc)'] = result
 
+    # tree generator
+    y_pred_interpreted = model.tree_generator.predict(X_test)
+    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
 
-    # モデルの学習とテスト 2 (non-linear svm) --------------------------------------------------------
-    from sklearn.svm import SVC
-    X_train = X_origin_1.copy().iloc[train_idx]
-    y_train = y_origin_1.copy().iloc[train_idx]
-    X_test  = X_origin_1.copy().iloc[test_idx]
-    y_test  = y_origin_1.copy().iloc[test_idx]
+    result = evaluate_model(
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
+        input_for_test,
+        test_idx
+    )
 
-    model = SVC(kernel='rbf', gamma=0.1, probability=True)
-    model.fit(X_train, y_train)
+    settings['result'][f'fold_{i}']['tree generator (disc)'] = result
+
+    # モデルの学習とテスト 5 (RuleFit Classifier (continuous)）----------------------------------------
+    from sklearn.ensemble import RandomForestClassifier
+    from src.rulefit import RuleFitClassifier
+    X_train = X_origin_1.copy().iloc[train_idx].values
+    y_train = y_origin_1.copy().iloc[train_idx].values
+    X_test  = X_origin_1.copy().iloc[test_idx].values
+    y_test  = y_origin_1.copy().iloc[test_idx].values
+
+    feature_names = list(X_origin_2.columns)
+
+    model = RuleFitClassifier(
+        rfmode='classify',
+        tree_generator=RandomForestClassifier(random_state=42),
+        random_state=42,
+        exp_rand_tree_size=False
+    )
+
+    model.fit(X_train, y_train, feature_names=feature_names)
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
 
     result = evaluate_model(
-        y_test,
-        y_pred,
-        y_pred_interpreted,
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
         input_for_test,
         test_idx
     )
 
-    settings['result'][f'fold_{i}']['non-linear svm'] = result
+    settings['result'][f'fold_{i}']['RuleFit Classifier (conti)'] = result
 
-   
-    # モデルの学習とテスト 3 (logistic regression) --------------------------------------------------------
-    from sklearn.linear_model import LogisticRegression
-    X_train = X_origin_1.copy().iloc[train_idx]
-    y_train = y_origin_1.copy().iloc[train_idx]
-    X_test  = X_origin_1.copy().iloc[test_idx]
-    y_test  = y_origin_1.copy().iloc[test_idx]
-
-    model = LogisticRegression()
-    model.fit(X_train, y_train)
-
-    y_pred_interpreted = model.predict(X_test)
-    y_pred = model.predict_proba(X_test)[:, 1]
+    # tree generator
+    y_pred_interpreted = model.tree_generator.predict(X_test)
+    y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
 
     result = evaluate_model(
-        y_test,
-        y_pred,
-        y_pred_interpreted,
+        pd.DataFrame(y_test, index=test_idx),
+        pd.DataFrame(y_pred, index=test_idx),
+        pd.DataFrame(y_pred_interpreted, index=test_idx),
         input_for_test,
         test_idx
     )
 
-    settings['result'][f'fold_{i}']['logistic regression'] = result
+    settings['result'][f'fold_{i}']['tree generator (conti)'] = result
 
 
-# 実験結果の保存 -----------------------------------------------
-with open(os.path.join(settings['path'], 'result.json'), 'w') as f:
+
+# 実験結果の保存 ------------------------------------------------
+with open(settings['path'], 'w') as f:
     json.dump(settings, f, indent=4)
     

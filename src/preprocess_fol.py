@@ -233,6 +233,6 @@ class FOLProcessor:
             q_h = np.concatenate(tmp_q_h, axis=0)
             self.q.append(q_h)
 
-    def __call__(self) -> Tuple[Union[None, pd.DataFrame], List[List[str]], List[List[str]], List[np.ndarray], List[np.ndarray], Dict[str, sp.Symbol]]:
+    def __call__(self) -> None:
         self.convert_KB_origin()
         self.calculate_M_and_q()
