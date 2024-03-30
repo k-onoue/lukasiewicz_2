@@ -1,0 +1,8 @@
+Glucose_High → Outcome
+Pregnancies_Low ⊕ Pregnancies_Medium ⊕ Pregnancies_High
+Glucose_Low ⊕ Glucose_Medium ⊕ Glucose_High
+BloodPressure_Low ⊕ BloodPressure_Medium ⊕ BloodPressure_High
+SkinThickness_Low ⊕ SkinThickness_Medium ⊕ SkinThickness_High
+BMI_Low ⊕ BMI_Medium ⊕ BMI_High
+DiabetesPedigreeFunction_Low ⊕ DiabetesPedigreeFunction_Medium ⊕ DiabetesPedigreeFunction_High
+Age_Low ⊕ Age_Medium ⊕ Age_High

@@ -1,0 +1,7 @@
+,rule,type,coef,support,importance
+3,Glucose_Low,linear,-1.3083007034180183,1.0,0.5387613407410548
+5,Glucose_High,linear,1.129258436613836,1.0,0.4449294109658623
+12,BMI_Low,linear,-0.9321548978643067,1.0,0.4364677959870808
+8160,Glucose_Low <= 0.5 & Glucose_High <= 0.5 & BloodPressure_Low > 0.5 & Age_Medium <= 0.5 & Pregnancies_High <= 0.5,rule,-0.6658207117065967,0.10059171597633136,0.20027043940652384
+10078,BMI_Low <= 0.5 & Pregnancies_High > 0.5 & DiabetesPedigreeFunction_Low <= 0.5,rule,0.8518387602106221,0.030303030303030304,0.14602205183575087
+10877,BMI_Low <= 0.5 & Glucose_Low <= 0.5 & Glucose_Medium <= 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BloodPressure_Medium <= 0.5,rule,1.171948372563963,0.045317220543806644,0.24376405028726017
