@@ -246,7 +246,7 @@ for settings in settings_list:
 
         # テストデータ -------------------------------------------------------
         df_tmp = df_origin_1.copy().iloc[test_idx, :]
-        df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
+        df_tmp = df_tmp.rename(columns={'Outcome': 'target'})
         df_tmp['target'] = df_tmp['target'].replace(0, -1)
 
         input_for_test = {

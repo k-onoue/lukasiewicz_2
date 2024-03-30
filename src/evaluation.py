@@ -42,14 +42,35 @@ def evaluate_model(
     result_rule_violation = {}
     y_pred_interpreted = pd.DataFrame(y_pred_interpreted, index=test_idx)
 
+
+    result['violation_detail'] = {}
+
+    evaluation_num_instance = 0
+    violation_num_instance = 0
+
     for h, (idxs, ans) in input_for_test['rule'].items():
 
-        violation_num  = int((y_pred_interpreted.loc[idxs] != ans).sum().iloc[0])
+        evaluation_num = len(idxs)
+        df_evaluated = y_pred_interpreted.loc[idxs] != ans
+        violating_indexes = df_evaluated[df_evaluated[0] == True].index.tolist()
+        violation_num = len(violating_indexes)
+
+        evaluation_num_instance += evaluation_num
+        violation_num_instance += violation_num
+
+        result['violation_detail'][h] = (evaluation_num, violation_num , violating_indexes)
+
+
+        # violation_num  = int((y_pred_interpreted.loc[idxs] != ans).sum().iloc[0])
         violation_bool = 1 if violation_num >= 1 else 0
         result_rule_violation[h] = violation_bool
 
     result['n_violation'] = sum(list(result_rule_violation.values()))
     result['n_rule'] = len(result_rule_violation)
     result['violation_rate'] = result['n_violation'] / result['n_rule']
+
+    result['n_violation (instance)'] = violation_num_instance
+    result['n_evaluation (instance)'] = evaluation_num_instance
+    result['violation_rate (instance)'] = violation_num_instance / evaluation_num_instance
 
     return result
