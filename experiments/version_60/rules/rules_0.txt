@@ -3,6 +3,7 @@ Glucose_Low → ¬ Outcome
 Glucose_High → Outcome
 BMI_Low → ¬ Outcome
 DiabetesPedigreeFunction_Low → ¬ Outcome
+Age_Low → ¬ Outcome
 ¬ Pregnancies_Medium ⊗ Glucose_High ⊗ ¬ Age_Medium ⊗ ¬ BMI_Low ⊗ ¬ DiabetesPedigreeFunction_Low → Outcome
 ¬ Glucose_High ⊗ DiabetesPedigreeFunction_Low ⊗ BMI_Low ⊗ ¬ BloodPressure_High ⊗ ¬ Pregnancies_Medium ⊗ ¬ Age_High ⊗ SkinThickness_Low → ¬ Outcome
 ¬ Glucose_High ⊗ Pregnancies_Low ⊗ Age_Low ⊗ BMI_Medium ⊗ DiabetesPedigreeFunction_Low ⊗ ¬ SkinThickness_Low → ¬ Outcome

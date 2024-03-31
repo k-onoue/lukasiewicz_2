@@ -1,0 +1,37 @@
+,rule,type,coef,support,importance
+0,Pregnancies_Low,linear,-0.27135194824154557,1.0,0.13054572351336777
+3,Glucose_Low,linear,-1.393533237931004,1.0,0.5530772906326664
+5,Glucose_High,linear,1.3343188778222979,1.0,0.5424838085347717
+12,BMI_Low,linear,-0.5854351996737434,1.0,0.272445127232941
+14,BMI_High,linear,0.017231662582421436,1.0,0.0056621750148730075
+15,DiabetesPedigreeFunction_Low,linear,-0.32715765001706654,1.0,0.1591412886363213
+18,Age_Low,linear,-0.23224371403382885,1.0,0.10807971275772109
+19,Age_Medium,linear,0.10035499991930809,1.0,0.04301390961333394
+471,Glucose_High <= 0.5 & Glucose_Low <= 0.5 & BloodPressure_High > 0.5 & SkinThickness_Low > 0.5 & BMI_Medium > 0.5 & DiabetesPedigreeFunction_Low > 0.5,rule,-0.4499132823234536,0.014970059880239521,0.0546342894134319
+489,Glucose_High > 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & BMI_Low <= 0.5 & Age_Medium <= 0.5 & SkinThickness_High <= 0.5 & Pregnancies_Medium <= 0.5,rule,0.4295400905181239,0.02694610778443114,0.06955368957622182
+1334,BMI_Low <= 0.5 & Pregnancies_Medium <= 0.5 & Age_Medium <= 0.5 & Glucose_Low <= 0.5 & Glucose_High <= 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BMI_Medium > 0.5 & BloodPressure_Medium <= 0.5 & Age_High <= 0.5 & SkinThickness_Medium <= 0.5,rule,-0.009498286556603262,0.02710843373493976,0.0015425160797855333
+1782,BMI_Medium > 0.5 & Glucose_Low <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & BloodPressure_Medium <= 0.5 & DiabetesPedigreeFunction_High > 0.5,rule,0.07962870943275828,0.021212121212121213,0.011473766788600563
+1879,Glucose_High <= 0.5 & Age_Medium <= 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BloodPressure_Low <= 0.5 & Glucose_Medium > 0.5 & DiabetesPedigreeFunction_Medium <= 0.5 & Pregnancies_Low > 0.5 & BMI_Medium > 0.5 & Age_High <= 0.5,rule,-0.1706789456031,0.038348082595870206,0.0327763606187967
+2357,BMI_Low > 0.5 & Age_Medium <= 0.5 & Pregnancies_Low > 0.5 & BloodPressure_Low > 0.5,rule,-0.5640224073517747,0.07669616519174041,0.15009129419985046
+2855,Pregnancies_Low > 0.5 & BMI_Medium > 0.5 & Glucose_Low <= 0.5 & Age_High <= 0.5 & SkinThickness_High <= 0.5 & Age_Low <= 0.5,rule,0.04496399835573713,0.015337423312883436,0.005525668687247798
+3036,Glucose_High <= 0.5 & Glucose_Low <= 0.5 & Age_Medium <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & Pregnancies_High <= 0.5 & SkinThickness_High <= 0.5 & BloodPressure_Low > 0.5,rule,-0.2519552996681773,0.038922155688622756,0.048730539930019516
+3364,Age_Low > 0.5 & Glucose_Low <= 0.5 & BloodPressure_High <= 0.5 & Pregnancies_Low > 0.5 & DiabetesPedigreeFunction_Medium <= 0.5 & Glucose_Medium > 0.5 & BMI_Medium <= 0.5,rule,-0.012091338883648753,0.08771929824561403,0.0034204733544561643
+4034,Glucose_High <= 0.5 & Age_Low > 0.5 & BMI_Low > 0.5 & Pregnancies_Medium <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5,rule,-0.07285583734169421,0.07605633802816901,0.019313225211970944
+4186,BMI_Low > 0.5 & Age_Medium <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & Pregnancies_Medium <= 0.5,rule,-0.4842480547073045,0.0771513353115727,0.12921259613511868
+4314,BMI_Low <= 0.5 & Glucose_High > 0.5 & Pregnancies_High <= 0.5 & Age_Medium > 0.5 & DiabetesPedigreeFunction_Low > 0.5,rule,0.03066928702068738,0.02346041055718475,0.00464212051601598
+4687,Pregnancies_Medium > 0.5 & Glucose_High <= 0.5 & Glucose_Medium <= 0.5,rule,-0.015719598874575778,0.04142011834319527,0.0031322850841160837
+4698,Pregnancies_Medium > 0.5 & Glucose_High <= 0.5 & Glucose_Medium > 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BloodPressure_High <= 0.5 & BMI_High <= 0.5 & Age_High <= 0.5 & SkinThickness_Low > 0.5 & BMI_Medium > 0.5,rule,0.33168326680785404,0.020710059171597635,0.0472356481360514
+4948,Age_Medium <= 0.5 & DiabetesPedigreeFunction_High > 0.5 & BMI_Medium <= 0.5,rule,-0.2320776737626391,0.02608695652173913,0.03699177416092385
+6231,Age_Low > 0.5 & Glucose_High <= 0.5 & Glucose_Medium <= 0.5 & BMI_Medium <= 0.5,rule,-0.03619739597073027,0.09248554913294797,0.010486753098846228
+7823,Pregnancies_Low > 0.5 & DiabetesPedigreeFunction_High <= 0.5 & Glucose_High <= 0.5 & Age_Low > 0.5 & SkinThickness_Medium <= 0.5 & Glucose_Low <= 0.5 & BMI_Medium <= 0.5 & BloodPressure_Medium > 0.5,rule,-0.21430479599192986,0.05846153846153846,0.05027893189019751
+8268,Glucose_High <= 0.5 & Glucose_Low <= 0.5 & BMI_Low <= 0.5 & DiabetesPedigreeFunction_Medium <= 0.5 & SkinThickness_Low <= 0.5 & DiabetesPedigreeFunction_High <= 0.5 & Pregnancies_Medium <= 0.5 & BMI_Medium > 0.5 & Pregnancies_Low > 0.5 & SkinThickness_High <= 0.5 & BloodPressure_High <= 0.5,rule,-0.3609373719959406,0.05099150141643059,0.07939914075222847
+8340,Glucose_High <= 0.5 & Glucose_Low > 0.5 & Pregnancies_Low <= 0.5,rule,-0.025250391475151172,0.0679886685552408,0.006356191601434467
+8878,BMI_Low <= 0.5 & Age_Medium > 0.5 & Glucose_Low <= 0.5 & Glucose_High > 0.5 & DiabetesPedigreeFunction_Low > 0.5 & Pregnancies_High <= 0.5,rule,0.07343127494307793,0.02373887240356083,0.011178772303920234
+10466,BMI_Low <= 0.5 & Pregnancies_High <= 0.5 & Glucose_Low <= 0.5 & Glucose_High <= 0.5 & BloodPressure_Low <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & Age_High <= 0.5 & Pregnancies_Low <= 0.5 & BloodPressure_Medium > 0.5,rule,0.17705154006815424,0.024242424242424242,0.027230693270433703
+10553,BMI_Low <= 0.5 & Pregnancies_High > 0.5 & DiabetesPedigreeFunction_Low <= 0.5,rule,0.3885761730933533,0.030303030303030304,0.06660965987923098
+10928,Age_Low <= 0.5 & BMI_High <= 0.5 & BloodPressure_High > 0.5 & Pregnancies_Medium <= 0.5 & Pregnancies_High <= 0.5,rule,0.5555888972854872,0.014970059880239521,0.06746678927198779
+11805,BMI_Low > 0.5 & Glucose_High <= 0.5 & Pregnancies_High <= 0.5 & Pregnancies_Low > 0.5 & SkinThickness_Low > 0.5 & DiabetesPedigreeFunction_Low > 0.5 & Age_High <= 0.5,rule,-0.22617109904726382,0.08823529411764706,0.06415044386593408
+12184,Pregnancies_Low > 0.5 & BloodPressure_High <= 0.5 & Glucose_Low <= 0.5 & BMI_Low > 0.5 & BloodPressure_Medium <= 0.5,rule,-0.002795429606414155,0.05307262569832402,0.0006266747311857437
+12438,BMI_Low <= 0.5 & Age_Medium > 0.5 & Glucose_High > 0.5 & Pregnancies_High <= 0.5 & SkinThickness_High <= 0.5,rule,0.1091523477981168,0.04491017964071856,0.022606201054012214
+12462,BMI_Low > 0.5 & SkinThickness_Low > 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BloodPressure_Medium > 0.5 & Age_High <= 0.5 & Glucose_Medium > 0.5 & Pregnancies_Medium <= 0.5,rule,-0.08853276740110518,0.0658682634730539,0.021960701579905803
+12724,Glucose_Low > 0.5 & Pregnancies_Medium > 0.5,rule,-0.01343832288138217,0.03498542274052478,0.002469196038359866

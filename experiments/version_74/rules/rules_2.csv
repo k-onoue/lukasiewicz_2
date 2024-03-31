@@ -1,0 +1,4 @@
+,rule,type,coef,support,importance
+5,Glucose_High,linear,1.2803447881644014,1.0,0.5099754956014269
+12,BMI_Low,linear,-0.6274791102847405,1.0,0.29154853724448215
+10406,Glucose_Low > 0.5 & SkinThickness_High <= 0.5 & BloodPressure_High <= 0.5,rule,-0.6165932141515541,0.14792899408284024,0.2189088334265873

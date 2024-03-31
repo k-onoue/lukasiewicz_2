@@ -11,7 +11,8 @@ class Predicate_dual:
             opt_iter_num: int = 100, 
             opt_range_size: float = 5
         ) -> None:
-    
+        
+        self.seed   = 42
         self.p_name = problem_info['target_predicate']
         self.j      = problem_info['target_p_idx']
 
@@ -176,7 +177,7 @@ class Predicate_dual:
             b = trial.suggest_float('b', min_bound, max_bound)
             return self.calculate_score_at_b(b, X_train, y_train)  
         
-        study = optuna.create_study(direction='maximize')
+        study = optuna.create_study(direction='maximize', sampler=optuna.samplers.TPESampler(seed=self.seed))
         study.optimize(objective, n_trials=self.n_trials)
         study.enqueue_trial(initial_b)
 

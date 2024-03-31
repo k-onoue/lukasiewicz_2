@@ -43,20 +43,6 @@ print(df_origin_2.head())
 
 
 # 実験設定
-settings = {
-    'path': './experiments/version_40',
-    # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    'source_paths': [file_path_1, file_path_2],
-    'experiment_name': 'pima_indian_diabetes_cv_4',
-    'seed': 42,
-    'n_splits': 5,
-    'n_unsupervised': 15,
-    'c1': 10,
-    'c2': 10,
-    'rule_thr': 0.2,
-    'result': {}
-}
-
 settings_list = [
     {
         'path': './experiments/version_51',
