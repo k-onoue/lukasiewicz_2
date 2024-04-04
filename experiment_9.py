@@ -47,12 +47,11 @@ print(df_origin_2.head())
 settings_list = [
     {
         'path': './experiments/version_91',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_9',
         'seed': 42,
         'n_splits': 5,
-        'n_unsupervised': 15,
+        'n_unsupervised': 1,
         'c1': 10,
         'c2': 10,
         'rule_thr': 0,
@@ -60,21 +59,18 @@ settings_list = [
     },
     {
         'path': './experiments/version_92',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_9',
         'seed': 42,
         'n_splits': 5,
-        'n_unsupervised': 15,
+        'n_unsupervised': 5,
         'c1': 10,
         'c2': 10,
-        'rule_thr': 0.2,
         'rule_thr': 0,
         'result': {}
     },
     {
         'path': './experiments/version_93',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_9',
         'seed': 42,
@@ -82,52 +78,33 @@ settings_list = [
         'n_unsupervised': 15,
         'c1': 10,
         'c2': 10,
-        'rule_thr': 0.4,
         'rule_thr': 0,
         'result': {}
     },
     {
         'path': './experiments/version_94',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_9',
         'seed': 42,
         'n_splits': 5,
-        'n_unsupervised': 15,
+        'n_unsupervised': 50,
         'c1': 10,
         'c2': 10,
-        'rule_thr': 0.6,
         'rule_thr': 0,
         'result': {}
     },
     {
         'path': './experiments/version_95',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_9',
         'seed': 42,
         'n_splits': 5,
-        'n_unsupervised': 15,
+        'n_unsupervised': 100,
         'c1': 10,
         'c2': 10,
-        'rule_thr': 0.8,
         'rule_thr': 0,
         'result': {}
-    },
-    {
-        'path': './experiments/version_96',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_9',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 1,
-        'rule_thr': 0,
-        'result': {}
-    },
+    }
 ]
 
 
