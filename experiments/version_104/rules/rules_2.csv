@@ -1,0 +1,3 @@
+,rule,type,coef,support,importance
+5,Glucose_High,linear,1.2829319483509258,1.0,0.5110059901295567
+12,BMI_Low,linear,-0.6261480878079848,1.0,0.29093009808088743

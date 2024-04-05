@@ -1,0 +1,14 @@
+,rule,type,coef,support,importance
+3,Glucose_Low,linear,-1.3083676734895993,1.0,0.5387889191757832
+5,Glucose_High,linear,1.1300962733579638,1.0,0.44525951982045553
+12,BMI_Low,linear,-0.931278542135753,1.0,0.4360574553299445
+18,Age_Low,linear,-0.5941527716800543,1.0,0.2794262453619297
+181,Pregnancies_Medium <= 0.5 & Glucose_High <= 0.5 & Pregnancies_High <= 0.5 & BMI_Low > 0.5 & SkinThickness_Medium <= 0.5 & Age_High <= 0.5,rule,-0.4808898442144571,0.15588235294117647,0.17443979657551134
+601,Glucose_High <= 0.5 & DiabetesPedigreeFunction_Low > 0.5 & Age_Medium > 0.5 & SkinThickness_High <= 0.5 & BloodPressure_Medium > 0.5 & SkinThickness_Medium > 0.5 & Pregnancies_High <= 0.5 & Glucose_Low <= 0.5,rule,-0.4151904590767184,0.023668639053254437,0.06311500605068869
+5116,Pregnancies_Low > 0.5 & Age_Low > 0.5 & SkinThickness_Low > 0.5 & BloodPressure_Medium <= 0.5,rule,-0.4749123248846484,0.10416666666666667,0.14507461713116654
+6410,Glucose_Medium <= 0.5 & Glucose_High > 0.5 & Age_High <= 0.5 & BloodPressure_High <= 0.5 & SkinThickness_Low > 0.5,rule,0.4768222406516827,0.04310344827586207,0.09683782054564946
+7798,DiabetesPedigreeFunction_High > 0.5 & Pregnancies_Low > 0.5 & BMI_Medium <= 0.5,rule,-0.4088760404582523,0.02346041055718475,0.06188770722444048
+8077,Glucose_Low <= 0.5 & Glucose_High <= 0.5 & BloodPressure_Low <= 0.5 & Age_Low <= 0.5 & DiabetesPedigreeFunction_Low <= 0.5 & BMI_Medium > 0.5 & SkinThickness_High <= 0.5,rule,0.4628131173704274,0.023668639053254437,0.07035434477017967
+8125,Glucose_Low <= 0.5 & Glucose_High <= 0.5 & BloodPressure_Low > 0.5 & Age_Medium <= 0.5 & Pregnancies_High <= 0.5,rule,-0.6673371971570988,0.10059171597633136,0.20072657902817545
+10041,BMI_Low <= 0.5 & Pregnancies_High > 0.5 & DiabetesPedigreeFunction_Low <= 0.5,rule,0.8518786083772573,0.030303030303030304,0.14602888260153163
+10840,BMI_Low <= 0.5 & Glucose_Low <= 0.5 & Glucose_Medium <= 0.5 & DiabetesPedigreeFunction_High <= 0.5 & BloodPressure_Medium <= 0.5,rule,1.1721327335910274,0.045317220543806644,0.24380239719035288
