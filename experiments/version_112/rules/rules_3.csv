@@ -1,0 +1,3 @@
+,rule,type,coef,support,importance
+3,Glucose_Low,linear,-1.3995542150835127,1.0,0.555466947111485
+5,Glucose_High,linear,1.3334872018073367,1.0,0.5421456803859747
