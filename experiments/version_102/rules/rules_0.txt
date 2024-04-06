@@ -14,6 +14,7 @@ BMI_Low ⊗ ¬ BloodPressure_Medium ⊗ ¬ Pregnancies_High → ¬ Outcome
 ¬ Glucose_High ⊗ Pregnancies_Low ⊗ ¬ SkinThickness_High ⊗ ¬ Glucose_Low ⊗ ¬ Age_Low ⊗ DiabetesPedigreeFunction_Low ⊗ SkinThickness_Low ⊗ ¬ BloodPressure_High → Outcome
 ¬ Pregnancies_High ⊗ Glucose_Medium ⊗ BMI_Medium ⊗ ¬ BloodPressure_Medium ⊗ ¬ DiabetesPedigreeFunction_High ⊗ DiabetesPedigreeFunction_Medium → ¬ Outcome
 BMI_Low ⊗ ¬ Pregnancies_High ⊗ Pregnancies_Low ⊗ ¬ DiabetesPedigreeFunction_Low → ¬ Outcome
+¬ DiabetesPedigreeFunction_Low ⊗ ¬ Glucose_High ⊗ ¬ BMI_Low ⊗ ¬ Pregnancies_Low ⊗ BMI_Medium ⊗ BloodPressure_Medium ⊗ ¬ Glucose_Low ⊗ DiabetesPedigreeFunction_Medium → Outcome
 ¬ Pregnancies_Low ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_Medium ⊗ ¬ BMI_Low → Outcome
 Pregnancies_Low ⊕ Pregnancies_Medium ⊕ Pregnancies_High
 Glucose_Low ⊕ Glucose_Medium ⊕ Glucose_High

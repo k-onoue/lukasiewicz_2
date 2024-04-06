@@ -174,7 +174,7 @@ for settings in settings_list:
 
         y_pred_interpreted = model.predict(X_test)
         y_pred = model.predict_proba(X_test)[:, 1]
-        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}.csv'))
+        pd.DataFrame(y_pred_interpreted, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}.csv'))
         pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}_proba.csv'))
 
 
@@ -231,378 +231,386 @@ for settings in settings_list:
 
             rule_violation_check[h] = (satisfying_idxs, outcome)
 
-        #################################################
-        #################################################
-        #################################################
-        #################################################
-        #################################################
+       
 
-        # ルールごとに適用可能なインデックスを保存する辞書
-        applicable_rules = {}
+        # テストデータ -------------------------------------------------------
+        df_tmp = df_origin_1.copy().iloc[test_idx, :]
+        df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
+        df_tmp['target'] = df_tmp['target'].replace(0, -1)
 
-        # df_origin_2の各インデックスiについてルールを調べる
-        for l in df_origin_2.index:
-            applicable_rules[l] = []
-            for h, rule in enumerate(rules_tmp):
-                outcome = rule['Outcome']
+        input_for_test = {
+            'data': df_tmp,
+            'rule': rule_violation_check
+        }
 
-                condition_parts = [
-                    f"{column} == {value}" 
-                    for column, value in rule.items() 
-                    if column != "Outcome"
-                ]
-                condition = " & ".join(condition_parts)
+        
+        # モデルのテスト 4 (RuleFit Classifier (discrete)）
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
 
-                # 条件を満たすかどうかを調べる
-                if df_origin_2.loc[l].to_frame().T.query(condition).shape[0] > 0:
-                    applicable_rules[l].append(h)
+        settings['result'][f'fold_{i}']['RuleFit Classifier (disc)'] = result
 
-        with open(os.path.join(settings['path'], f'rules/applicable_rules_{i}.json'), 'w') as f:
-                json.dump(applicable_rules, f)
+        # tree generator
+        y_pred_interpreted = model.tree_generator.predict(X_test)
+        y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}_proba.csv'))
 
-        #################################################
-        #################################################
-        #################################################
-        #################################################
-        #################################################
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
 
+        settings['result'][f'fold_{i}']['tree generator (disc)'] = result
 
-        # # テストデータ -------------------------------------------------------
-        # df_tmp = df_origin_1.copy().iloc[test_idx, :]
-        # df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
-        # df_tmp['target'] = df_tmp['target'].replace(0, -1)
+        # モデルの学習とテスト 9, 10 (RuleFit Classifier (continuous)）----------------------------------------
+        from sklearn.ensemble import RandomForestClassifier
+        from src.rulefit import RuleFitClassifier
+        X_train = X_origin_1.copy().iloc[train_idx].values
+        y_train = y_origin_1.copy().iloc[train_idx].values
+        X_test  = X_origin_1.copy().iloc[test_idx].values
+        y_test  = y_origin_1.copy().iloc[test_idx].values
 
-        # input_for_test = {
-        #     'data': df_tmp,
-        #     'rule': rule_violation_check
-        # }
+        feature_names = list(X_origin_2.columns)
 
-        # # モデルのテスト 4 (RuleFit Classifier (discrete)）
-        # result = evaluate_model(
-        #     pd.DataFrame(y_test, index=test_idx),
-        #     pd.DataFrame(y_pred, index=test_idx),
-        #     pd.DataFrame(y_pred_interpreted, index=test_idx),
-        #     input_for_test,
-        #     test_idx
-        # )
+        model = RuleFitClassifier(
+            rfmode='classify',
+            tree_generator=RandomForestClassifier(random_state=42),
+            random_state=42,
+            exp_rand_tree_size=False
+        )
 
-        # settings['result'][f'fold_{i}']['RuleFit Classifier (disc)'] = result
+        model.fit(X_train, y_train, feature_names=feature_names)
 
-        # # tree generator
-        # y_pred_interpreted = model.tree_generator.predict(X_test)
-        # y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}_proba.csv'))
+        y_pred_interpreted = model.predict(X_test)
+        y_pred = model.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}_proba.csv'))
 
-        # result = evaluate_model(
-        #     pd.DataFrame(y_test, index=test_idx),
-        #     pd.DataFrame(y_pred, index=test_idx),
-        #     pd.DataFrame(y_pred_interpreted, index=test_idx),
-        #     input_for_test,
-        #     test_idx
-        # )
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
 
-        # settings['result'][f'fold_{i}']['tree generator (disc)'] = result
+        settings['result'][f'fold_{i}']['RuleFit Classifier (conti)'] = result
 
-        # # モデルの学習とテスト 9, 10 (RuleFit Classifier (continuous)）----------------------------------------
-        # from sklearn.ensemble import RandomForestClassifier
-        # from src.rulefit import RuleFitClassifier
-        # X_train = X_origin_1.copy().iloc[train_idx].values
-        # y_train = y_origin_1.copy().iloc[train_idx].values
-        # X_test  = X_origin_1.copy().iloc[test_idx].values
-        # y_test  = y_origin_1.copy().iloc[test_idx].values
+        # tree generator
+        y_pred_interpreted = model.tree_generator.predict(X_test)
+        y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}_proba.csv'))
 
-        # feature_names = list(X_origin_2.columns)
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
 
-        # model = RuleFitClassifier(
-        #     rfmode='classify',
-        #     tree_generator=RandomForestClassifier(random_state=42),
-        #     random_state=42,
-        #     exp_rand_tree_size=False
-        # )
+        settings['result'][f'fold_{i}']['tree generator (conti)'] = result
 
-        # model.fit(X_train, y_train, feature_names=feature_names)
+        # 訓練データ（提案モデル用）--------------------------------------------
+        L = {}
+        for col_name in df_origin_2.columns:
+            df_new = X_origin_1.copy().iloc[train_idx, :]
+            df_new['target'] = df_origin_2[col_name].replace(0, -1)
+            L[col_name] = df_new
 
-        # y_pred_interpreted = model.predict(X_test)
-        # y_pred = model.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}_proba.csv'))
+        np.random.seed(seed=settings['seed'])
+        arr_u = np.random.rand(settings['n_unsupervised'], X_origin_1.shape[1])
+        U = {key: arr_u for key in L.keys()}
 
-        # result = evaluate_model(
-        #     pd.DataFrame(y_test, index=test_idx),
-        #     pd.DataFrame(y_pred, index=test_idx),
-        #     pd.DataFrame(y_pred_interpreted, index=test_idx),
-        #     input_for_test,
-        #     test_idx
-        # )
+        S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
 
-        # settings['result'][f'fold_{i}']['RuleFit Classifier (conti)'] = result
-
-        # # tree generator
-        # y_pred_interpreted = model.tree_generator.predict(X_test)
-        # y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}_proba.csv'))
-
-        # result = evaluate_model(
-        #     pd.DataFrame(y_test, index=test_idx),
-        #     pd.DataFrame(y_pred, index=test_idx),
-        #     pd.DataFrame(y_pred_interpreted, index=test_idx),
-        #     input_for_test,
-        #     test_idx
-        # )
-
-        # settings['result'][f'fold_{i}']['tree generator (conti)'] = result
-
-        # # 訓練データ（提案モデル用）--------------------------------------------
-        # L = {}
-        # for col_name in df_origin_2.columns:
-        #     df_new = X_origin_1.copy().iloc[train_idx, :]
-        #     df_new['target'] = df_origin_2[col_name].replace(0, -1)
-        #     L[col_name] = df_new
-
-        # np.random.seed(seed=settings['seed'])
-        # arr_u = np.random.rand(settings['n_unsupervised'], X_origin_1.shape[1])
-        # U = {key: arr_u for key in L.keys()}
-
-        # S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
-
-        # # # ルール
-        # # KB_origin =  []
-
-        # # with open(file_path_3, 'r') as file:
-        # #     for line in file:
-        # #         formula = line.split()
-        # #         KB_origin.append(formula)
         # # ルール
-        # KB_origin = KB_origin
+        # KB_origin =  []
 
-        # # パラメータ
-        # len_j = len(L)
-        # len_l = len(train_idx)
-        # len_u = settings['n_unsupervised']
-        # len_s = len_l + len_u
+        # with open(file_path_3, 'r') as file:
+        #     for line in file:
+        #         formula = line.split()
+        #         KB_origin.append(formula)
+        # ルール
+        KB_origin = KB_origin
 
-        # len_h = len(KB_origin)
-        # len_i = len_u * 2
+        # パラメータ
+        len_j = len(L)
+        len_l = len(train_idx)
+        len_u = settings['n_unsupervised']
+        len_s = len_l + len_u
 
-
-        # # モデルの学習 4（提案モデル）----------------------------------------
-        # input_luka_1 = {
-        #     'L': L,
-        #     'U': U,
-        #     'S': S,
-        #     'len_j': len_j,
-        #     'len_l': len_l,
-        #     'len_u': len_u,
-        #     'len_s': len_s,
-        #     'len_h': len_h,
-        #     'len_i': len_i,
-        #     'c1': settings['c1'],
-        #     'c2': settings['c2'],
-        #     'KB_origin': KB_origin,
-        #     'target_predicate': 'Outcome',
-        #     'kernel_function': linear_kernel,
-        # }
-
-        # problem_instance = Setup(input_luka_1, ObjectiveFunction)
-        # objective_function, constraints = problem_instance.main()
-        # problem = cp.Problem(objective_function, constraints)
-        # result = problem.solve(verbose=True)
-
-        # # テスト --------------------------------------------------------
-        # X_test = input_for_test['data'].drop(['target'], axis=1)
-        # y_test = input_for_test['data']['target']
-
-        # problem_info = problem_instance.problem_info # input_luka
-        # p_trained = Predicate_dual(problem_info, metrics="f1")
-        # # p_trained = Predicate_dual(problem_info, metrics="accuracy")
-        # y_pred = p_trained(X_test)
-        # y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}_proba.csv'))
-
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
-
-        # settings['result'][f'fold_{i}']['linear svm (L)'] = result
-
-        # # モデルの学習 5（提案モデル）----------------------------------------
-        # input_luka_1 = {
-        #     'L': L,
-        #     'U': U,
-        #     'S': S,
-        #     'len_j': len_j,
-        #     'len_l': len_l,
-        #     'len_u': len_u,
-        #     'len_s': len_s,
-        #     'len_h': len_h,
-        #     'len_i': len_i,
-        #     'c1': settings['c1'],
-        #     'c2': settings['c2'],
-        #     'KB_origin': KB_origin,
-        #     'target_predicate': 'Outcome',
-        #     'kernel_function': partial(rbf_kernel, gamma=0.1),
-        # }
-
-        # problem_instance = Setup(input_luka_1, ObjectiveFunction)
-        # objective_function, constraints = problem_instance.main()
-        # problem = cp.Problem(objective_function, constraints)
-        # result = problem.solve(verbose=True)
-
-        # # テスト --------------------------------------------------------
-        # X_test = input_for_test['data'].drop(['target'], axis=1)
-        # y_test = input_for_test['data']['target']
-
-        # problem_info = problem_instance.problem_info # input_luka
-        # p_trained = Predicate_dual(problem_info, metrics="f1")
-        # # p_trained = Predicate_dual(problem_info, metrics="accuracy")
-        # y_pred = p_trained(X_test)
-        # y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}_proba.csv'))
-
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
-
-        # settings['result'][f'fold_{i}']['non-linear svm (L)'] = result
-
-        # # モデルの学習 6（提案モデル）----------------------------------------
-        # input_luka_1 = {
-        #     'L': L,
-        #     'U': U,
-        #     'S': S,
-        #     'len_j': len_j,
-        #     'len_l': len_l,
-        #     'len_u': len_u,
-        #     'len_s': len_s,
-        #     'len_h': len_h,
-        #     'len_i': len_i,
-        #     'c1': settings['c1'],
-        #     'c2': settings['c2'],
-        #     'KB_origin': KB_origin,
-        #     'target_predicate': 'Outcome',
-        #     'kernel_function': "logistic regression",
-        # }
-
-        # problem_instance = SetupPrimal(input_luka_1)
-        # objective_function, constraints = problem_instance.main()
-        # problem = cp.Problem(objective_function, constraints)
-        # result = problem.solve(verbose=True)
-
-        # # テスト --------------------------------------------------------
-        # X_test = input_for_test['data'].drop(['target'], axis=1)
-        # y_test = input_for_test['data']['target']
-
-        # problem_info = problem_instance.problem_info # input_luka
-        # p_name = problem_instance.problem_info['target_predicate']
-        # p_trained = problem_instance.problem_info['predicates_dict'][p_name]
-
-        # y_pred = p_trained(X_test).value
-        # y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}_proba.csv'))
-
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
-
-        # settings['result'][f'fold_{i}']['logistic regression (L)'] = result
+        len_h = len(KB_origin)
+        len_i = len_u * 2
 
 
-        # # モデルの学習とテスト 1（linear svm）----------------------------------------
-        # from sklearn.svm import SVC
-        # from sklearn.calibration import CalibratedClassifierCV
-        # X_train = X_origin_1.copy().iloc[train_idx]
-        # y_train = y_origin_1.copy().iloc[train_idx]
-        # X_test  = X_origin_1.copy().iloc[test_idx]
-        # y_test  = y_origin_1.copy().iloc[test_idx]
+        # モデルの学習 4（提案モデル）----------------------------------------
+        input_luka_1 = {
+            'L': L,
+            'U': U,
+            'S': S,
+            'len_j': len_j,
+            'len_l': len_l,
+            'len_u': len_u,
+            'len_s': len_s,
+            'len_h': len_h,
+            'len_i': len_i,
+            'c1': settings['c1'],
+            'c2': settings['c2'],
+            'KB_origin': KB_origin,
+            'target_predicate': 'Outcome',
+            'kernel_function': linear_kernel,
+        }
 
-        # linear_svm = SVC(kernel='linear')
-        # model = CalibratedClassifierCV(linear_svm)
-        # model.fit(X_train, y_train)
+        problem_instance = Setup(input_luka_1, ObjectiveFunction)
+        objective_function, constraints = problem_instance.main()
+        problem = cp.Problem(objective_function, constraints)
+        result = problem.solve(verbose=True)
 
-        # y_pred_interpreted = model.predict(X_test)
-        # y_pred = model.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}_proba.csv'))
+        # テスト --------------------------------------------------------
+        X_test = input_for_test['data'].drop(['target'], axis=1)
+        y_test = input_for_test['data']['target']
 
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
+        problem_info = problem_instance.problem_info # input_luka
+        p_trained = Predicate_dual(problem_info, metrics="f1")
+        # p_trained = Predicate_dual(problem_info, metrics="accuracy")
+        y_pred = p_trained(X_test)
+        y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}_proba.csv'))
 
-        # settings['result'][f'fold_{i}']['linear svm'] = result
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['linear svm (L)'] = result
+
+        # モデルの学習 5（提案モデル）----------------------------------------
+        input_luka_1 = {
+            'L': L,
+            'U': U,
+            'S': S,
+            'len_j': len_j,
+            'len_l': len_l,
+            'len_u': len_u,
+            'len_s': len_s,
+            'len_h': len_h,
+            'len_i': len_i,
+            'c1': settings['c1'],
+            'c2': settings['c2'],
+            'KB_origin': KB_origin,
+            'target_predicate': 'Outcome',
+            'kernel_function': partial(rbf_kernel, gamma=0.1),
+        }
+
+        problem_instance = Setup(input_luka_1, ObjectiveFunction)
+        objective_function, constraints = problem_instance.main()
+        problem = cp.Problem(objective_function, constraints)
+        result = problem.solve(verbose=True)
+
+        # テスト --------------------------------------------------------
+        X_test = input_for_test['data'].drop(['target'], axis=1)
+        y_test = input_for_test['data']['target']
+
+        problem_info = problem_instance.problem_info # input_luka
+        p_trained = Predicate_dual(problem_info, metrics="f1")
+        # p_trained = Predicate_dual(problem_info, metrics="accuracy")
+        y_pred = p_trained(X_test)
+        y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}_proba.csv'))
+
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['non-linear svm (L)'] = result
+
+        # モデルの学習 6（提案モデル）----------------------------------------
+        input_luka_1 = {
+            'L': L,
+            'U': U,
+            'S': S,
+            'len_j': len_j,
+            'len_l': len_l,
+            'len_u': len_u,
+            'len_s': len_s,
+            'len_h': len_h,
+            'len_i': len_i,
+            'c1': settings['c1'],
+            'c2': settings['c2'],
+            'KB_origin': KB_origin,
+            'target_predicate': 'Outcome',
+            'kernel_function': "logistic regression",
+        }
+
+        problem_instance = SetupPrimal(input_luka_1)
+        objective_function, constraints = problem_instance.main()
+        problem = cp.Problem(objective_function, constraints)
+        result = problem.solve(verbose=True)
+
+        # テスト --------------------------------------------------------
+        X_test = input_for_test['data'].drop(['target'], axis=1)
+        y_test = input_for_test['data']['target']
+
+        problem_info = problem_instance.problem_info # input_luka
+        p_name = problem_instance.problem_info['target_predicate']
+        p_trained = problem_instance.problem_info['predicates_dict'][p_name]
+
+        y_pred = p_trained(X_test).value
+        y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}_proba.csv'))
+
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['logistic regression (L)'] = result
 
 
-        # # モデルの学習とテスト 2 (non-linear svm) --------------------------------------------------------
-        # from sklearn.svm import SVC
-        # X_train = X_origin_1.copy().iloc[train_idx]
-        # y_train = y_origin_1.copy().iloc[train_idx]
-        # X_test  = X_origin_1.copy().iloc[test_idx]
-        # y_test  = y_origin_1.copy().iloc[test_idx]
+        # モデルの学習とテスト 1（linear svm）----------------------------------------
+        from sklearn.svm import SVC
+        from sklearn.calibration import CalibratedClassifierCV
+        X_train = X_origin_1.copy().iloc[train_idx]
+        y_train = y_origin_1.copy().iloc[train_idx]
+        X_test  = X_origin_1.copy().iloc[test_idx]
+        y_test  = y_origin_1.copy().iloc[test_idx]
 
-        # model = SVC(kernel='rbf', gamma=0.1, probability=True)
-        # model.fit(X_train, y_train)
+        linear_svm = SVC(kernel='linear')
+        model = CalibratedClassifierCV(linear_svm)
+        model.fit(X_train, y_train)
 
-        # y_pred_interpreted = model.predict(X_test)
-        # y_pred = model.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}_proba.csv'))
+        y_pred_interpreted = model.predict(X_test)
+        y_pred = model.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}_proba.csv'))
 
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
 
-        # settings['result'][f'fold_{i}']['non-linear svm'] = result
+        settings['result'][f'fold_{i}']['linear svm'] = result
+
+
+        # モデルの学習とテスト 2 (non-linear svm) --------------------------------------------------------
+        from sklearn.svm import SVC
+        X_train = X_origin_1.copy().iloc[train_idx]
+        y_train = y_origin_1.copy().iloc[train_idx]
+        X_test  = X_origin_1.copy().iloc[test_idx]
+        y_test  = y_origin_1.copy().iloc[test_idx]
+
+        model = SVC(kernel='rbf', gamma=0.1, probability=True)
+        model.fit(X_train, y_train)
+
+        y_pred_interpreted = model.predict(X_test)
+        y_pred = model.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}_proba.csv'))
+
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['non-linear svm'] = result
 
     
-        # # モデルの学習とテスト 3 (logistic regression) --------------------------------------------------------
-        # from sklearn.linear_model import LogisticRegression
-        # X_train = X_origin_1.copy().iloc[train_idx]
-        # y_train = y_origin_1.copy().iloc[train_idx]
-        # X_test  = X_origin_1.copy().iloc[test_idx]
-        # y_test  = y_origin_1.copy().iloc[test_idx]
+        # モデルの学習とテスト 3 (logistic regression) --------------------------------------------------------
+        from sklearn.linear_model import LogisticRegression
+        X_train = X_origin_1.copy().iloc[train_idx]
+        y_train = y_origin_1.copy().iloc[train_idx]
+        X_test  = X_origin_1.copy().iloc[test_idx]
+        y_test  = y_origin_1.copy().iloc[test_idx]
 
-        # model = LogisticRegression()
-        # model.fit(X_train, y_train)
+        model = LogisticRegression()
+        model.fit(X_train, y_train)
 
-        # y_pred_interpreted = model.predict(X_test)
-        # y_pred = model.predict_proba(X_test)[:, 1]
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}.csv'))
-        # pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}_proba.csv'))
+        y_pred_interpreted = model.predict(X_test)
+        y_pred = model.predict_proba(X_test)[:, 1]
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}.csv'))
+        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}_proba.csv'))
 
-        # result = evaluate_model(
-        #     y_test,
-        #     y_pred,
-        #     y_pred_interpreted,
-        #     input_for_test,
-        #     test_idx
-        # )
+        result = evaluate_model(
+            y_test,
+            y_pred,
+            y_pred_interpreted,
+            input_for_test,
+            test_idx
+        )
 
-        # settings['result'][f'fold_{i}']['logistic regression'] = result
+        settings['result'][f'fold_{i}']['logistic regression'] = result
 
+
+        df_rule_based_pred = pd.DataFrame(columns=['rule_ids', 'preds', 'pred_tmp', 'pred'])
+
+        for l in test_idx:
+            rule_ids = []
+            preds = []
+            pred_tmp = 0
+
+            for h, idx_outcome in rule_violation_check.items():
+                if l in idx_outcome[0]:
+                    rule_ids.append(h)
+                    preds.append(idx_outcome[1])
+
+                    pred_tmp += idx_outcome[1]
+                
+            df_rule_based_pred.loc[l, 'rule_ids'] = rule_ids
+            df_rule_based_pred.loc[l, 'preds'] = preds
+            df_rule_based_pred.loc[l, 'pred_tmp'] = pred_tmp
+
+            # 多数決で引き分けの場合はどうすべきか
+            # 適用可能ルールが無いときは陰性（-1）
+            # 多数決で引き分けの際は陰性（-1）
+            if pred_tmp > 0:
+                df_rule_based_pred.loc[l, 'pred'] = 1
+            else:
+                df_rule_based_pred.loc[l, 'pred'] = -1
+
+        df_rule_based_pred.to_csv(os.path.join(settings['path'], f'rules/rule_based_pred_{i}.csv'))
+            
+        y_pred = df_rule_based_pred['pred'].replace(-1, 1).values
+        y_pred_interpreted = df_rule_based_pred['pred'].replace(-1, 1).values
+
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['rule_based_prediction'] = result
 
 
     # 実験結果の保存 -----------------------------------------------
