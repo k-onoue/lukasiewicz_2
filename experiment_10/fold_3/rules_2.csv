@@ -1,0 +1,9 @@
+,rule,coef,n_predicate,rank,n_violation (instance),n_evaluation (instance),violation,consequent
+3,Glucose_Low → ¬ Outcome,-1.3926551170259551,2,5,32,32,1,
+5,Glucose_High → Outcome,1.3339385074995895,2,5,0,21,0,
+12,BMI_Low → ¬ Outcome,-0.5849388575176577,2,2,44,44,1,
+469,¬ Glucose_High ⊗ ¬ Glucose_Low ⊗ BloodPressure_High ⊗ SkinThickness_Low ⊗ BMI_Medium ⊗ DiabetesPedigreeFunction_Low → ¬ Outcome,-0.4497017251379075,7,2,3,3,1,
+487,Glucose_High ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ BMI_Low ⊗ ¬ Age_Medium ⊗ ¬ SkinThickness_High ⊗ ¬ Pregnancies_Medium → Outcome,0.4299237143958143,7,2,0,5,0,
+2360,BMI_Low ⊗ ¬ Age_Medium ⊗ Pregnancies_Low ⊗ BloodPressure_Low → ¬ Outcome,-0.5552466174026142,5,2,7,7,1,
+4190,BMI_Low ⊗ ¬ Age_Medium ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_Medium → ¬ Outcome,-0.4901902539419693,5,2,5,5,1,
+10939,¬ Age_Low ⊗ ¬ BMI_High ⊗ BloodPressure_High ⊗ ¬ Pregnancies_Medium ⊗ ¬ Pregnancies_High → Outcome,0.5572856333583853,6,2,0,5,0,

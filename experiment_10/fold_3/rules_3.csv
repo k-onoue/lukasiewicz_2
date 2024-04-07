@@ -1,0 +1,3 @@
+,rule,coef,n_predicate,rank,n_violation (instance),n_evaluation (instance),violation,consequent
+3,Glucose_Low → ¬ Outcome,-1.3926551170259551,2,5,32,32,1,
+5,Glucose_High → Outcome,1.3339385074995895,2,5,0,21,0,
