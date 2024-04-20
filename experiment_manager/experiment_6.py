@@ -1,3 +1,7 @@
+import sys
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+sys.path.append(project_dir_path)
+
 import json
 import os
 from functools import partial
@@ -23,8 +27,18 @@ from sklearn.ensemble import RandomForestClassifier
 from src.rulefit import RuleFitClassifier
 from src.rulefit import ArrangeRules
 
-# testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
 
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+data_dir_path = os.path.join(project_dir_path, "data/pima_indian_diabetes")
+
+# 入力ファイル
+file_path_1 = os.path.join(data_dir_path, "diabetes_cleaned_normalized.csv")
+file_path_2 = os.path.join(data_dir_path, "diabetes_discretized.csv")
+
+# # 入力ファイル
+# file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
+# file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
+# # file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
 
 
 # 入力ファイル
@@ -46,15 +60,16 @@ print(df_origin_2.head())
 
 # 実験設定
 settings = {
-    'path': './experiments/version_10',
+    'path': './experiments/version_60',
     # 'source_paths': [file_path_1, file_path_2, file_path_3],
     'source_paths': [file_path_1, file_path_2],
-    'experiment_name': 'pima_indian_diabetes_cv_1',
+    'experiment_name': 'pima_indian_diabetes_cv_6',
     'seed': 42,
     'n_splits': 5,
     'n_unsupervised': 15,
     'c1': 10,
     'c2': 10,
+    'rule_thr': 0.2,
     'result': {}
 }
 
@@ -62,6 +77,7 @@ settings = {
 if not os.path.exists(settings['path']):
     os.makedirs(settings['path'])
     os.makedirs(os.path.join(settings['path'], "rules"))
+    os.makedirs(os.path.join(settings['path'], "predictions"))
 
 
 kf = KFold(n_splits=settings['n_splits'])
@@ -83,7 +99,7 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     idx_split[i] = train_idx.tolist(), test_idx.tolist()
 
 
-    # ルールの獲得 (RuleFit Classifier (continuous)）----------------------------------------
+    # ルールの獲得 (RuleFit Classifier (discrete)）----------------------------------------
     from sklearn.ensemble import RandomForestClassifier
     from src.rulefit import RuleFitClassifier
     from src.rulefit import ArrangeRules
@@ -105,10 +121,21 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}_proba.csv'))
 
 
     # ルールの整形 -------------------------------------------
-    rules_df = model.get_rules(exclude_zero_coef=True)
+    # rules_df = model.get_rules(exclude_zero_coef=True)
+    rules_df = model.get_rules()
+    rules_df.to_csv(os.path.join(settings['path'], f'rules/rules_{i}_original.csv'))
+    rules_df = rules_df[rules_df['coef'].abs() > settings['rule_thr']]
+    rules_df.to_csv(os.path.join(settings['path'], f'rules/rules_{i}.csv'))
+
+    if rules_df.shape[0] == 0:
+        print("There is no rule!")
+        continue
+
     rule_processor = ArrangeRules(
         rules_df,
         feature_names=feature_names,
@@ -174,6 +201,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     # tree generator
     y_pred_interpreted = model.tree_generator.predict(X_test)
     y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (disc)_{i}_proba.csv'))
 
     result = evaluate_model(
         pd.DataFrame(y_test, index=test_idx),
@@ -184,7 +213,6 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     )
 
     settings['result'][f'fold_{i}']['tree generator (disc)'] = result
-
 
     # モデルの学習とテスト 9, 10 (RuleFit Classifier (continuous)）----------------------------------------
     from sklearn.ensemble import RandomForestClassifier
@@ -207,6 +235,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (conti)_{i}_proba.csv'))
 
     result = evaluate_model(
         pd.DataFrame(y_test, index=test_idx),
@@ -221,6 +251,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     # tree generator
     y_pred_interpreted = model.tree_generator.predict(X_test)
     y_pred = model.tree_generator.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/tree generator (conti)_{i}_proba.csv'))
 
     result = evaluate_model(
         pd.DataFrame(y_test, index=test_idx),
@@ -231,8 +263,6 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     )
 
     settings['result'][f'fold_{i}']['tree generator (conti)'] = result
-
-
 
     # 訓練データ（提案モデル用）--------------------------------------------
     L = {}
@@ -299,6 +329,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     # p_trained = Predicate_dual(problem_info, metrics="accuracy")
     y_pred = p_trained(X_test)
     y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm (L)_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -342,6 +374,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     # p_trained = Predicate_dual(problem_info, metrics="accuracy")
     y_pred = p_trained(X_test)
     y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm (L)_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -352,7 +386,6 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     )
 
     settings['result'][f'fold_{i}']['non-linear svm (L)'] = result
-
 
     # モデルの学習 6（提案モデル）----------------------------------------
     input_luka_1 = {
@@ -384,9 +417,11 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     problem_info = problem_instance.problem_info # input_luka
     p_name = problem_instance.problem_info['target_predicate']
     p_trained = problem_instance.problem_info['predicates_dict'][p_name]
-    y_pred = p_trained(X_test).value
 
+    y_pred = p_trained(X_test).value
     y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression (L)_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -413,6 +448,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/linear svm_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -437,6 +474,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/non-linear svm_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -461,6 +500,8 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
 
     y_pred_interpreted = model.predict(X_test)
     y_pred = model.predict_proba(X_test)[:, 1]
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}.csv'))
+    pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/logistic regression_{i}_proba.csv'))
 
     result = evaluate_model(
         y_test,
@@ -473,7 +514,10 @@ for i, (train_idx, test_idx) in enumerate(kf.split(df_origin_1)):
     settings['result'][f'fold_{i}']['logistic regression'] = result
 
 
+
 # 実験結果の保存 -----------------------------------------------
 with open(os.path.join(settings['path'], 'result.json'), 'w') as f:
     json.dump(settings, f, indent=4)
     
+
+

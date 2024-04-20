@@ -1,3 +1,8 @@
+import sys
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+sys.path.append(project_dir_path)
+
+
 import json
 import os
 from functools import partial
@@ -24,11 +29,18 @@ from src.rulefit import RuleFitClassifier
 from src.rulefit import ArrangeRules
 
 
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+data_dir_path = os.path.join(project_dir_path, "data/pima_indian_diabetes")
 
 # 入力ファイル
-file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
-file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
-# file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
+file_path_1 = os.path.join(data_dir_path, "diabetes_cleaned_normalized.csv")
+file_path_2 = os.path.join(data_dir_path, "diabetes_discretized.csv")
+
+
+# # 入力ファイル
+# file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
+# file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
+# # file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
 
 
 df_origin_1 = pd.read_csv(file_path_1, index_col=0).reset_index(drop=True)

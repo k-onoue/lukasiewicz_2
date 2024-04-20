@@ -1,3 +1,7 @@
+import sys
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+sys.path.append(project_dir_path)
+
 import json
 import os
 from functools import partial
@@ -24,11 +28,17 @@ from src.rulefit import RuleFitClassifier
 from src.rulefit import ArrangeRules
 
 
+project_dir_path = "/Users/keisukeonoue/ws/lukasiewicz_2"
+data_dir_path = os.path.join(project_dir_path, "data/pima_indian_diabetes")
 
 # 入力ファイル
-file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
-file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
-# file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
+file_path_1 = os.path.join(data_dir_path, "diabetes_cleaned_normalized.csv")
+file_path_2 = os.path.join(data_dir_path, "diabetes_discretized.csv")
+
+# # 入力ファイル
+# file_path_1 = "data/pima_indian_diabetes/diabetes_cleaned_normalized.csv"
+# file_path_2 = "data/pima_indian_diabetes/diabetes_discretized.csv"
+# # file_path_3 = "data/pima_indian_diabetes/rules_3.txt"
 
 
 df_origin_1 = pd.read_csv(file_path_1, index_col=0).reset_index(drop=True)
@@ -46,83 +56,89 @@ print(df_origin_2.head())
 # 実験設定
 settings_list = [
     {
-        'path': './experiments/version_71',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'path': './experiments/version_121',
         'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
+        'experiment_name': 'pima_indian_diabetes_cv_12',
         'seed': 42,
         'n_splits': 5,
         'n_unsupervised': 15,
         'c1': 10,
-        'c2': 10,
-        'rule_thr': 0,
-        'result': {}
-    },
-    {
-        'path': './experiments/version_72',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.2,
-        'result': {}
-    },
-    {
-        'path': './experiments/version_73',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.4,
-        'result': {}
-    },
-    {
-        'path': './experiments/version_74',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.6,
-        'result': {}
-    },
-    {
-        'path': './experiments/version_75',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
+        'c2': 0.1,
         'rule_thr': 0.8,
         'result': {}
     },
     {
-        'path': './experiments/version_76',
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'path': './experiments/version_122',
         'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_7',
+        'experiment_name': 'pima_indian_diabetes_cv_12',
         'seed': 42,
         'n_splits': 5,
         'n_unsupervised': 15,
         'c1': 10,
-        'c2': 10,
-        'rule_thr': 1,
+        'c2': 1,
+        'rule_thr': 0.8,
         'result': {}
     },
+    {
+        'path': './experiments/version_123',
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_12',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 5,
+        'rule_thr': 0.8,
+        'result': {}
+    },
+    {
+        'path': './experiments/version_124',
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_12',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 15,
+        'rule_thr': 0.8,
+        'result': {}
+    },
+    {
+        'path': './experiments/version_125',
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_12',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 50,
+        'rule_thr': 0.8,
+        'result': {}
+    },
+    {
+        'path': './experiments/version_126',
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_12',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 100,
+        'rule_thr': 0.8,
+        'result': {}
+    },
+    {
+        'path': './experiments/version_127',
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_12',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 1000,
+        'rule_thr': 0.8,
+        'result': {}
+    }
 ]
 
 
