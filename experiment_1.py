@@ -23,6 +23,8 @@ from sklearn.ensemble import RandomForestClassifier
 from src.rulefit import RuleFitClassifier
 from src.rulefit import ArrangeRules
 
+# testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+
 
 
 # 入力ファイル
