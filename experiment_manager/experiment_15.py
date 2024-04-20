@@ -60,7 +60,7 @@ print(df_origin_2.head())
 # 実験設定
 settings_list = [
     # {
-    #     'path': './experiments/version_151',
+    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_153"),
     #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
     #     'source_paths': [file_path_1, file_path_2],
     #     'experiment_name': 'pima_indian_diabetes_cv_15',
@@ -73,7 +73,7 @@ settings_list = [
     #     'result': {}
     # },
     # {
-    #     'path': './experiments/version_152',
+    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_153"),
     #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
     #     'source_paths': [file_path_1, file_path_2],
     #     'experiment_name': 'pima_indian_diabetes_cv_15',
@@ -86,7 +86,7 @@ settings_list = [
     #     'result': {}
     # },
     {
-        'path': './experiments/version_153',
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_153"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_15',
@@ -99,7 +99,7 @@ settings_list = [
         'result': {}
     },
     {
-        'path': './experiments/version_154',
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_154"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_15',
@@ -112,7 +112,7 @@ settings_list = [
         'result': {}
     },
     {
-        'path': './experiments/version_155',
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_155"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_15',
@@ -125,7 +125,7 @@ settings_list = [
         'result': {}
     },
     {
-        'path': './experiments/version_156',
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_156"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_15',

@@ -1,0 +1,1190 @@
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → O
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → u
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → t
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → m
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ H ⊗ i ⊗ g ⊗ h ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → G
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → l
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → A
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → P
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → r
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → a
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → G
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → l
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → G
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → l
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → B
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → I
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → P
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → r
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → a
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → c
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → s
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → A
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ G ⊗ l ⊗ u ⊗ c ⊗ o ⊗ s ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → P
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → r
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → a
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → c
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → A
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → A
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ B ⊗ l ⊗ o ⊗ o ⊗ d ⊗ P ⊗ r ⊗ e ⊗ s ⊗ s ⊗ u ⊗ r ⊗ e ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → P
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → r
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → a
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → B
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → I
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → M
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → d
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → i
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → u
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → m
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → ,
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' →  
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → A
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → g
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → e
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → _
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → L
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → o
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → w
+' ⊗ P ⊗ r ⊗ e ⊗ g ⊗ n ⊗ a ⊗ n ⊗ c ⊗ i ⊗ e ⊗ s ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ S ⊗ k ⊗ i ⊗ n ⊗ T ⊗ h ⊗ i ⊗ c ⊗ k ⊗ n ⊗ e ⊗ s ⊗ s ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → P
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → r
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → g
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → a
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → L
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → o
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → w
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → ,
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' →  
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → S
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → T
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → h
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → c
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → k
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → n
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → s
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → _
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → M
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → e
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → d
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → i
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → u
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → m
+' ⊗ D ⊗ i ⊗ a ⊗ b ⊗ e ⊗ t ⊗ e ⊗ s ⊗ P ⊗ e ⊗ d ⊗ i ⊗ g ⊗ r ⊗ e ⊗ e ⊗ F ⊗ u ⊗ n ⊗ c ⊗ t ⊗ i ⊗ o ⊗ n ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ B ⊗ M ⊗ I ⊗ _ ⊗ M ⊗ e ⊗ d ⊗ i ⊗ u ⊗ m ⊗ ' ⊗ , ⊗   ⊗ ' ⊗ A ⊗ g ⊗ e ⊗ _ ⊗ L ⊗ o ⊗ w ⊗ ' → '
+Pregnancies_Low ⊕ Pregnancies_Medium ⊕ Pregnancies_High
+Glucose_Low ⊕ Glucose_Medium ⊕ Glucose_High
+BloodPressure_Low ⊕ BloodPressure_Medium ⊕ BloodPressure_High
+SkinThickness_Low ⊕ SkinThickness_Medium ⊕ SkinThickness_High
+BMI_Low ⊕ BMI_Medium ⊕ BMI_High
+DiabetesPedigreeFunction_Low ⊕ DiabetesPedigreeFunction_Medium ⊕ DiabetesPedigreeFunction_High
+Age_Low ⊕ Age_Medium ⊕ Age_High
