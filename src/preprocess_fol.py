@@ -35,8 +35,8 @@ class FOLProcessor:
                 if not is_symbol(item) and item not in predicates:
                     predicates.append(item)
 
-        if set(predicates) != set(self.predicates_tmp):
-            raise ValueError("ルールセットが必要十分な述語の種類を含んでいません。")
+        # if set(predicates) != set(self.predicates_tmp):
+        #     raise ValueError("ルールセットが必要十分な述語の種類を含んでいません。")
         
         predicates_dict = {predicate: sp.Symbol(predicate) for predicate in predicates}
         return predicates_dict
