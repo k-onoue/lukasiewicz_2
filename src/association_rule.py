@@ -95,7 +95,9 @@ def get_rules(df, min_support=0.1, min_threshold=0.5, conclusion_name='Outcome')
 
 class ArrangeRules:
     def __init__(self, rules_df, feature_names=None, conclusion_name=None):
-        self.rules_df = rules_df
+        self.rules_df = rules_df.copy()
+        # self.rules_df['antecedents'] = self.rules_df['antecedents'].apply(lambda x: str(x).strip('frozenset({})'))
+        # self.rules_df['consequents'] = self.rules_df['consequents'].apply(lambda x: str(x).strip('frozenset({})'))
         self.feature_names = feature_names
 
         if not conclusion_name:
@@ -147,9 +149,12 @@ class ArrangeRules:
     def construct_KB(self):
         rules_extracted = self.extract_rules_from_df()
 
-        rules_additional = self.generate_rules_from_df()
+        # rules_additional = self.generate_rules_from_df()
 
-        self.KB = rules_extracted + rules_additional
+        # self.KB = rules_extracted + rules_additional
+        # return self.KB
+        
+        self.KB = rules_extracted
         return self.KB
     
     def save_KB_as_txt(self, file_name):
