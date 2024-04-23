@@ -59,97 +59,97 @@ print(df_origin_2.head())
 
 # 実験設定
 settings_list = [
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_151"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_152"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.1,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_153"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.2,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_154"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.3,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_155"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.4,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_156"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.5,
-    #     'result': {}
-    # },
-    # {
-    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_157"),
-    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
-    #     'source_paths': [file_path_1, file_path_2],
-    #     'experiment_name': 'pima_indian_diabetes_cv_15',
-    #     'seed': 42,
-    #     'n_splits': 5,
-    #     'n_unsupervised': 15,
-    #     'c1': 10,
-    #     'c2': 10,
-    #     'rule_thr': 0.6,
-    #     'result': {}
-    # },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_151"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_152"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.1,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_153"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.2,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_154"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.3,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_155"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.4,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_156"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.5,
+        'result': {}
+    },
+    {
+        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_157"),
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
+        'source_paths': [file_path_1, file_path_2],
+        'experiment_name': 'pima_indian_diabetes_cv_15',
+        'seed': 42,
+        'n_splits': 5,
+        'n_unsupervised': 15,
+        'c1': 10,
+        'c2': 10,
+        'rule_thr': 0.6,
+        'result': {}
+    },
     {
         'path': os.path.join(project_dir_path, "experiment_result/tmp/version_158"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
@@ -430,10 +430,34 @@ for settings in settings_list:
             'kernel_function': linear_kernel,
         }
 
-        problem_instance = Setup(input_luka_1, ObjectiveFunction)
-        objective_function, constraints = problem_instance.main()
-        problem = cp.Problem(objective_function, constraints)
-        result = problem.solve(verbose=True)
+        # problem_instance = Setup(input_luka_1, ObjectiveFunction)
+        # objective_function, constraints = problem_instance.main()
+        # problem = cp.Problem(objective_function, constraints)
+        # result = problem.solve(verbose=True)
+        # problem.solve(verbose=True)
+
+
+        try:
+            # OSQPソルバーで問題を解く
+            problem_instance = Setup(input_luka_1, ObjectiveFunction)
+            objective_function, constraints = problem_instance.main()
+            problem = cp.Problem(objective_function, constraints)
+            result = problem.solve(verbose=True, solver=cp.OSQP)
+
+        except cp.error.SolverError as e:
+            print("OSQPソルバーで問題が発生しました:", e)
+            print("別のソルバーを使用して問題を解決します。")
+
+            try:
+                # 別のソルバーで問題を解く（例：ECOS）
+                problem = cp.Problem(objective_function, constraints)
+                result = problem.solve(verbose=True, solver=cp.ECOS)
+            
+            except cp.error.SolverError as e:
+                print("別のソルバーでも問題が解決できませんでした:", e)
+                print("問題の解決に失敗しました。")
+
+
 
         # テスト --------------------------------------------------------
         X_test = input_for_test['data'].drop(['target'], axis=1)

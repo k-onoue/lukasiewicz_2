@@ -4,18 +4,18 @@ Outcome → ¬ BloodPressure_Medium
 Outcome → SkinThickness_Medium
 Outcome → BMI_Medium
 Outcome → ¬ DiabetesPedigreeFunction_Low
-Outcome ⊗ Pregnancies_Low → BMI_Medium
+Pregnancies_Low ⊗ Outcome → BMI_Medium
+Pregnancies_Low ⊗ Outcome → Age_Low
 Age_Low ⊗ Outcome → Pregnancies_Low
-Outcome ⊗ Pregnancies_Low → Age_Low
+BloodPressure_Medium ⊗ Outcome → ¬ Glucose_Medium
 Glucose_Medium ⊗ Outcome → BloodPressure_Medium
-Outcome ⊗ BloodPressure_Medium → ¬ Glucose_Medium
 Glucose_Medium ⊗ Outcome → BMI_Medium
+BloodPressure_Medium ⊗ Outcome → BMI_Medium
 BMI_Medium ⊗ Outcome → ¬ BloodPressure_Medium
-Outcome ⊗ BloodPressure_Medium → BMI_Medium
+BloodPressure_Medium ⊗ Outcome → ¬ DiabetesPedigreeFunction_Low
 DiabetesPedigreeFunction_Low ⊗ Outcome → BloodPressure_Medium
-Outcome ⊗ BloodPressure_Medium → ¬ DiabetesPedigreeFunction_Low
 BMI_Medium ⊗ Outcome → SkinThickness_Medium
-Outcome ⊗ SkinThickness_Medium → BMI_Medium
-DiabetesPedigreeFunction_Low ⊗ Outcome → BMI_Medium
+SkinThickness_Medium ⊗ Outcome → BMI_Medium
 BMI_Medium ⊗ Outcome → ¬ DiabetesPedigreeFunction_Low
+DiabetesPedigreeFunction_Low ⊗ Outcome → BMI_Medium
 Age_Low ⊗ Outcome → BMI_Medium
