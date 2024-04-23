@@ -1,0 +1,4 @@
+Glucose_High → Outcome
+Outcome ⊗ Pregnancies_Low → Age_Low
+Age_Low ⊗ Outcome → Pregnancies_Low
+Glucose_Medium ⊗ Outcome → BloodPressure_Medium

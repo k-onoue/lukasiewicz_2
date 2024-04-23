@@ -1,0 +1,9 @@
+Glucose_High → Outcome
+Outcome → BMI_Medium
+Outcome ⊗ Pregnancies_Low → BMI_Medium
+Outcome ⊗ Pregnancies_Low → Age_Low
+Age_Low ⊗ Outcome → Pregnancies_Low
+Glucose_Medium ⊗ Outcome → BMI_Medium
+Outcome ⊗ BloodPressure_Medium → BMI_Medium
+Age_Low ⊗ Outcome → BloodPressure_Medium
+Outcome ⊗ SkinThickness_Medium → BMI_Medium

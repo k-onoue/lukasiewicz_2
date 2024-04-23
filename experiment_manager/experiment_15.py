@@ -111,45 +111,45 @@ settings_list = [
     #     'rule_thr': 0.3,
     #     'result': {}
     # },
-    {
-        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_155"),
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_15',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.4,
-        'result': {}
-    },
-    {
-        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_156"),
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_15',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.5,
-        'result': {}
-    },
-    {
-        'path': os.path.join(project_dir_path, "experiment_result/tmp/version_157"),
-        # 'source_paths': [file_path_1, file_path_2, file_path_3],
-        'source_paths': [file_path_1, file_path_2],
-        'experiment_name': 'pima_indian_diabetes_cv_15',
-        'seed': 42,
-        'n_splits': 5,
-        'n_unsupervised': 15,
-        'c1': 10,
-        'c2': 10,
-        'rule_thr': 0.6,
-        'result': {}
-    },
+    # {
+    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_155"),
+    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
+    #     'source_paths': [file_path_1, file_path_2],
+    #     'experiment_name': 'pima_indian_diabetes_cv_15',
+    #     'seed': 42,
+    #     'n_splits': 5,
+    #     'n_unsupervised': 15,
+    #     'c1': 10,
+    #     'c2': 10,
+    #     'rule_thr': 0.4,
+    #     'result': {}
+    # },
+    # {
+    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_156"),
+    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
+    #     'source_paths': [file_path_1, file_path_2],
+    #     'experiment_name': 'pima_indian_diabetes_cv_15',
+    #     'seed': 42,
+    #     'n_splits': 5,
+    #     'n_unsupervised': 15,
+    #     'c1': 10,
+    #     'c2': 10,
+    #     'rule_thr': 0.5,
+    #     'result': {}
+    # },
+    # {
+    #     'path': os.path.join(project_dir_path, "experiment_result/tmp/version_157"),
+    #     # 'source_paths': [file_path_1, file_path_2, file_path_3],
+    #     'source_paths': [file_path_1, file_path_2],
+    #     'experiment_name': 'pima_indian_diabetes_cv_15',
+    #     'seed': 42,
+    #     'n_splits': 5,
+    #     'n_unsupervised': 15,
+    #     'c1': 10,
+    #     'c2': 10,
+    #     'rule_thr': 0.6,
+    #     'result': {}
+    # },
     {
         'path': os.path.join(project_dir_path, "experiment_result/tmp/version_158"),
         # 'source_paths': [file_path_1, file_path_2, file_path_3],
@@ -258,9 +258,6 @@ for settings in settings_list:
         rules_df.to_csv(os.path.join(settings['path'], f'rules/rules_{i}.csv'))
         rule_processor.save_KB_as_txt(os.path.join(settings['path'], f'rules/rules_{i}.txt'))
 
-        print(KB_origin)
-
-
         # from src.misc import is_symbol
         rules_tmp = []
         for rule in KB_origin:
@@ -292,13 +289,6 @@ for settings in settings_list:
             satisfying_idxs = df_origin_2.loc[test_idx].query(condition).index
 
             rule_violation_check[h] = (satisfying_idxs, outcome)
-
-        print()
-        print()
-        print(rule_violation_check)
-        print()
-        print()
-
        
 
         # テストデータ -------------------------------------------------------
@@ -685,6 +675,3 @@ for settings in settings_list:
     with open(os.path.join(settings['path'], 'result.json'), 'w') as f:
         json.dump(settings, f, indent=4)
         
-    break
-
-

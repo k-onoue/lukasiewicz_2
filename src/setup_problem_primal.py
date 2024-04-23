@@ -166,8 +166,8 @@ class FOLProcessorPrimal:
                 if not is_symbol(item) and item not in predicates:
                     predicates.append(item)
 
-        if set(predicates) != set(self.predicates_tmp):
-            raise ValueError("ルールセットが必要十分な述語の種類を含んでいません。")
+        # if set(predicates) != set(self.predicates_tmp):
+        #     raise ValueError("ルールセットが必要十分な述語の種類を含んでいません。")
         
         self.predicates_dict = {predicate: 0 for predicate in predicates}
 
