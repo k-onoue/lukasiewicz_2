@@ -90,6 +90,11 @@ def get_rules(df, min_support=0.1, min_threshold=0.5, conclusion_name='Outcome')
     rules = association_rules(freq_itemsets, metric='confidence', min_threshold=min_threshold)
     # target_rules['antecedents'] = target_rules['antecedents'].apply(lambda x: str(x).strip('frozenset({})'))
     # target_rules['consequents'] = target_rules['consequents'].apply(lambda x: str(x).strip('frozenset({})'))
+
+    # conclusion_name が前件または後件に含まれているという条件でフィルタリング
+    rules = rules[rules['antecedents'].apply(lambda x: 'Outcome' in x) 
+                  | rules['consequents'].apply(lambda x: 'Outcome' in x)]
+    
     return rules
 
 
