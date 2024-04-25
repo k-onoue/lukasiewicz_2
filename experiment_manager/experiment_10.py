@@ -581,6 +581,8 @@ for settings in settings_list:
         settings['result'][f'fold_{i}']['logistic regression'] = result
 
 
+        # ルールの多数決による予測
+
         df_rule_based_pred = pd.DataFrame(columns=['rule_ids', 'preds', 'pred_tmp', 'pred'])
 
         for l in test_idx:

@@ -695,6 +695,7 @@ for settings in settings_list:
         settings['result'][f'fold_{i}']['rule_based_prediction'] = result
 
 
+
     # 実験結果の保存 -----------------------------------------------
     with open(os.path.join(settings['path'], 'result.json'), 'w') as f:
         json.dump(settings, f, indent=4)

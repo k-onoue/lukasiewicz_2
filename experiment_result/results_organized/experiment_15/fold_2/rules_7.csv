@@ -1,0 +1,5 @@
+,antecedents,consequents,support,confidence,lift,antecedents_length,n_violation,n_violation (instance),n_evaluation (instance)
+0,Glucose_High,Outcome,0.1399253731343283,0.7075471698113207,2.204914436156209,1,0,0,27
+1,Pregnancies_Low ⊗ Outcome,Age_Low,0.1138059701492537,0.7530864197530864,1.1338604522125122,2,,,
+2,Outcome ⊗ Age_Low,Pregnancies_Low,0.1138059701492537,0.7261904761904762,1.1584467120181403,2,,,
+3,Outcome ⊗ SkinThickness_Medium,BMI_Medium,0.1156716417910447,0.7126436781609196,1.2648245413716983,2,,,
