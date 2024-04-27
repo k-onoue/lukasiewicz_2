@@ -57,6 +57,7 @@ print(df_origin_2.head())
 settings_list = [
     {
         'path': './experiments/version_81',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -69,6 +70,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_82',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -81,6 +83,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_83',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -93,6 +96,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_84',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -105,6 +109,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_85',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -117,6 +122,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_86',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -129,6 +135,7 @@ settings_list = [
     },
     {
         'path': './experiments/version_87',
+        # 'source_paths': [file_path_1, file_path_2, file_path_3],
         'source_paths': [file_path_1, file_path_2],
         'experiment_name': 'pima_indian_diabetes_cv_8',
         'seed': 42,
@@ -138,9 +145,8 @@ settings_list = [
         'c2': 1000,
         'rule_thr': 0,
         'result': {}
-    }
+    },
 ]
-
 
 for settings in settings_list:
 
@@ -191,7 +197,7 @@ for settings in settings_list:
 
         y_pred_interpreted = model.predict(X_test)
         y_pred = model.predict_proba(X_test)[:, 1]
-        pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}.csv'))
+        pd.DataFrame(y_pred_interpreted, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}.csv'))
         pd.DataFrame(y_pred, index=test_idx).to_csv(os.path.join(settings['path'], f'predictions/RuleFit Classifier (disc)_{i}_proba.csv'))
 
 
@@ -213,6 +219,7 @@ for settings in settings_list:
         )
         KB_origin = rule_processor.construct_KB()
         rule_processor.save_KB_as_txt(os.path.join(settings['path'], f'rules/rules_{i}.txt'))
+        
 
 
         # from src.misc import is_symbol
@@ -247,6 +254,8 @@ for settings in settings_list:
 
             rule_violation_check[h] = (satisfying_idxs, outcome)
 
+       
+
         # テストデータ -------------------------------------------------------
         df_tmp = df_origin_1.copy().iloc[test_idx, :]
         df_tmp= df_tmp.rename(columns={'Outcome': 'target'})
@@ -257,6 +266,7 @@ for settings in settings_list:
             'rule': rule_violation_check
         }
 
+        
         # モデルのテスト 4 (RuleFit Classifier (discrete)）
         result = evaluate_model(
             pd.DataFrame(y_test, index=test_idx),
@@ -583,6 +593,49 @@ for settings in settings_list:
 
         settings['result'][f'fold_{i}']['logistic regression'] = result
 
+
+        # ルールの多数決による予測
+
+        df_rule_based_pred = pd.DataFrame(columns=['rule_ids', 'preds', 'pred_tmp', 'pred'])
+
+        for l in test_idx:
+            rule_ids = []
+            preds = []
+            pred_tmp = 0
+
+            for h, idx_outcome in rule_violation_check.items():
+                if l in idx_outcome[0]:
+                    rule_ids.append(h)
+                    preds.append(idx_outcome[1])
+
+                    pred_tmp += idx_outcome[1]
+                
+            df_rule_based_pred.loc[l, 'rule_ids'] = rule_ids
+            df_rule_based_pred.loc[l, 'preds'] = preds
+            df_rule_based_pred.loc[l, 'pred_tmp'] = pred_tmp
+
+            # 多数決で引き分けの場合はどうすべきか
+            # 適用可能ルールが無いときは陰性（-1）
+            # 多数決で引き分けの際は陰性（-1）
+            if pred_tmp > 0:
+                df_rule_based_pred.loc[l, 'pred'] = 1
+            else:
+                df_rule_based_pred.loc[l, 'pred'] = -1
+
+        df_rule_based_pred.to_csv(os.path.join(settings['path'], f'rules/rule_based_pred_{i}.csv'))
+            
+        y_pred = df_rule_based_pred['pred'].replace(-1, 1).values
+        y_pred_interpreted = df_rule_based_pred['pred'].replace(-1, 1).values
+
+        result = evaluate_model(
+            pd.DataFrame(y_test, index=test_idx),
+            pd.DataFrame(y_pred, index=test_idx),
+            pd.DataFrame(y_pred_interpreted, index=test_idx),
+            input_for_test,
+            test_idx
+        )
+
+        settings['result'][f'fold_{i}']['rule_based_prediction'] = result
 
 
     # 実験結果の保存 -----------------------------------------------

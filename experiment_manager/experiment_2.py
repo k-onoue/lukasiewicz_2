@@ -556,4 +556,6 @@ for settings in settings_list:
     # 実験結果の保存 -----------------------------------------------
     with open(os.path.join(settings['path'], 'result.json'), 'w') as f:
         json.dump(settings, f, indent=4)
-        
+
+
+
