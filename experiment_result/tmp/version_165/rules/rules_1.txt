@@ -1,23 +1,23 @@
 Pregnancies_Low → ¬ Outcome
 Outcome → ¬ Pregnancies_Low
-Pregnancies_Medium → Outcome
 Outcome → Pregnancies_Medium
-Glucose_Medium → ¬ Outcome
+Pregnancies_Medium → Outcome
 Outcome → ¬ Glucose_Medium
-Glucose_High → Outcome
+Glucose_Medium → ¬ Outcome
 Outcome → Glucose_High
+Glucose_High → Outcome
 BloodPressure_Medium → Outcome
 Outcome → BloodPressure_Medium
-Outcome → ¬ SkinThickness_Low
 SkinThickness_Low → ¬ Outcome
+Outcome → ¬ SkinThickness_Low
 SkinThickness_Medium → Outcome
 Outcome → SkinThickness_Medium
 BMI_Medium → Outcome
 Outcome → BMI_Medium
 Outcome → ¬ DiabetesPedigreeFunction_Low
 DiabetesPedigreeFunction_Low → ¬ Outcome
-Outcome → ¬ Age_Low
 Age_Low → ¬ Outcome
+Outcome → ¬ Age_Low
 Age_Medium → Outcome
 Outcome → Age_Medium
 BloodPressure_Medium ⊗ Pregnancies_Low → ¬ Outcome
@@ -38,42 +38,42 @@ Pregnancies_Low → ¬ BMI_Medium
 Pregnancies_Low → ¬ Outcome
 Outcome → BMI_Medium
 Outcome → Pregnancies_Low
+Age_Low ⊗ Pregnancies_Low → ¬ Outcome
+Age_Low ⊗ Outcome → Pregnancies_Low
 Pregnancies_Low ⊗ Outcome → Age_Low
-Pregnancies_Low ⊗ Age_Low → ¬ Outcome
-Outcome ⊗ Age_Low → Pregnancies_Low
-Pregnancies_Low → Outcome
-Pregnancies_Low → Age_Low
-Outcome → ¬ Pregnancies_Low
-Outcome → ¬ Age_Low
 Age_Low → Pregnancies_Low
 Age_Low → Outcome
-Glucose_Medium ⊗ BloodPressure_Medium → ¬ Outcome
-Glucose_Medium ⊗ Outcome → BloodPressure_Medium
+Pregnancies_Low → Age_Low
+Pregnancies_Low → Outcome
+Outcome → ¬ Age_Low
+Outcome → ¬ Pregnancies_Low
 BloodPressure_Medium ⊗ Outcome → ¬ Glucose_Medium
+BloodPressure_Medium ⊗ Glucose_Medium → ¬ Outcome
+Outcome ⊗ Glucose_Medium → BloodPressure_Medium
+BloodPressure_Medium → Outcome
+BloodPressure_Medium → Glucose_Medium
+Outcome → ¬ BloodPressure_Medium
+Outcome → ¬ Glucose_Medium
 Glucose_Medium → ¬ BloodPressure_Medium
 Glucose_Medium → ¬ Outcome
-BloodPressure_Medium → Glucose_Medium
-BloodPressure_Medium → Outcome
-Outcome → ¬ Glucose_Medium
-Outcome → ¬ BloodPressure_Medium
-Glucose_Medium ⊗ BMI_Medium → Outcome
-Glucose_Medium ⊗ Outcome → BMI_Medium
 BMI_Medium ⊗ Outcome → ¬ Glucose_Medium
+BMI_Medium ⊗ Glucose_Medium → Outcome
+Outcome ⊗ Glucose_Medium → BMI_Medium
+BMI_Medium → Outcome
+BMI_Medium → Glucose_Medium
+Outcome → BMI_Medium
+Outcome → Glucose_Medium
 Glucose_Medium → ¬ BMI_Medium
 Glucose_Medium → ¬ Outcome
-BMI_Medium → Glucose_Medium
-BMI_Medium → Outcome
-Outcome → Glucose_Medium
-Outcome → BMI_Medium
-BMI_Medium ⊗ BloodPressure_Medium → Outcome
-BMI_Medium ⊗ Outcome → BloodPressure_Medium
 BloodPressure_Medium ⊗ Outcome → BMI_Medium
-BMI_Medium → BloodPressure_Medium
-BMI_Medium → Outcome
+BloodPressure_Medium ⊗ BMI_Medium → Outcome
+BMI_Medium ⊗ Outcome → BloodPressure_Medium
 BloodPressure_Medium → BMI_Medium
 BloodPressure_Medium → Outcome
-Outcome → BMI_Medium
 Outcome → BloodPressure_Medium
+Outcome → BMI_Medium
+BMI_Medium → BloodPressure_Medium
+BMI_Medium → Outcome
 BloodPressure_Medium ⊗ Outcome → ¬ DiabetesPedigreeFunction_Low
 BloodPressure_Medium ⊗ DiabetesPedigreeFunction_Low → ¬ Outcome
 Outcome ⊗ DiabetesPedigreeFunction_Low → BloodPressure_Medium
@@ -83,15 +83,15 @@ Outcome → ¬ BloodPressure_Medium
 Outcome → ¬ DiabetesPedigreeFunction_Low
 DiabetesPedigreeFunction_Low → ¬ BloodPressure_Medium
 DiabetesPedigreeFunction_Low → ¬ Outcome
-BloodPressure_Medium ⊗ Outcome → ¬ Age_Low
 BloodPressure_Medium ⊗ Age_Low → ¬ Outcome
-Outcome ⊗ Age_Low → BloodPressure_Medium
-BloodPressure_Medium → Outcome
+BloodPressure_Medium ⊗ Outcome → ¬ Age_Low
+Age_Low ⊗ Outcome → BloodPressure_Medium
 BloodPressure_Medium → Age_Low
-Outcome → ¬ BloodPressure_Medium
-Outcome → ¬ Age_Low
+BloodPressure_Medium → Outcome
 Age_Low → ¬ BloodPressure_Medium
 Age_Low → ¬ Outcome
+Outcome → ¬ BloodPressure_Medium
+Outcome → ¬ Age_Low
 BMI_Medium ⊗ SkinThickness_Medium → Outcome
 BMI_Medium ⊗ Outcome → SkinThickness_Medium
 SkinThickness_Medium ⊗ Outcome → BMI_Medium
@@ -110,12 +110,12 @@ Outcome → BMI_Medium
 Outcome → DiabetesPedigreeFunction_Low
 DiabetesPedigreeFunction_Low → ¬ BMI_Medium
 DiabetesPedigreeFunction_Low → ¬ Outcome
+Age_Low ⊗ Outcome → BMI_Medium
+Age_Low ⊗ BMI_Medium → ¬ Outcome
 BMI_Medium ⊗ Outcome → ¬ Age_Low
-BMI_Medium ⊗ Age_Low → ¬ Outcome
-Outcome ⊗ Age_Low → BMI_Medium
-BMI_Medium → Outcome
-BMI_Medium → Age_Low
-Outcome → ¬ BMI_Medium
-Outcome → ¬ Age_Low
 Age_Low → ¬ BMI_Medium
 Age_Low → ¬ Outcome
+Outcome → ¬ Age_Low
+Outcome → ¬ BMI_Medium
+BMI_Medium → Age_Low
+BMI_Medium → Outcome

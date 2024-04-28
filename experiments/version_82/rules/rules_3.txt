@@ -1,0 +1,46 @@
+Pregnancies_Low → ¬ Outcome
+Glucose_Low → ¬ Outcome
+Glucose_High → Outcome
+BMI_Low → ¬ Outcome
+BMI_High → Outcome
+DiabetesPedigreeFunction_Low → ¬ Outcome
+Age_Low → ¬ Outcome
+Age_Medium → Outcome
+¬ Glucose_High ⊗ ¬ Glucose_Low ⊗ BloodPressure_High ⊗ SkinThickness_Low ⊗ BMI_Medium ⊗ DiabetesPedigreeFunction_Low → ¬ Outcome
+Glucose_High ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ BMI_Low ⊗ ¬ Age_Medium ⊗ ¬ SkinThickness_High ⊗ ¬ Pregnancies_Medium → Outcome
+¬ BMI_Low ⊗ ¬ Pregnancies_Medium ⊗ ¬ Age_Medium ⊗ ¬ Glucose_Low ⊗ ¬ Glucose_High ⊗ ¬ DiabetesPedigreeFunction_High ⊗ BMI_Medium ⊗ ¬ BloodPressure_Medium ⊗ ¬ Age_High ⊗ ¬ SkinThickness_Medium → ¬ Outcome
+BMI_Medium ⊗ ¬ Glucose_Low ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ BloodPressure_Medium ⊗ DiabetesPedigreeFunction_High → Outcome
+¬ Glucose_High ⊗ ¬ Age_Medium ⊗ ¬ DiabetesPedigreeFunction_High ⊗ ¬ BloodPressure_Low ⊗ Glucose_Medium ⊗ ¬ DiabetesPedigreeFunction_Medium ⊗ Pregnancies_Low ⊗ BMI_Medium ⊗ ¬ Age_High → ¬ Outcome
+BMI_Low ⊗ ¬ Age_Medium ⊗ Pregnancies_Low ⊗ BloodPressure_Low → ¬ Outcome
+Pregnancies_Low ⊗ BMI_Medium ⊗ ¬ Glucose_Low ⊗ ¬ Age_High ⊗ ¬ SkinThickness_High ⊗ ¬ Age_Low → Outcome
+¬ Glucose_High ⊗ ¬ Glucose_Low ⊗ ¬ Age_Medium ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_High ⊗ ¬ SkinThickness_High ⊗ BloodPressure_Low → ¬ Outcome
+Age_Low ⊗ ¬ Glucose_Low ⊗ ¬ BloodPressure_High ⊗ Pregnancies_Low ⊗ ¬ DiabetesPedigreeFunction_Medium ⊗ Glucose_Medium ⊗ ¬ BMI_Medium → ¬ Outcome
+¬ Glucose_High ⊗ Age_Low ⊗ BMI_Low ⊗ ¬ Pregnancies_Medium ⊗ ¬ DiabetesPedigreeFunction_Low → ¬ Outcome
+BMI_Low ⊗ ¬ Age_Medium ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_Medium → ¬ Outcome
+¬ BMI_Low ⊗ Glucose_High ⊗ ¬ Pregnancies_High ⊗ Age_Medium ⊗ DiabetesPedigreeFunction_Low → Outcome
+Pregnancies_Medium ⊗ ¬ Glucose_High ⊗ ¬ Glucose_Medium → ¬ Outcome
+Pregnancies_Medium ⊗ ¬ Glucose_High ⊗ Glucose_Medium ⊗ ¬ DiabetesPedigreeFunction_High ⊗ ¬ BloodPressure_High ⊗ ¬ BMI_High ⊗ ¬ Age_High ⊗ SkinThickness_Low ⊗ BMI_Medium → Outcome
+¬ Age_Medium ⊗ DiabetesPedigreeFunction_High ⊗ ¬ BMI_Medium → ¬ Outcome
+¬ Pregnancies_Low ⊗ Glucose_Low → ¬ Outcome
+Age_Low ⊗ ¬ Glucose_High ⊗ ¬ Glucose_Medium ⊗ ¬ BMI_Medium → ¬ Outcome
+Age_Low ⊗ Glucose_Low ⊗ ¬ BMI_Medium → ¬ Outcome
+Pregnancies_Low ⊗ ¬ DiabetesPedigreeFunction_High ⊗ ¬ Glucose_High ⊗ Age_Low ⊗ ¬ SkinThickness_Medium ⊗ ¬ Glucose_Low ⊗ ¬ BMI_Medium ⊗ BloodPressure_Medium → ¬ Outcome
+¬ Glucose_High ⊗ ¬ Glucose_Low ⊗ ¬ BMI_Low ⊗ ¬ DiabetesPedigreeFunction_Medium ⊗ ¬ SkinThickness_Low ⊗ ¬ DiabetesPedigreeFunction_High ⊗ ¬ Pregnancies_Medium ⊗ BMI_Medium ⊗ Pregnancies_Low ⊗ ¬ SkinThickness_High ⊗ ¬ BloodPressure_High → ¬ Outcome
+¬ Glucose_High ⊗ Glucose_Low ⊗ ¬ Pregnancies_Low → ¬ Outcome
+¬ BMI_Low ⊗ Age_Medium ⊗ ¬ Glucose_Low ⊗ Glucose_High ⊗ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_High → Outcome
+¬ BMI_Low ⊗ ¬ Pregnancies_High ⊗ ¬ Glucose_Low ⊗ ¬ Glucose_High ⊗ ¬ BloodPressure_Low ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Age_High ⊗ ¬ Pregnancies_Low ⊗ BloodPressure_Medium → Outcome
+¬ BMI_Low ⊗ Pregnancies_High ⊗ ¬ DiabetesPedigreeFunction_Low → Outcome
+¬ Age_Low ⊗ ¬ BMI_High ⊗ BloodPressure_High ⊗ ¬ Pregnancies_Medium ⊗ ¬ Pregnancies_High → Outcome
+¬ BMI_Low ⊗ ¬ DiabetesPedigreeFunction_Low ⊗ ¬ Pregnancies_Low ⊗ ¬ Pregnancies_Medium → Outcome
+BMI_Low ⊗ ¬ Glucose_High ⊗ ¬ Pregnancies_High ⊗ Pregnancies_Low ⊗ SkinThickness_Low ⊗ DiabetesPedigreeFunction_Low ⊗ ¬ Age_High → ¬ Outcome
+Pregnancies_Low ⊗ ¬ BloodPressure_High ⊗ ¬ Glucose_Low ⊗ BMI_Low ⊗ ¬ BloodPressure_Medium → ¬ Outcome
+¬ BMI_Low ⊗ Age_Medium ⊗ Glucose_High ⊗ ¬ Pregnancies_High ⊗ ¬ SkinThickness_High → Outcome
+BMI_Low ⊗ SkinThickness_Low ⊗ ¬ DiabetesPedigreeFunction_High ⊗ BloodPressure_Medium ⊗ ¬ Age_High ⊗ Glucose_Medium ⊗ ¬ Pregnancies_Medium → ¬ Outcome
+Glucose_Low ⊗ Pregnancies_Medium → ¬ Outcome
+Pregnancies_Low ⊕ Pregnancies_Medium ⊕ Pregnancies_High
+Glucose_Low ⊕ Glucose_Medium ⊕ Glucose_High
+BloodPressure_Low ⊕ BloodPressure_Medium ⊕ BloodPressure_High
+SkinThickness_Low ⊕ SkinThickness_Medium ⊕ SkinThickness_High
+BMI_Low ⊕ BMI_Medium ⊕ BMI_High
+DiabetesPedigreeFunction_Low ⊕ DiabetesPedigreeFunction_Medium ⊕ DiabetesPedigreeFunction_High
+Age_Low ⊕ Age_Medium ⊕ Age_High

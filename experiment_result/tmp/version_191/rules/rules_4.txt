@@ -1,0 +1,27 @@
+Outcome → ¬ Glucose_Medium
+Glucose_High → Outcome
+Outcome → ¬ BloodPressure_Medium
+Outcome → SkinThickness_Medium
+Outcome → BMI_Medium
+Outcome → ¬ Age_Low
+Outcome ⊗ Pregnancies_Low → ¬ BloodPressure_Medium
+BMI_Medium ⊗ Outcome → ¬ Pregnancies_Low
+Outcome ⊗ Pregnancies_Low → BMI_Medium
+Age_Low ⊗ Outcome → Pregnancies_Low
+Outcome ⊗ Pregnancies_Low → Age_Low
+BloodPressure_Medium ⊗ Outcome → ¬ Glucose_Medium
+Outcome ⊗ Glucose_Medium → BloodPressure_Medium
+BMI_Medium ⊗ Outcome → ¬ Glucose_Medium
+Outcome ⊗ Glucose_Medium → BMI_Medium
+SkinThickness_Medium ⊗ Outcome → ¬ BloodPressure_Medium
+BMI_Medium ⊗ Outcome → BloodPressure_Medium
+BloodPressure_Medium ⊗ Outcome → BMI_Medium
+DiabetesPedigreeFunction_Low ⊗ Outcome → BloodPressure_Medium
+BloodPressure_Medium ⊗ Outcome → ¬ DiabetesPedigreeFunction_Low
+BloodPressure_Medium ⊗ Outcome → ¬ Age_Low
+Age_Low ⊗ Outcome → BloodPressure_Medium
+SkinThickness_Medium ⊗ Outcome → BMI_Medium
+BMI_Medium ⊗ Outcome → SkinThickness_Medium
+DiabetesPedigreeFunction_Low ⊗ Outcome → BMI_Medium
+BMI_Medium ⊗ Outcome → ¬ Age_Low
+Age_Low ⊗ Outcome → BMI_Medium

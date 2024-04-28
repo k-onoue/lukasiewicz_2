@@ -55,7 +55,28 @@ y_origin_2  = df_origin_2["Outcome"]
 print(df_origin_1.head())
 print(df_origin_2.head())
 
-
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print("expt_18")
+print("expt_18")
+print("expt_18")
+print("expt_18")
+print("expt_18")
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
 
 # 実験設定
 settings_list = [
