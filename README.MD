@@ -18,8 +18,6 @@ https://github.com/cvxpy/cvxpy
   - [basic usage](#basic-usage)
 
 
-## 
-
 
 ## questions to the community
 
@@ -31,11 +29,11 @@ Ask questions using the issues section.
 
 ## Citation
 
-@misc{onoue2024jsai,
-  title={A framework to construct predictive models with logical constraints for table data}, 
-  author={Keisuke Onoue, Ryosuke Kojima},
-  year={2024},
-}
+  @misc{onoue2024jsai,
+    title={A framework to construct predictive models with logical constraints for table data}, 
+    author={Keisuke Onoue, Ryosuke Kojima},
+    year={2024},
+  }
 
 
 
