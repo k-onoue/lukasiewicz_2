@@ -10,15 +10,15 @@ https://github.com/cvxpy/cvxpy
 
 **Contents**
 - [(Package Name)](#package-name)
-  - [questions to the community](#questions-to-the-community)
+  - [Questions](#questions)
   - [Supported platform](#supported-platform)
   - [Citation](#citation)
-  - [Getting stated: installing](#getting-stated-installing)
-  - [basic usage](#basic-usage)
+  - [Getting stated](#getting-stated)
+  - [Basic usage](#basic-usage)
 
 
 
-## questions to the community
+## Questions
 
 Ask questions using the issues section.
 
@@ -29,16 +29,23 @@ Ask questions using the issues section.
 ## Citation
 
 ```
-  @Misc{onoue2024jsai,
-    title={A framework to construct predictive models with logical constraints for table data}, 
-    author={Keisuke Onoue, Ryosuke Kojima},
-    year={2024}
-  }
+@Misc{onoue2024jsai,
+  title={A framework to construct predictive models with logical constraints for table data}, 
+  author={Keisuke Onoue, Ryosuke Kojima},
+  year={2024}
+}
 ```
 
+## Getting stated
 
-## Getting stated: installing 
+```
+$ git clone https://github.com/k-onoue/lukasiewicz_2.git
+$ cd lukasiewicz_2
+$ python3 -m venv logic-env
+$ source logic-env/bin/activate
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+```
 
-
-## basic usage
+## Basic usage
 
