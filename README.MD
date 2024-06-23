@@ -10,7 +10,6 @@ https://github.com/cvxpy/cvxpy
 
 **Contents**
 - [(Package Name)](#package-name)
-  - [](#)
   - [questions to the community](#questions-to-the-community)
   - [Supported platform](#supported-platform)
   - [Citation](#citation)
@@ -29,10 +28,10 @@ Ask questions using the issues section.
 
 ## Citation
 
-  @misc{onoue2024jsai,
+  @Misc{onoue2024jsai,
     title={A framework to construct predictive models with logical constraints for table data}, 
     author={Keisuke Onoue, Ryosuke Kojima},
-    year={2024},
+    year={2024}
   }
 
 
