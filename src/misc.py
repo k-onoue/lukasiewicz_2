@@ -11,7 +11,6 @@ from .operators import negation
 symbols = ['¬', '∧', '∨', '⊗', '⊕', '→'] + ['∀', '∃']
 
 
-
 # from .setup_problem import Setup
 class Setup_:
     """
@@ -22,6 +21,19 @@ class Setup_:
 
 
 def timer(func):
+    """
+    A decorator to measure the execution time of a function.
+
+    Parameters
+    ----------
+    func : callable
+        The function to be decorated.
+
+    Returns
+    -------
+    callable
+        The wrapped function with timing.
+    """
     def wrapper(*args, **kwargs):
         start_time = time.time()
         result = func(*args, **kwargs)
@@ -33,10 +45,26 @@ def timer(func):
 
 def log_loss(y_true: np.ndarray, y_pred: np.ndarray) -> cp.Expression:
     """
+    Computes the log loss (cross-entropy) for binary classification.
+
+    Notes
+    -----
     log_loss，クロスエントロピー
     scikit-learn の log_loss だと，
     途中必ず実数値で計算しないといけない場所（np.clip）が出てきて
     cvxpy の中で使用するとエラーが出たので実装
+
+    Parameters
+    ----------
+    y_true : np.ndarray
+        The true binary labels (0 or 1).
+    y_pred : np.ndarray
+        The predicted probabilities.
+
+    Returns
+    -------
+    cp.Expression
+        The average log loss.
     """
     y_true = np.where(y_true == -1, 0, y_true)
     losses = - (y_true @ cp.log(y_pred) + (1 - y_true) @ cp.log(1 - y_pred))
@@ -46,14 +74,24 @@ def log_loss(y_true: np.ndarray, y_pred: np.ndarray) -> cp.Expression:
 
 def _count_neg(formula_decomposed: List[Union[str, cp.Expression]]) -> int:
     """
+    Counts the number of negation symbols '¬' in a formula list.
+
+    Notes
+    -----
     process_neg 関数の中で使用．
     cvxpy.Variable と str が混ざると
     リストに対する組み込み関数での操作でエラーが出たため実装
     list.count(x)
 
-    formula (list) 内の '¬' の数を数える
+    Parameters
+    ----------
+    formula_decomposed : list of (str or cp.Expression)
+        The formula list to be processed.
 
-
+    Returns
+    -------
+    int
+        The number of '¬' symbols in the formula list.
     """
     neg_num = 0
     
@@ -67,12 +105,24 @@ def _count_neg(formula_decomposed: List[Union[str, cp.Expression]]) -> int:
 
 def _get_first_neg_index(formula_decomposed: List[Union[str, cp.Expression]]) -> int:
     """
+    Gets the index of the first negation symbol '¬' in a formula list.
+
+    Notes
+    -----
     process_neg 関数の中で使用．
     cvxpy.Variable と str が混ざると
     リストに対する組み込み関数での操作でエラーが出たため実装
     list.index(x)
 
-    formula (list) 内の初めの '¬' のインデックスを取得
+    Parameters
+    ----------
+    formula_decomposed : list of (str or cp.Expression)
+        The formula list to be processed.
+
+    Returns
+    -------
+    int
+        The index of the first '¬' symbol in the formula list.
     """
     target_index = None
 
@@ -87,8 +137,19 @@ def _get_first_neg_index(formula_decomposed: List[Union[str, cp.Expression]]) ->
 
 def process_neg(formula: List[Union[str, cp.Expression]], is_1_symbol: bool = False) -> None:
     """
+    Converts and eliminates negation symbols '¬' in a formula list.
+
+    Notes
+    -----
     formula（list）に含まれている
     否定記号 '¬' を変換し，消去する 
+
+    Parameters
+    ----------
+    formula : list of (str or cp.Expression)
+        The formula list to be processed.
+    is_1_symbol : bool, optional
+        Whether to treat the formula as having one symbol (default is False).
     """
     neg_num = _count_neg(formula)
 
@@ -112,8 +173,24 @@ def process_neg(formula: List[Union[str, cp.Expression]], is_1_symbol: bool = Fa
 
 def count_specific_operator(formula_decomposed: List[Union[str, cp.Expression]], operator: str) -> int:
     """
+    Counts the number of a specific operator in a formula list.
+
+    Notes
+    -----
     formula（list）について，
     特定の演算記号の数を数える
+
+    Parameters
+    ----------
+    formula_decomposed : list of (str or cp.Expression)
+        The formula list to be processed.
+    operator : str
+        The operator to be counted.
+
+    Returns
+    -------
+    int
+        The number of the specific operator in the formula list.
     """
     neg_num = 0
     
@@ -125,11 +202,27 @@ def count_specific_operator(formula_decomposed: List[Union[str, cp.Expression]],
     return neg_num
 
 
-def get_first_specific_oprator_index(formula_decomposed: List[Union[str, cp.Expression]], operator: str) -> int:
+def get_first_specific_operator_index(formula_decomposed: List[Union[str, cp.Expression]], operator: str) -> int:
     """
+    Gets the index of the first occurrence of a specific operator in a formula list.
+
+    Notes
+    -----
     formula (list) について，
     特定の演算記号のインデックスのうち，
     一番小さいものを取得
+
+    Parameters
+    ----------
+    formula_decomposed : list of (str or cp.Expression)
+        The formula list to be processed.
+    operator : str
+        The operator to find.
+
+    Returns
+    -------
+    int
+        The index of the first occurrence of the specific operator in the formula list.
     """
     target_index = None
 
@@ -143,7 +236,21 @@ def get_first_specific_oprator_index(formula_decomposed: List[Union[str, cp.Expr
 
 def is_symbol(item: Union[str, cp.Expression]) -> bool:
     """
+    Checks if an item is a symbol.
+
+    Notes
+    -----
     リストとして保持されている formula の要素が演算記号であるかを判定
+
+    Parameters
+    ----------
+    item : (str or cp.Expression)
+        The item to check.
+
+    Returns
+    -------
+    bool
+        True if the item is a symbol, False otherwise.
     """
     flag = False
 
@@ -158,8 +265,24 @@ def is_symbol(item: Union[str, cp.Expression]) -> bool:
 
 def boundary_equation_2d(x1: np.ndarray, coeff: np.ndarray) -> np.ndarray:
     """
+    Computes the boundary equation for 2D input data.
+
+    Notes
+    -----
     境界条件の方程式
     入力データの次元が 2 のときのみ使用可能
+
+    Parameters
+    ----------
+    x1 : np.ndarray
+        The input data for the first dimension.
+    coeff : np.ndarray
+        The coefficients of the boundary equation.
+
+    Returns
+    -------
+    np.ndarray
+        The computed boundary equation values.
     """
     w1 = coeff[0]
     w2 = coeff[1]
@@ -173,7 +296,18 @@ def boundary_equation_2d(x1: np.ndarray, coeff: np.ndarray) -> np.ndarray:
 
 def visualize_result(problem_instance: Setup_, colors=['red', 'blue', 'green', 'yellow', 'black']) -> None:
     """
+    Visualizes the result for 2D input data.
+
+    Notes
+    -----
     入力データの次元が 2 のときのみ使用可能
+
+    Parameters
+    ----------
+    problem_instance : Setup_
+        The problem instance containing the data and model information.
+    colors : list of str, optional
+        The colors to use for different predicates (default is ['red', 'blue', 'green', 'yellow', 'black']).
     """
     L = problem_instance.L
     w_j = problem_instance.w_j.value

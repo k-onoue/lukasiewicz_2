@@ -2,8 +2,50 @@ import numpy as np
 from sklearn.metrics import accuracy_score, f1_score
 import optuna
 
-
 class Predicate_dual:
+    """
+    A class to represent and optimize a dual form of a predicate.
+
+    Attributes
+    ----------
+    metrics_dict : dict
+        A dictionary of metrics functions available for optimization of the bias term.
+    metrics : str
+        The metrics to optimize the bias term.
+    n_trials : int
+        The number of optimization iterations.
+    range_size : float
+        Specifies the size of the search range for the bias term.
+    b : float
+        The bias term of linear basis function (predicate).
+    w_linear_kernel : np.ndarray
+        The linear kernel weights, which is necessary for observing the values of weights in dual formulation.
+    coeff : np.ndarray
+        The coefficients including w_linear_kernel and b.
+
+    Methods
+    -------
+    compute_kernel_matrix(X1, X2):
+        Compute the kernel matrix between two matrices (set of input vectors).
+    w_dot_phi(x_pred):
+        Compute the dot product of weights and kernel values.
+    _w_linear_kernel():
+        Compute the linear kernel weights.
+    calculate_initial_b():
+        Calculate the initial b parameter.
+    calculate_score_at_b(b, X, y):
+        Calculate the score for a given b.
+    optimize_b():
+        Optimize the b parameter.
+    __call__(x_pred):
+        Compute the value for a given prediction.
+    
+    Notes
+    -----
+    - The class is initialized with problem-specific information and metrics for optimization.
+    - It computes kernel matrices and optimizes the dual form of a predicate using Optuna.
+    """
+    
     def __init__(
             self, 
             problem_info: dict,
@@ -46,12 +88,13 @@ class Predicate_dual:
             'f1'      : f1_score
         }
 
-        if metrics == None:
+        if metrics is None:
             self.metrics = "f1"
         else:
             if metrics not in self.metrics_dict.keys():
-                ValueError("invalid metrics to optimize b")
-            else: self.metrics = metrics
+                raise ValueError("invalid metrics to optimize b")
+            else: 
+                self.metrics = metrics
 
         self.n_trials = opt_iter_num
         self.range_size = opt_range_size
@@ -64,13 +107,17 @@ class Predicate_dual:
         """
         Compute the kernel matrix between two matrices.
 
-        Parameters:
-        - X1: First input matrix (n x m)
-        - X2: Second input matrix (l x m)
-        - kernel_function: Kernel function to use (default is dot product)
+        Parameters
+        ----------
+        X1 : np.ndarray
+            First input matrix (n x m).
+        X2 : np.ndarray
+            Second input matrix (l x m).
 
-        Returns:
-        - Kernel matrix (n x l)
+        Returns
+        -------
+        np.ndarray
+            Kernel matrix (n x l).
         """
         kernel_function = self.k
 
@@ -78,6 +125,19 @@ class Predicate_dual:
         return K_matrix
     
     def w_dot_phi(self, x_pred: np.ndarray) -> float:
+        """
+        Compute the dot product of weights and kernel values.
+
+        Parameters
+        ----------
+        x_pred : np.ndarray
+            The input array for prediction.
+
+        Returns
+        -------
+        float
+            The computed value.
+        """
         values = np.zeros(len(x_pred))
         
         x = self.L[:, :-1]
@@ -105,9 +165,13 @@ class Predicate_dual:
      
     def _w_linear_kernel(self) -> np.ndarray:
         """
-        This should be rewritten using matrix calculations.
-        """
+        Compute the linear kernel weights using matrix calculations.
 
+        Returns
+        -------
+        np.ndarray
+            The linear kernel weights.
+        """
         input_dim = len(self.L[0, :-1])
         w_linear_kernel = np.zeros(input_dim)
 
@@ -134,6 +198,14 @@ class Predicate_dual:
         return w_linear_kernel
     
     def calculate_initial_b(self) -> float:
+        """
+        Calculate the initial b parameter.
+
+        Returns
+        -------
+        float
+            The initial b value.
+        """
         x = self.L[:, :-1]
         y = self.L[:, -1]
 
@@ -147,7 +219,23 @@ class Predicate_dual:
             X: np.ndarray,
             y: np.ndarray
         ) -> float:
+        """
+        Calculate the score for a given b.
 
+        Parameters
+        ----------
+        b : float
+            The b parameter to evaluate.
+        X : np.ndarray
+            The input features.
+        y : np.ndarray
+            The true labels.
+
+        Returns
+        -------
+        float
+            The score for the given b.
+        """
         y_pred = self.w_dot_phi(X)
         y_pred = np.array(y_pred) + b
         y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
@@ -157,7 +245,20 @@ class Predicate_dual:
 
         return score
     
-    def optimize_b(self):
+    def optimize_b(self) -> float:
+        """
+        Optimize the b parameter.
+
+        Returns
+        -------
+        float
+            The optimized b value.
+
+        Notes
+        -------
+            双対問題での切片 b の決定．
+            b の正しい式がわからなかったため，Optuna で最適化することにした．
+        """
         initial_b = self.calculate_initial_b()
 
         X_train = self.L[:, :-1]
@@ -185,7 +286,19 @@ class Predicate_dual:
         return optimal_b
 
     def __call__(self, x_pred: np.ndarray) -> float:
-        
+        """
+        Compute the value for a given prediction.
+
+        Parameters
+        ----------
+        x_pred : np.ndarray
+            The input array for prediction.
+
+        Returns
+        -------
+        float
+            The computed value.
+        """
         value = self.w_dot_phi(x_pred) + self.b
 
         return value

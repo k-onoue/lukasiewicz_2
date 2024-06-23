@@ -2,14 +2,41 @@ import cvxpy as cp
 from .misc import timer
 from .preprocess_fol import FOLProcessor
 
-
-
 class Setup:
     """
+    A class to setup and solve a convex optimization problem based on input information and an objective function.
+
+    Attributes
+    ----------
+    problem_info : dict
+        Dictionary containing problem-settings.
+    objective_function : object
+        The objective function to be optimized.
+    etc.
+
+    Methods
+    -------
+    load_rules():
+        Processes the original knowledge base (KB) and updates problem_info.
+    define_cvxpy_variables():
+        Defines the CVXPY variables needed for the optimization problem.
+    construct_constraints():
+        Constructs the constraints for the optimization problem.
+    main():
+        Executes the setup and returns the objective function and constraints.
     """
-
+    
     def __init__(self, input_info: dict, objective_function: object) -> None:
+        """
+        Initializes the Setup class with input information and an objective function.
 
+        Parameters
+        ----------
+        input_info : dict
+            Dictionary containing problem-specific information and parameters.
+        objective_function : object
+            The objective function to be optimized.
+        """
         self.problem_info = input_info 
         self.problem_info['KB']           = None
         self.problem_info['lambda_jl']    = None
@@ -24,6 +51,9 @@ class Setup:
 
     @timer
     def load_rules(self):
+        """
+        Processes the original knowledge base (KB) and updates problem_info.
+        """
         fol_processor = FOLProcessor(self.problem_info)
         fol_processor()
 
@@ -34,16 +64,27 @@ class Setup:
 
         predicate_names = list(fol_processor.predicates_dict.keys())
         self.problem_info['target_p_idx'] = predicate_names.index(self.problem_info['target_predicate'])
-        
+
     @timer
     def define_cvxpy_variables(self):
+        """
+        Defines the CVXPY variables needed for the optimization problem.
+        """
         self.problem_info['lambda_jl']  = cp.Variable(shape=(self.problem_info['len_j'], self.problem_info['len_l']), nonneg=True)
         self.problem_info['lambda_hi']  = cp.Variable(shape=(self.problem_info['len_h'], self.problem_info['len_i']), nonneg=True)
         self.problem_info['eta_js']     = cp.Variable(shape=(self.problem_info['len_j'], self.problem_info['len_s']), nonneg=True) 
         self.problem_info['eta_hat_js'] = cp.Variable(shape=(self.problem_info['len_j'], self.problem_info['len_s']), nonneg=True) 
-    
+
     @timer
     def construct_constraints(self):
+        """
+        Constructs the constraints for the optimization problem.
+
+        Returns
+        -------
+        list
+            A list of constraints for the optimization problem.
+        """
         len_l = self.problem_info['len_l']
         len_u = self.problem_info['len_u']
         len_s = self.problem_info['len_s']
@@ -108,11 +149,17 @@ class Setup:
         return constraints
     
     def main(self):
+        """
+        Executes the setup and returns the objective function and constraints.
+
+        Returns
+        -------
+        tuple
+            The objective function and a list of constraints.
+        """
         self.load_rules()
         self.define_cvxpy_variables()
 
         objective_function = self.objective_function(self.problem_info).construct()
         constraints = self.construct_constraints()
         return objective_function, constraints
-    
-

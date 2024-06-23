@@ -1,3 +1,13 @@
+"""
+This code is a modified version of the RuleFit implementation from the RuleFit repository:
+https://github.com/christophM/rulefit/blob/master/rulefit/rulefit.py
+
+Modifications:
+- Added additional functionality for my personal use
+- Fixed some incomplete parts of the original implementation
+"""
+
+
 """Linear model of tree-based decision rules
 
 This method implement the RuleFit algorithm
@@ -450,74 +460,6 @@ class RuleFit(BaseEstimator, TransformerMixin):
             if not self.exp_rand_tree_size:  # simply fit with constant tree size
                 self.tree_generator.fit(X, y)
             else:  # randomise tree size as per Friedman 2005 Sec 3.3
-                """
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                ###########################################################################
-                
-                シード値の設定
-                """
                 np.random.seed(self.random_state)
                 tree_sizes = np.random.exponential(
                     scale=self.tree_size - 2,
@@ -869,7 +811,43 @@ class RuleFitClassifier(RuleFit, ClassifierMixin, TransformerMixin):
 ##############################################################
 # 自作 クラス
 class ArrangeRules:
+    """
+    A class to arrange and process rules from a DataFrame.
+
+    Attributes
+    ----------
+    rules_df : pd.DataFrame
+        The DataFrame containing rules and coefficients. This is extracted from the RuleFit classifier class.
+    feature_names : list, optional
+        The list of feature names.
+    conclusion_name : str, optional
+        The name of the conclusion column (name of target variable).
+
+    Methods
+    -------
+    extract_rules_from_df():
+        Extracts and processes rules from the DataFrame.
+    generate_rules_from_df():
+        Generates additional rules based on feature names. not used.
+    construct_KB():
+        Constructs the knowledge base (set of rules) from extracted (and additional) rules.
+    save_KB_as_txt(file_name):
+        Saves the knowledge base (KB) to a text file.
+    """
+
     def __init__(self, rules_df, feature_names=None, conclusion_name=None):
+        """
+        Initializes the ArrangeRules class with rules DataFrame and optional feature and conclusion names.
+
+        Parameters
+        ----------
+        rules_df : pd.DataFrame
+            The DataFrame containing rules and coefficients.
+        feature_names : list, optional
+            The list of feature names.
+        conclusion_name : str, optional
+            The name of the conclusion column. Default is 'Outcome'.
+        """
         self.rules_df = rules_df
         self.feature_names = feature_names
 
@@ -883,15 +861,23 @@ class ArrangeRules:
         self.KB = None
 
     def extract_rules_from_df(self):
+        """
+        Extracts and processes rules from the DataFrame.
+
+        Returns
+        -------
+        list
+            A list of processed rules.
+        """
         rules_list = self.rules_df['rule'].to_list()
-        coef_list  = self.rules_df['coef'].to_list()
+        coef_list = self.rules_df['coef'].to_list()
 
         rules_list = [rule.split(' ') for rule in rules_list]
 
         self.rules_extracted = []
         for rule, coef in zip(rules_list, coef_list):
 
-            # '&' を目印にして複数のリストに分割する
+            # Split into multiple lists at '&'
             sublists = []
             current_sublist = []
             for item in rule:
@@ -901,7 +887,7 @@ class ArrangeRules:
                     sublists.append(current_sublist)
                     current_sublist = []
 
-            # ループ終了後に最後のサブリストを追加
+            # Add the last sublist after the loop ends
             sublists.append(current_sublist)
 
             rule_new = []
@@ -915,14 +901,14 @@ class ArrangeRules:
                         rule_new.append(sublist[0])
                     else:
                         rule_new.append(sublist[0])
-                
-                cnt +=1
+
+                cnt += 1
                 if cnt < len(sublists):
                     rule_new.append('⊗')
                 else:
                     rule_new.append('→')
 
-                    # coef == 0 の rule は除外されているため
+                    # Exclude rules with coef == 0
                     if coef > 0:
                         rule_new.append(self.conclusion_name)
                     elif coef < 0:
@@ -934,6 +920,14 @@ class ArrangeRules:
         return self.rules_extracted
 
     def generate_rules_from_df(self):
+        """
+        Generates additional rules based on feature names.
+
+        Returns
+        -------
+        list
+            A list of additional rules.
+        """
         if self.feature_names:
             tmp_dict = {}
             for item in self.feature_names:
@@ -942,7 +936,7 @@ class ArrangeRules:
                     tmp_dict[key] = []
 
                 tmp_dict[key].append(item)
-            
+
             self.rules_additional = list(tmp_dict.values())
             self.rules_additional = [' ⊕ '.join(rule) for rule in self.rules_additional]
             self.rules_additional = [rule.split(' ') for rule in self.rules_additional]
@@ -952,15 +946,30 @@ class ArrangeRules:
         else:
             return []
 
-
     def construct_KB(self):
+        """
+        Constructs the knowledge base (KB) from extracted and additional rules.
+
+        Returns
+        -------
+        list
+            The constructed knowledge base.
+        """
         rules_extracted = self.extract_rules_from_df()
         rules_additional = self.generate_rules_from_df()
 
         self.KB = rules_extracted + rules_additional
         return self.KB
-    
+
     def save_KB_as_txt(self, file_name):
+        """
+        Saves the knowledge base (KB) to a text file.
+
+        Parameters
+        ----------
+        file_name : str
+            The name of the file to save the KB.
+        """
         if self.KB:
             rules = [' '.join(rule) for rule in self.KB]
 

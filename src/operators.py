@@ -1,10 +1,41 @@
 # from typing import List, Union
 import sympy as sp
 
-
 # def negation(x: Union[List[Union[str, cp.Expression]], Union[str, cp.Expression]]) -> Union[]:
 def negation(x, is_1_symbol=False):
     """
+    ¬ Negation:
+    This function is used in the following two cases:
+    1. Take the negation of predicate(x)
+    2. Take the negation of a formula (list)
+    
+    Parameters
+    ----------
+    x : Union[List[Union[str, sp.Expr]], Union[str, sp.Expr]]
+        The input to be negated, either a single predicate or a list representing a formula.
+    is_1_symbol : bool, optional
+        A flag indicating whether `x` is a single symbol. Default is False.
+    
+    Returns
+    -------
+    formula : Union[int, List[Union[str, sp.Expr]]]
+        The negated value or formula.
+    
+    Raises
+    ------
+    ValueError
+        If the input formula contains '→'.
+    
+    Examples
+    --------
+    >>> negation('x')
+    '¬x'
+    
+    >>> negation(['x', '∧', 'y'])
+    ['¬x', '∨', '¬y']
+    
+    Notes
+    -----
     ¬ 否定:
     この関数は以下の 2 つの場合に使用する．
     1. predicate(x) の否定を取る

@@ -266,7 +266,7 @@ for settings in settings_list:
 
         settings['result'][f'fold_{i}']['tree generator (conti)'] = result
 
-        # 訓練データ（提案モデル用）--------------------------------------------
+        # 訓練データ--------------------------------------------
         L = {}
         for col_name in df_origin_2.columns:
             df_new = X_origin_1.copy().iloc[train_idx, :]
@@ -299,7 +299,7 @@ for settings in settings_list:
         len_i = len_u * 2
 
 
-        # モデルの学習 4（提案モデル）----------------------------------------
+        # モデルの学習 4（論理制約付きモデル）----------------------------------------
         input_luka_1 = {
             'L': L,
             'U': U,
@@ -344,7 +344,7 @@ for settings in settings_list:
 
         settings['result'][f'fold_{i}']['linear svm (L)'] = result
 
-        # モデルの学習 5（提案モデル）----------------------------------------
+        # モデルの学習 5（論理制約付きモデル）----------------------------------------
         input_luka_1 = {
             'L': L,
             'U': U,
@@ -389,7 +389,7 @@ for settings in settings_list:
 
         settings['result'][f'fold_{i}']['non-linear svm (L)'] = result
 
-        # モデルの学習 6（提案モデル）----------------------------------------
+        # モデルの学習 6（論理制約付きモデル）----------------------------------------
         input_luka_1 = {
             'L': L,
             'U': U,
