@@ -5,8 +5,6 @@ https://github.com/k-onoue/lukasiewicz_1
 
 ## ディレクトリ構成
 
----
-
 - LUKASIEWICZ_2
   - data ... データセット
   - experiment_manager ... 実験の実行ファイル
@@ -31,13 +29,9 @@ https://github.com/k-onoue/lukasiewicz_1
 
 ## 研究発表内容
 
----
-
 [materials](https://github.com/k-onoue/lukasiewicz_2/blob/main/materials/) ディレクトリ内を参照
 
 ## プログラムの実行手順
-
----
 
 [instruction.ipynb](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb) を参照
 
