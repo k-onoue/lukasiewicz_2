@@ -1,7 +1,6 @@
 # Logically Constrained Predictive Models for Tabular Data
 
-This software package provides a framework for extracting logical constraints from tabular data, building predictive models incorporating these constraints, and evaluating the models. It is built on top of CVXPY, a Python-embedded modeling language for convex optimization problems.      
-
+This software package provides a framework for extracting logical constraints from tabular data, building predictive models incorporating these constraints, and evaluating the models. It is built on top of CVXPY, a Python-embedded modeling language for convex optimization problems.  
 
 __Links__
 
@@ -239,7 +238,7 @@ Ask questions using the issues section on GitHub.
 ## 6. Citation
 
 ```
-@inproceedings{onoue2014,
+@inproceedings{onoue2024,
   author    = {Keisuke Onoue and Ryosuke Kojima},
   title     = {A framework to construct predictive models with logical constraints for table data},
   booktitle = {Proceedings of the Annual Conference of JSAI},
