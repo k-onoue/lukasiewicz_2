@@ -35,3 +35,11 @@ https://github.com/k-onoue/lukasiewicz_1
 
 [instruction.ipynb](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb) を参照
 
+## 引用
+
+```
+尾上 圭介, 小島 諒介:
+論理制約を考慮したテーブルデータを対象とした予測モデル構築フレームワーク.
+第38回人工知能学会全国大会, 人工知能学会, May., 2024.
+https://confit.atlas.jp/guide/event/jsai2024/subject/2M1-OS-11a-02/tables?cryptoId=
+```

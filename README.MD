@@ -1,45 +1,25 @@
-# (Package Name)
+# Logically Constrained Predictive Models for Tabular Data
 
-This software package provides a framework for extracting logical constraints from tabular data, building predictive models incorporating these constraints, and evaluating the models. It is built on top of cvxpy, a Python-embedded modeling language for convex optimization problems.
+This software package provides a framework for extracting logical constraints from tabular data, building predictive models incorporating these constraints, and evaluating the models. It is built on top of CVXPY, a Python-embedded modeling language for convex optimization problems.
 
+__Links__
 
-各種リンク
+- [CVXPY GitHub Repository](https://github.com/cvxpy/cvxpy)
 
-https://github.com/cvxpy/cvxpy
-
-
-**Contents**
-- [(Package Name)](#package-name)
+__Contents__
+- [Logically Constrained Predictive Models for Tabular Data](#logically-constrained-predictive-models-for-tabular-data)
+  - [Getting Started](#getting-started)
+  - [Basic Usage](#basic-usage)
   - [Questions](#questions)
-  - [Supported platform](#supported-platform)
+  - [Supported Platform](#supported-platform)
   - [Citation](#citation)
-  - [Getting stated](#getting-stated)
-  - [Basic usage](#basic-usage)
 
 
+## Getting Started
 
-## Questions
+To get started, clone the repository and set up the virtual environment:
 
-Ask questions using the issues section.
-
-## Supported platform
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height=40px>](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
-
-## Citation
-
-```
-@Misc{onoue2024jsai,
-  title={A framework to construct predictive models with logical constraints for table data}, 
-  author={Keisuke Onoue, Ryosuke Kojima},
-  year={2024},
-  
-}
-```
-
-## Getting stated
-
-```
+```sh
 $ git clone https://github.com/k-onoue/lukasiewicz_2.git
 $ cd lukasiewicz_2
 $ python3 -m venv logic-env
@@ -48,5 +28,38 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-## Basic usage
+
+## Basic Usage
+
+Coming soon...
+
+
+## Questions
+
+Ask questions using the issues section on GitHub.
+
+
+## Supported Platform
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height=40px>
+
+
+## Citation
+
+```
+@inproceedings{onoue2014,
+  author    = {Keisuke Onoue and Ryosuke Kojima},
+  title     = {A framework to construct predictive models with logical constraints for table data},
+  booktitle = {Proceedings of the Annual Conference of JSAI},
+  year      = {2024},
+  month     = {May},
+  publisher = {The Japanese Society for Artificial Intelligence},
+  url       = {https://www.ai-gakkai.or.jp/jsai2024/en}
+}
+```
+
+
+
+
+
 
