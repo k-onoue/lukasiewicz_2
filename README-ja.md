@@ -1,6 +1,6 @@
 # 論理制約付き予測モデル for テーブルデータ
 
-本プログラムは、表形式データから抽出した論理制約を組み込んだ予測モデルの構築から評価までを行うためのフレームワークです。CVXPY（凸最適化ソルバー）を基盤としています。
+本プログラムは，表形式データから抽出した論理制約を組み込んだ予測モデルの構築から評価までを行うためのフレームワークです．CVXPY（凸最適化ソルバー）を基盤としています．
 
 __リンク__
 
@@ -10,15 +10,21 @@ __リンク__
 
 __目次__
 - [論理制約付き予測モデル for テーブルデータ](#論理制約付き予測モデル-for-テーブルデータ)
-  - [インストール](#インストール)
-  - [ディレクトリ構成](#ディレクトリ構成)
-  - [基本的な使用方法](#基本的な使用方法)
-  - [質問](#質問)
-  - [プラットフォーム](#プラットフォーム)
-  - [引用](#引用)
+  - [1. インストール](#1-インストール)
+  - [2. 基本的な使用方法](#2-基本的な使用方法)
+    - [データの読み込み](#データの読み込み)
+    - [論理制約の抽出](#論理制約の抽出)
+    - [入力情報を辞書として設定](#入力情報を辞書として設定)
+    - [予測モデルの訓練](#予測モデルの訓練)
+    - [予測](#予測)
+    - [予測結果の評価](#予測結果の評価)
+  - [3. ディレクトリ構成](#3-ディレクトリ構成)
+  - [4. 質問](#4-質問)
+  - [5. プラットフォーム](#5-プラットフォーム)
+  - [6. 引用](#6-引用)
 
 
-## インストール
+## 1. インストール
 
 リポジトリのクローンと仮想環境の設定．
 
@@ -31,8 +37,135 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
+## 2. 基本的な使用方法
 
-## ディレクトリ構成
+ここでは，このパッケージの基本的な使用方法を紹介します．詳細な手順については，この[Jupyter Notebook](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb)やこの[実験ファイル](https://github.com/k-onoue/lukasiewicz_2/blob/main/experiment_manager/experiment_1.py)を参照してください．
+
+### データの読み込み
+
+```python
+import numpy as np
+import pandas as pd
+
+df_normal = pd.read_csv(normal_data_path, index_col=0)
+X_normal = df_normal.drop(["Target"], axis=1)
+y_normal = df_normal["Target"]
+
+# 論理制約の抽出のための離散データ
+# 詳細は https://github.com/k-onoue/lukasiewicz_2/blob/main/materials/slide.pdf を参照
+df_discrete = pd.read_csv(discrete_data_path, index_col=0)
+X_discrete = df_discrete.drop(["Target"], axis=1)
+y_discrete = df_discrete["Target"]
+```
+
+### 論理制約の抽出
+
+```
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from src.rulefit import RuleFitClassifier, ArrangeRules
+
+# データセットを訓練用とテスト用に分割する
+X_train, X_test, y_train, y_test = train_test_split(
+    X_discrete.values, y_discrete.values, test_size=0.2, random_state=42
+)
+feature_names = list(X_discrete.columns)
+
+# RuleFitを使用してルールを取得する
+rulefit = RuleFitClassifier(
+    rfmode='classify',
+    tree_generator=RandomForestClassifier(random_state=42),
+    random_state=42,
+    exp_rand_tree_size=False
+)
+
+rulefit.fit(X_train, y_train, feature_names=feature_names)
+
+# ルールを処理して保存する
+rules_df = rulefit.get_rules(exclude_zero_coef=True)
+rule_processor = ArrangeRules(
+    rules_df,
+    feature_names=feature_names,
+    conclusion_name="Target"
+)
+KB_origin = rule_processor.construct_KB()
+```
+
+### 入力情報を辞書として設定
+
+```
+# 訓練データを準備する
+L = {}
+for col_name in df_discrete.columns:
+    df_new = X_normal.iloc[train_idx, :]
+    df_new['target'] = df_discrete[col_name].replace(0, -1)
+    L[col_name] = df_new
+
+# 無監督データを生成する
+n_unsupervised = 15
+arr_u = np.random.rand(n_unsupervised, X_normal.shape[1])
+U = {key: arr_u for key in L.keys()}
+
+# 訓練データと無監督データを結合する
+S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
+
+# モデル設定のための入力辞書を準備する
+input_dict = {
+    'L': L,
+    'U': U,
+    'S': S,
+    'len_j': len(L),
+    'len_l': len(train_idx),
+    'len_u': n_unsupervised,
+    'len_s': len(train_idx) + n_unsupervised,
+    'len_h': len(KB_origin),
+    'len_i': 2 * n_unsupervised,
+    'c1': 15,
+    'c2': 15,
+    'KB_origin': KB_origin,
+    'target_predicate': 'Target',
+    # 'kernel_function': "~~logistic regression~~",
+}
+```
+
+### 予測モデルの訓練
+
+```
+from src.setup_problem_primal import SetupPrimal
+import cvxpy as cp
+
+# 最適化問題を作成して解く
+problem_instance = SetupPrimal(input_dict)
+objective_function, constraints = problem_instance.main()
+problem = cp.Problem(objective_function, constraints)
+result = problem.solve(verbose=True)
+```
+
+### 予測
+
+```
+p_name = problem_instance.problem_info['target_predicate']
+p_trained = problem_instance.problem_info['predicates_dict'][p_name]
+y_pred = p_trained(X_test).value
+y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+```
+
+### 予測結果の評価
+
+```
+from src.evaluation import evaluate_model
+
+result = evaluate_model(
+    y_test,
+    y_pred,
+    y_pred_interpreted,
+    input_for_test, # 参照 https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb
+    test_idx
+)
+```
+
+
+## 3. ディレクトリ構成
 
 ```
 lukasiewicz_2/
@@ -65,21 +198,15 @@ lukasiewicz_2/
 ```
 
 
-
-
-## 基本的な使用方法
-
-Coming soon...
-
-## 質問
+## 4. 質問
 
 質問等あれば，本リポジトリの Issues からお願いします．
 
-## プラットフォーム
+## 5. プラットフォーム
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height=40px>
 
-## 引用
+## 6. 引用
 
 ```
 尾上 圭介, 小島 諒介:
