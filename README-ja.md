@@ -94,19 +94,19 @@ KB_origin = rule_processor.construct_KB()
 ### 入力情報を辞書として設定
 
 ```
-# 訓練データを準備する
+# 教師ありデータを準備する
 L = {}
 for col_name in df_discrete.columns:
     df_new = X_normal.iloc[train_idx, :]
     df_new['target'] = df_discrete[col_name].replace(0, -1)
     L[col_name] = df_new
 
-# 無監督データを生成する
+# 教師なしデータを生成する
 n_unsupervised = 15
 arr_u = np.random.rand(n_unsupervised, X_normal.shape[1])
 U = {key: arr_u for key in L.keys()}
 
-# 訓練データと無監督データを結合する
+# 教師ありデータと教師なしデータを結合する
 S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
 
 # モデル設定のための入力辞書を準備する
