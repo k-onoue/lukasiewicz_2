@@ -7,7 +7,7 @@ __Links__
 - [CVXPY GitHub Repository](https://github.com/cvxpy/cvxpy)
 - [RuleFit Github Repository](https://github.com/christophM/rulefit)
 - [Learning Lukasiewicz Logic Fragments by
-Quadratic Programming [2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
+Quadratic Programming [Giannini 2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
 
 __Contents__
 - [Logically Constrained Predictive Models for Tabular Data](#logically-constrained-predictive-models-for-tabular-data)
