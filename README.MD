@@ -32,7 +32,8 @@ Ask questions using the issues section.
 @Misc{onoue2024jsai,
   title={A framework to construct predictive models with logical constraints for table data}, 
   author={Keisuke Onoue, Ryosuke Kojima},
-  year={2024}
+  year={2024},
+  
 }
 ```
 
