@@ -11,21 +11,21 @@ Quadratic Programming [2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
 
 __Contents__
 - [Logically Constrained Predictive Models for Tabular Data](#logically-constrained-predictive-models-for-tabular-data)
-  - [Getting Started](#getting-started)
-  - [Basic Usage](#basic-usage)
+  - [1. Getting Started](#1-getting-started)
+  - [2. Basic Usage](#2-basic-usage)
     - [Load data](#load-data)
     - [Extract logical constraints from tabular data](#extract-logical-constraints-from-tabular-data)
     - [Configure input information as a dictionary](#configure-input-information-as-a-dictionary)
     - [Train a predictive model](#train-a-predictive-model)
     - [Making predictions](#making-predictions)
     - [Evaluate predictions](#evaluate-predictions)
-  - [Directory Structure](#directory-structure)
-  - [Questions](#questions)
-  - [Supported Platform](#supported-platform)
-  - [Citation](#citation)
+  - [3. Directory Structure](#3-directory-structure)
+  - [4. Questions](#4-questions)
+  - [5. Supported Platform](#5-supported-platform)
+  - [6. Citation](#6-citation)
 
 
-## Getting Started
+## 1. Getting Started
 
 To get started, clone the repository and set up the virtual environment:
 
@@ -39,7 +39,7 @@ $ pip install -r requirements.txt
 ```
 
 
-## Basic Usage
+## 2. Basic Usage
 
 Here we see the basic usage of this package. For more detailed instructions, please refer to [this Jupyter Notebook](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb) or [this experiment file](https://github.com/k-onoue/lukasiewicz_2/blob/main/experiment_manager/experiment_1.py).
 
@@ -190,7 +190,7 @@ result = evaluate_model(
 
 
 
-## Directory Structure
+## 3. Directory Structure
 
 ```
 ## Directory Structure
@@ -225,17 +225,17 @@ lukasiewicz_2/
 ```
 
 
-## Questions
+## 4. Questions
 
 Ask questions using the issues section on GitHub.
 
 
-## Supported Platform
+## 5. Supported Platform
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height=40px>
 
 
-## Citation
+## 6. Citation
 
 ```
 @inproceedings{onoue2014,
