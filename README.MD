@@ -13,6 +13,12 @@ __Contents__
 - [Logically Constrained Predictive Models for Tabular Data](#logically-constrained-predictive-models-for-tabular-data)
   - [Getting Started](#getting-started)
   - [Basic Usage](#basic-usage)
+    - [Load data](#load-data)
+    - [Extract logical constraints from tabular data](#extract-logical-constraints-from-tabular-data)
+    - [Configure input information as a dictionary](#configure-input-information-as-a-dictionary)
+    - [Train a predictive model](#train-a-predictive-model)
+    - [Making predictions](#making-predictions)
+    - [Evaluate predictions](#evaluate-predictions)
   - [Directory Structure](#directory-structure)
   - [Questions](#questions)
   - [Supported Platform](#supported-platform)
@@ -35,10 +41,152 @@ $ pip install -r requirements.txt
 
 ## Basic Usage
 
-
 Here we see the basic usage of this package. For more detailed instructions, please refer to [this Jupyter Notebook](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb) or [this experiment file](https://github.com/k-onoue/lukasiewicz_2/blob/main/experiment_manager/experiment_1.py).
 
+### Load data
 
+```
+import numpy as np
+import pandas as pd
+
+df_normal = pd.read_csv(normal_data_path, index_col=0)
+X_normal = df_normal.drop(["Target"], axis=1)
+y_normal = df_normal["Target"]
+
+# Discretized data for the extraction of logical constraints
+# See https://github.com/k-onoue/lukasiewicz_2/blob/main/materials/slide.pdf
+df_discrete = pd.read_csv(discrete_data_path, index_col=0)
+X_discrete = df_discrete.drop(["Target"], axis=1)
+y_discrete = df_discrete["Target"]
+```
+
+### Extract logical constraints from tabular data
+
+```
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from src.rulefit import RuleFitClassifier, ArrangeRules
+
+# Split the dataset into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X_discrete.values, y_discrete.values, test_size=0.2, random_state=42
+)
+feature_names = list(X_discrete.columns)
+
+# Acquire rules using RuleFit
+rulefit = RuleFitClassifier(
+    rfmode='classify',
+    tree_generator=RandomForestClassifier(random_state=42),
+    random_state=42,
+    exp_rand_tree_size=False
+)
+
+rulefit.fit(X_train, y_train, feature_names=feature_names)
+
+# Process and save rules
+rules_df = rulefit.get_rules(exclude_zero_coef=True)
+rule_processor = ArrangeRules(
+    rules_df,
+    feature_names=feature_names,
+    conclusion_name="Target"
+)
+KB_origin = rule_processor.construct_KB()
+```
+
+### Configure input information as a dictionary
+
+```
+# Prepare training data
+L = {}
+for col_name in df_discrete.columns:
+    df_new = X_normal.iloc[train_idx, :]
+    df_new['target'] = df_discrete[col_name].replace(0, -1)
+    L[col_name] = df_new
+
+# Generate unsupervised data
+n_unsupervised = 15
+arr_u = np.random.rand(n_unsupervised, X_normal.shape[1])
+U = {key: arr_u for key in L.keys()}
+
+# Combine training and unsupervised data
+S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
+
+# Prepare input dictionary for model setup
+input_dict = {
+    'L': L,
+    'U': U,
+    'S': S,
+    'len_j': len(L),
+    'len_l': len(train_idx),
+    'len_u': n_unsupervised,
+    'len_s': len(train_idx) + n_unsupervised,
+    'len_h': len(KB_origin),
+    'len_i': 2 * n_unsupervised,
+    'c1': 15,
+    'c2': 15,
+    'KB_origin': KB_origin,
+    'target_predicate': 'Target',
+    # 'kernel_function': "~~logistic regression~~",
+}
+```
+
+### Train a predictive model
+
+```
+# Prepare training data
+L = {}
+for col_name in df_discrete.columns:
+    df_new = X_normal.iloc[train_idx, :]
+    df_new['target'] = df_discrete[col_name].replace(0, -1)
+    L[col_name] = df_new
+
+# Generate unsupervised data
+n_unsupervised = 15
+arr_u = np.random.rand(n_unsupervised, X_normal.shape[1])
+U = {key: arr_u for key in L.keys()}
+
+# Combine training and unsupervised data
+S = {key: np.vstack([df.drop(['target'], axis=1).values, arr_u]) for key, df in L.items()}
+
+# Prepare input dictionary for model setup
+input_dict = {
+    'L': L,
+    'U': U,
+    'S': S,
+    'len_j': len(L),
+    'len_l': len(train_idx),
+    'len_u': n_unsupervised,
+    'len_s': len(train_idx) + n_unsupervised,
+    'len_h': len(KB_origin),
+    'len_i': 2 * n_unsupervised,
+    'c1': 15,
+    'c2': 15,
+    'KB_origin': KB_origin,
+    'target_predicate': 'Target',
+    # 'kernel_function': "~~logistic regression~~",
+}
+```
+
+### Making predictions
+
+```
+p_name = problem_instance.problem_info['target_predicate']
+p_trained = problem_instance.problem_info['predicates_dict'][p_name]
+y_pred = p_trained(X_test).value
+y_pred_interpreted = np.where(y_pred >= 0.5, 1, -1)
+```
+
+### Evaluate predictions
+
+```
+result = evaluate_model(
+    y_test,
+    y_pred,
+    y_pred_interpreted,
+    input_for_test, # refer to https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb
+    test_idx
+)
+```
 
 
 
