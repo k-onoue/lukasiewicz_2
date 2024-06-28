@@ -5,11 +5,15 @@ This software package provides a framework for extracting logical constraints fr
 __Links__
 
 - [CVXPY GitHub Repository](https://github.com/cvxpy/cvxpy)
+- [RuleFit Github Repository](https://github.com/christophM/rulefit)
+- [Learning Lukasiewicz Logic Fragments by
+Quadratic Programming [2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
 
 __Contents__
 - [Logically Constrained Predictive Models for Tabular Data](#logically-constrained-predictive-models-for-tabular-data)
   - [Getting Started](#getting-started)
   - [Basic Usage](#basic-usage)
+  - [Directory Structure](#directory-structure)
   - [Questions](#questions)
   - [Supported Platform](#supported-platform)
   - [Citation](#citation)
@@ -31,7 +35,46 @@ $ pip install -r requirements.txt
 
 ## Basic Usage
 
-Coming soon...
+
+Here we see the basic usage of this package. For more detailed instructions, please refer to [this Jupyter Notebook](https://github.com/k-onoue/lukasiewicz_2/blob/main/instruction.ipynb) or [this experiment file](https://github.com/k-onoue/lukasiewicz_2/blob/main/experiment_manager/experiment_1.py).
+
+
+
+
+
+## Directory Structure
+
+```
+## Directory Structure
+
+lukasiewicz_2/
+├── data/                               # Contains datasets
+│   ├── pima_indian_diabetes/
+│   │   ├── diabetes_cleaned_normalized.csv
+│   │   ├── diabetes_discretized.csv
+├── experiment_manager/                 # Executable files for running experiments
+├── experiment_result/                  # Stores experiment results
+│   ├── tmp/
+│   │   ├── version_test/
+│   │   │   ├── rules/
+│   │   │   │   ├── rules_0.txt
+│   │   │   ├── result.json
+├── materials/                          # Contains papers, presentation slides, etc.
+├── notebooks/                          # Jupyter notebooks for simple tests during implementation
+├── src/                                # Source code
+│   ├── association_rule.py             # Association Rule Mining
+│   ├── evaluation.py                   # Evaluation of prediction results
+│   ├── misc.py                         # Utility functions
+│   ├── objective_function_single_task.py # Objective function for dual form
+│   ├── operators.py                    # Conversion of logical operators
+│   ├── predicate_single_task.py        # Predicates for dual form
+│   ├── preprocess_fol.py               # Processing of constraint logical expressions
+│   ├── rulefit.py                      # Modified code for Rulefit implemented by christophM
+│   ├── setup_problem_dual_single_task.py # Main class for dual form
+│   ├── setup_problem_primal.py         # Main class for primal form
+├── instruction.ipynb                   # Instructions for running the program
+├── requirements.txt                    # Dependencies
+```
 
 
 ## Questions
