@@ -6,7 +6,7 @@ __リンク__
 
 - [CVXPY GitHub リポジトリ](https://github.com/cvxpy/cvxpy)
 - [RuleFit Github Repository](https://github.com/christophM/rulefit)
-- [Learning Lukasiewicz Logic Fragments by Quadratic Programming [2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
+- [Learning Lukasiewicz Logic Fragments by Quadratic Programming [Giannini 2017]](http://ecmlpkdd2017.ijs.si/papers/paperID223.pdf)
 
 __目次__
 - [論理制約付き予測モデル for テーブルデータ](#論理制約付き予測モデル-for-テーブルデータ)
