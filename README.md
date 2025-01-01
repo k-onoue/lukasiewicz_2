@@ -238,14 +238,15 @@ Ask questions using the issues section on GitHub.
 ## 6. Citation
 
 ```
-@inproceedings{onoue2024,
-  author    = {Keisuke Onoue and Ryosuke Kojima},
-  title     = {A framework to construct predictive models with logical constraints for table data},
-  booktitle = {Proceedings of the Annual Conference of JSAI},
-  year      = {2024},
-  month     = {May},
-  publisher = {The Japanese Society for Artificial Intelligence},
-  url       = {https://www.ai-gakkai.or.jp/jsai2024/en}
+@article{尾上 圭介2024,
+  title={論理制約を考慮したテーブルデータを対象とした予測モデル構築フレームワーク},
+  author={尾上 圭介 and 小島 諒介},
+  journal={人工知能学会全国大会論文集},
+  volume={JSAI2024},
+  number={ },
+  pages={2M1OS11a02-2M1OS11a02},
+  year={2024},
+  doi={10.11517/pjsai.JSAI2024.0_2M1OS11a02}
 }
 ```
 
